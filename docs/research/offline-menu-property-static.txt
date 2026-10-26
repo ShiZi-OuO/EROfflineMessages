@@ -1,0 +1,18 @@
+IsEnableOnlineMode utf-16-le 0x2bf0072
+Menu.IsEnableOnlineMode utf-16-le 0x2bf0068
+00e5993c lea      rdx, [rip + 0x1d96725]
+00e59943 lea      rcx, [rsp + 0x30]
+00e59948 call     0x14011b190
+00e5994d nop      
+00e5994e mov      byte ptr [rsp + 0x58], 1
+CSSystemProperties ascii 0x2bf3d40
+000b4ff5 lea      rcx, [rip + 0x2b3ed44]
+000b4ffc mov      qword ptr [rax + 0x38], rcx
+000b5000 lea      rcx, [rip + 0x2b3ed51]
+000b5007 mov      qword ptr [rax + 0x40], rcx
+CSSystemProperties utf-16-le 0x2bf3d58
+000b5000 lea      rcx, [rip + 0x2b3ed51]
+000b5007 mov      qword ptr [rax + 0x40], rcx
+000b500b mov      rcx, rax
+000b500e add      rsp, 0x28
+000b5012 jmp      0x141ec3fc0

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "archive_sha256": "bb1a94e5bab157be4585cd42b650c939de999cc8fbfc9b56aa4516f79fa9af54",
+  "source_from": "build/archive-check-015-23439-r2/EROfflineMessages-0.1.5-preview-world-snapshot-23439-r2/source",
+  "toolchain": "MSVC 19.44.35228.0 / Windows SDK 10.0.26100.0 / VS2022 x64",
+  "configure_success": true,
+  "build_success": true,
+  "ctest_passed": 5,
+  "ctest_total": 5,
+  "production_parser_records": 23439,
+  "production_parser_maps": 476,
+  "rebuilt_dll_sha256": "ea9bcff3e69197468d4b0f0d9006c112396bed085bb08e4031dc242581723bcb",
+  "game_tested_shipped_dll_sha256": "b9e623b68ac2415df24bbcd5f7f67415c9cdbc1f5ff4e63ffc08feacf47b82e5",
+  "rebuilt_dll_substituted_in_release": false,
+  "exact_final_archive_game_launch": false,
+  "runtime_payload_matches_tested_install": true,
+  "byte_identical_build_promised": false
+}

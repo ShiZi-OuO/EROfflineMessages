@@ -1,0 +1,50 @@
+001bc400 add      byte ptr [rax], al
+001bc402 movzx    eax, word ptr [rdx + 0x252]
+001bc409 mov      word ptr [r8 + 0x252], ax
+001bc411 mov      rax, r8
+001bc414 ret      
+001bc415 xor      al, al
+001bc417 lea      rsp, [rsp + 8]
+001bc41c jmp      qword ptr [rsp - 8]
+001bc420 push     rbx
+001bc422 sub      rsp, 0x20
+001bc426 mov      rax, qword ptr [rip + 0x2813c63]
+001bc42d mov      rbx, rcx
+001bc430 mov      qword ptr [rcx + 4], rax
+001bc434 xor      ecx, ecx
+001bc436 mov      qword ptr [rbx + 0x10], rcx
+001bc43a mov      dword ptr [rbx + 0x18], 0xffffffff
+001bc441 movsd    xmm0, qword ptr [rip + 0x464ceb7]
+001bc449 movsd    qword ptr [rbx + 0x20], xmm0
+001bc44e mov      eax, dword ptr [rip + 0x464ceb4]
+001bc454 mov      dword ptr [rbx + 0x28], eax
+001bc457 mov      word ptr [rbx + 0x30], cx
+001bc45b mov      dword ptr [rbx + 0x34], ecx
+001bc45e mov      qword ptr [rbx + 0x38], rcx
+001bc462 lea      rcx, [rbx + 0x40]
+001bc466 mov      byte ptr [rbx + 0x32], 0xff
+001bc46a call     0x1401cfce0
+001bc46f lea      rcx, [rbx + 0x1d0]
+001bc476 call     0x1401cfd70
+001bc47b mov      rax, rbx
+001bc47e add      rsp, 0x20
+001bc482 pop      rbx
+001bc483 ret      
+001bc484 sub      rsp, 8
+001bc48b jmp      0x1400bd846
+001bc490 mov      qword ptr [rsp + 8], rcx
+001bc495 push     rbx
+001bc496 sub      rsp, 0x30
+001bc49a mov      qword ptr [rsp + 0x20], 0xfffffffffffffffe
+001bc4a3 mov      rbx, rcx
+001bc4a6 call     0x1401c1eb0
+001bc4ab nop      
+001bc4ac mov      rcx, qword ptr [rbx]
+001bc4af mov      rax, qword ptr [rcx]
+001bc4b2 mov      rdx, qword ptr [rbx + 8]
+001bc4b6 call     qword ptr [rax + 0x68]
+001bc4b9 nop      
+001bc4ba mov      qword ptr [rbx + 8], 0
+001bc4c2 add      rsp, 0x30
+001bc4c6 pop      rbx
+001bc4c7 ret      

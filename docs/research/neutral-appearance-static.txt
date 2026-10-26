@@ -1,0 +1,32 @@
+001cfce0 push     rbx
+001cfce2 sub      rsp, 0x20
+001cfce6 mov      dword ptr [rcx + 0x44], 0
+001cfced xor      eax, eax
+001cfcef mov      word ptr [rcx + 0x48], 1
+001cfcf5 mov      rbx, rcx
+001cfcf8 mov      dword ptr [rcx + 0x4a], eax
+001cfcfb mov      word ptr [rcx + 0x4e], ax
+001cfcff mov      byte ptr [rcx + 0x50], al
+001cfd02 mov      word ptr [rcx + 0x51], ax
+001cfd06 mov      byte ptr [rcx + 0x53], al
+001cfd09 add      rcx, 0x54
+001cfd0d call     0x1404c55a0
+001cfd12 lea      rcx, [rbx + 0x70]
+001cfd16 call     0x1401d0180
+001cfd1b mov      qword ptr [rbx], 0xffffffffffffffff
+001cfd22 mov      rax, rbx
+001cfd25 mov      qword ptr [rbx + 8], 0xffffffffffffffff
+001cfd2d mov      qword ptr [rbx + 0x10], 0xffffffffffffffff
+001cfd35 mov      qword ptr [rbx + 0x18], 0xffffffffffffffff
+001cfd3d mov      qword ptr [rbx + 0x20], 0xffffffffffffffff
+001cfd45 mov      qword ptr [rbx + 0x28], 0xffffffffffffffff
+001cfd4d mov      qword ptr [rbx + 0x30], 0xffffffffffffffff
+001cfd55 mov      qword ptr [rbx + 0x38], 0xffffffffffffffff
+001cfd5d mov      dword ptr [rbx + 0x40], 0xffffffff
+001cfd64 add      rsp, 0x20
+001cfd68 pop      rbx
+001cfd69 ret      
+001cfd6a pop      rbp
+001cfd6b xlatb    
+001cfd6c and      byte ptr [rax], cl
+001cfd6e int3     

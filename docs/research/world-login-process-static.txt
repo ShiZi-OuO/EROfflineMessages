@@ -1,0 +1,10 @@
+NO RUNTIME FUNCTION; using explicit disassembly range
+00a25230 mov      rax, qword ptr [rcx + 0x98]
+00a25237 mov      dword ptr [rax], 0
+00a2523d mov      rax, qword ptr [rcx + 0x90]
+00a25244 mov      dword ptr [rax], 1
+00a2524a xor      eax, eax
+00a2524c ret      
+00a2524d int3     
+00a2524e push     rbx
+00a2524f cmp      dh, byte ptr [rax]

@@ -1,0 +1,83 @@
+FUNCTION 0x1e165b0..0x1e1664b unwind=0x39af560
+01e165b0 sub      rsp, 0x18
+01e165b4 mov      qword ptr [rsp], 0xfffffffffffffffe
+01e165bc xor      edx, edx
+01e165be mov      qword ptr [rcx], rdx
+01e165c1 mov      dword ptr [rcx + 8], edx
+01e165c4 lea      rax, [rcx + 0x10]
+01e165c8 mov      qword ptr [rax + 0x18], 0xf
+01e165d0 mov      qword ptr [rax + 0x10], rdx
+01e165d4 cmp      qword ptr [rax + 0x18], 0x10
+01e165d9 jb       0x141e165de
+01e165db mov      rax, qword ptr [rax]
+01e165de mov      byte ptr [rax], 0
+01e165e1 lea      rax, [rcx + 0x30]
+01e165e5 mov      qword ptr [rax + 0x18], 0xf
+01e165ed mov      qword ptr [rax + 0x10], rdx
+01e165f1 cmp      qword ptr [rax + 0x18], 0x10
+01e165f6 jb       0x141e165fb
+01e165f8 mov      rax, qword ptr [rax]
+01e165fb mov      byte ptr [rax], 0
+01e165fe xor      eax, eax
+01e16600 mov      qword ptr [rcx + 0x68], rax
+01e16604 mov      qword ptr [rcx + 0x70], rax
+01e16608 mov      qword ptr [rcx + 0x78], rax
+01e1660c mov      qword ptr [rcx + 0x80], rax
+01e16613 mov      qword ptr [rcx + 0x50], rdx
+01e16617 mov      qword ptr [rcx + 0x58], rdx
+01e1661b mov      qword ptr [rcx + 0x60], rdx
+01e1661f lea      rax, [rcx + 0x68]
+01e16623 mov      qword ptr [rax + 0x18], 0xf
+01e1662b mov      qword ptr [rax + 0x10], rdx
+01e1662f cmp      qword ptr [rax + 0x18], 0x10
+01e16634 jb       0x141e16639
+01e16636 mov      rax, qword ptr [rax]
+01e16639 mov      byte ptr [rax], 0
+01e1663c mov      qword ptr [rcx + 0x88], rdx
+01e16643 mov      rax, rcx
+01e16646 add      rsp, 0x18
+01e1664a ret      
+FUNCTION 0x1e16f60..0x1e1700d unwind=0x39af1f8
+01e16f60 sub      rsp, 0x18
+01e16f64 mov      qword ptr [rsp], 0xfffffffffffffffe
+01e16f6c xor      edx, edx
+01e16f6e mov      dword ptr [rcx], edx
+01e16f70 lea      rax, [rcx + 8]
+01e16f74 mov      qword ptr [rax + 0x18], 0xf
+01e16f7c mov      qword ptr [rax + 0x10], rdx
+01e16f80 cmp      qword ptr [rax + 0x18], 0x10
+01e16f85 jb       0x141e16f8a
+01e16f87 mov      rax, qword ptr [rax]
+01e16f8a mov      byte ptr [rax], 0
+01e16f8d lea      rax, [rcx + 0x28]
+01e16f91 mov      qword ptr [rax + 0x18], 0xf
+01e16f99 mov      qword ptr [rax + 0x10], rdx
+01e16f9d cmp      qword ptr [rax + 0x18], 0x10
+01e16fa2 jb       0x141e16fa7
+01e16fa4 mov      rax, qword ptr [rax]
+01e16fa7 mov      byte ptr [rax], 0
+01e16faa xor      eax, eax
+01e16fac mov      qword ptr [rcx + 0x60], rax
+01e16fb0 mov      qword ptr [rcx + 0x68], rax
+01e16fb4 mov      qword ptr [rcx + 0x70], rax
+01e16fb8 mov      qword ptr [rcx + 0x78], rax
+01e16fbc mov      qword ptr [rcx + 0x48], rdx
+01e16fc0 mov      qword ptr [rcx + 0x50], rdx
+01e16fc4 mov      qword ptr [rcx + 0x58], rdx
+01e16fc8 lea      rax, [rcx + 0x60]
+01e16fcc mov      qword ptr [rax + 0x18], 0xf
+01e16fd4 mov      qword ptr [rax + 0x10], rdx
+01e16fd8 cmp      qword ptr [rax + 0x18], 0x10
+01e16fdd jb       0x141e16fe2
+01e16fdf mov      rax, qword ptr [rax]
+01e16fe2 mov      byte ptr [rax], 0
+01e16fe5 lea      rax, [rcx + 0x80]
+01e16fec mov      qword ptr [rax + 0x18], 0xf
+01e16ff4 mov      qword ptr [rax + 0x10], rdx
+01e16ff8 cmp      qword ptr [rax + 0x18], 0x10
+01e16ffd jb       0x141e17002
+01e16fff mov      rax, qword ptr [rax]
+01e17002 mov      byte ptr [rax], 0
+01e17005 mov      rax, rcx
+01e17008 add      rsp, 0x18
+01e1700c ret      

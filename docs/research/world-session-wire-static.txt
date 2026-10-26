@@ -1,0 +1,26 @@
+NO RUNTIME FUNCTION; using explicit disassembly range
+01e11090 mov      rcx, qword ptr [rdx]
+01e11093 lea      rdx, [rip + 0x127b6fe]
+01e1109a jmp      0x141e7dd20
+01e1109f int3     
+01e110a0 mov      rax, rdx
+01e110a3 mov      rdx, rcx
+01e110a6 mov      rcx, qword ptr [rax]
+01e110a9 jmp      0x141e3edb0
+01e110ae int3     
+01e110af int3     
+01e110b0 mov      rax, rdx
+01e110b3 mov      rdx, rcx
+01e110b6 mov      rcx, qword ptr [rax]
+01e110b9 jmp      0x141e3e5c0
+01e110be int3     
+01e110bf int3     
+01e110c0 jmp      0x1406ac9de
+01e110c5 nop      
+01e110c6 in       eax, dx
+01e110c7 lea      r8, [rip + 0x12a12c1]
+01e110cf mov      edx, 0x3e
+01e110d4 xor      ecx, ecx
+01e110d6 jmp      0x142067a1d
+01e110db jmp      0x145a5b2f1
+01e110e0 int3     

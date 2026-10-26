@@ -1,0 +1,24 @@
+FUNCTION 0x1e26e30..0x1e26e88 unwind=0x39b735c
+01e26e30 push     rbx
+01e26e32 sub      rsp, 0x20
+01e26e36 mov      rbx, rcx
+01e26e39 call     0x141e7efa0
+01e26e3e lea      rax, [rip + 0x1267463]
+01e26e45 mov      qword ptr [rbx], rax
+01e26e48 lea      rcx, [rbx + 0x90]
+01e26e4f xor      eax, eax
+01e26e51 mov      qword ptr [rbx + 0x10], rax
+01e26e55 mov      dword ptr [rbx + 0x18], eax
+01e26e58 mov      qword ptr [rbx + 0x20], rax
+01e26e5c mov      dword ptr [rbx + 0x28], eax
+01e26e5f mov      qword ptr [rbx + 0x30], rax
+01e26e63 mov      dword ptr [rbx + 0x38], eax
+01e26e66 mov      qword ptr [rbx + 0x40], rax
+01e26e6a mov      dword ptr [rbx + 0x48], eax
+01e26e6d mov      qword ptr [rbx + 0x88], rax
+01e26e74 call     0x141df16c0
+01e26e79 inc      dword ptr [rip + 0x29e0aa1]
+01e26e7f mov      rax, rbx
+01e26e82 add      rsp, 0x20
+01e26e86 pop      rbx
+01e26e87 ret      

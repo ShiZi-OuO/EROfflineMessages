@@ -1,0 +1,18 @@
+001c2ee4 lea      rax, [rip + 0x280bf9d]
+001c2eeb mov      qword ptr [rsi], rax
+001c2eee mov      eax, dword ptr [r14]
+001c2ef1 mov      dword ptr [rsi + 8], eax
+001c2ef4 mov      rax, qword ptr [r14 + 4]
+001c2ef8 mov      qword ptr [rsi + 0xc], rax
+001c3127 lea      rax, [rip + 0x280bd5a]
+001c312e mov      qword ptr [r14], rax
+001c3131 mov      eax, dword ptr [rbx + 0x1b4]
+001c3137 mov      dword ptr [r14 + 8], eax
+001c33ac lea      rax, [rip + 0x280bad5]
+001c33b3 mov      qword ptr [r12], rax
+001c33b7 mov      eax, dword ptr [rbx + 0x1b4]
+001c33bd mov      dword ptr [r12 + 8], eax
+001c3740 lea      rax, [rip + 0x280b741]
+001c3747 mov      qword ptr [rcx], rax
+001c374a lea      rbx, [rcx + 0x230]
+001c3751 mov      qword ptr [rsp + 0x48], rbx

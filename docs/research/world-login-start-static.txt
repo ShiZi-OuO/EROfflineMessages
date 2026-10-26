@@ -1,0 +1,25 @@
+FUNCTION 0xa25170..0xa251c4 unwind=0x36cdd38
+00a25170 mov      qword ptr [rsp + 8], rcx
+00a25175 push     rdi
+00a25176 sub      rsp, 0x30
+00a2517a mov      qword ptr [rsp + 0x20], 0xfffffffffffffffe
+00a25183 mov      qword ptr [rsp + 0x48], rbx
+00a25188 mov      ebx, edx
+00a2518a mov      rdi, rcx
+00a2518d add      rcx, 0xa0
+00a25194 call     0x141de2340
+00a25199 nop      
+00a2519a mov      rcx, rdi
+00a2519d call     0x140a23900
+00a251a2 nop      
+00a251a3 test     bl, 1
+00a251a6 je       0x140a251b6
+00a251a8 mov      edx, 0xa8
+00a251ad mov      rcx, rdi
+00a251b0 call     0x1424fe9c4
+00a251b5 nop      
+00a251b6 mov      rax, rdi
+00a251b9 mov      rbx, qword ptr [rsp + 0x48]
+00a251be add      rsp, 0x30
+00a251c2 pop      rdi
+00a251c3 ret      

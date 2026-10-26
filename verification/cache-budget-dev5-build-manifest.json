@@ -1,0 +1,22 @@
+{
+  "build": "0.1.5-dev1",
+  "dll_sha256": "b9e623b68ac2415df24bbcd5f7f67415c9cdbc1f5ff4e63ffc08feacf47b82e5",
+  "source_hashes": {
+    "src\\MessagePack.cpp": "9c8ee3dbb0aad8395b6d869119290036f2be1d7ea0bb4cd31dcc9b3a72db4c66",
+    "src\\NativeQueryProbe.cpp": "b519426944e72c03743395147eef5c07007f588908151c9f0474ebfb47e08b80",
+    "src\\NativeRegionCapture.cpp": "0349f33304411203b912fe28b54175d0b1d3573211fc35868efa5947be9a2fdc",
+    "src\\NativeReplay.cpp": "76abfbd582c08669675e419a52a8a8c7acf708620d15a01791cd968489a6b004",
+    "src\\Observer.cpp": "03a5a8ce7fbed240174b7f992e83a932ac2d32b25a93d50e33296e39cf4bee01",
+    "src\\RuntimeSupport.cpp": "5e1ba4aa9c15decfc7a415c5407b2d78dde3fe04c733f00367ec0b63f3c8cc97",
+    "src\\SpatialIndex.cpp": "874e879aab71133fd19ea9c74846d763c690b45493e6ab32b0db17420efdc6da",
+    "src\\MessagePack.h": "49b5f67a36478e2cea6c6a63140913792d871dfa6c3d65bf1c88e6199a8b6d8f",
+    "src\\RuntimeSupport.h": "43473da2b234ed2c400cd6360c85b5691020238899baf6632ae05af651e9c6e5",
+    "src\\SpatialIndex.h": "b4205f4ab9bb16399d6bd5310de42851b4081ea5ebd48cd8c4a54eb30845ed36",
+    "CMakeLists.txt": "43bfbf526a50702703a17fe1bd8925e312f31766476692950dbf7a801846444b",
+    "third_party\\json\\json.hpp": "aaf127c04cb31c406e5b04a63f1ae89369fccde6d8fa7cdda1ed4f32dfc5de63",
+    "src/CacheBudget.h": "77a0deac9a76d653a5abe8486cd9a5602bdbdb28204945c2b5a54db38960ba22",
+    "tests/cache_budget.cpp": "4cf99f40f615a7063d4f14d10e6cbd49af06e61d8396c8d8a5945623224fd0cc"
+  },
+  "gameplay_verified": false,
+  "host_tests_passed": 5
+}

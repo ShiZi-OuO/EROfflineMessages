@@ -1,0 +1,4 @@
+# Optional developer tools only; not required to install or play the Mod.
+pefile==2024.8.26
+capstone==5.0.9
+cryptography==48.0.0

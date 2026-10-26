@@ -1,0 +1,5 @@
+00a01a30 lea      rax, [rip + 0x2137f09]
+00a01a37 mov      qword ptr [rsi], rax
+00a01a3a lea      rcx, [rsi + 0x80]
+00a01a41 call     0x141de1c90
+00a01a46 nop      

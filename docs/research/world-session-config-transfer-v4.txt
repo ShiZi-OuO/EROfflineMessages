@@ -1,0 +1,90 @@
+NO RUNTIME FUNCTION; using explicit disassembly range
+01df6fc0 mov      r10, rdx
+01df6fc3 mov      rdx, rcx
+01df6fc6 mov      rcx, qword ptr [rcx]
+01df6fc9 test     rcx, rcx
+01df6fcc je       0x141df6fdf
+01df6fce mov      rax, qword ptr [rcx]
+01df6fd1 mov      r9, r8
+01df6fd4 mov      rdx, qword ptr [rdx + 8]
+01df6fd8 mov      r8, r10
+01df6fdb jmp      qword ptr [rax + 0x40]
+01df6fdf ret      
+01df6fe0 mov      r8, rdx
+01df6fe3 mov      rdx, rcx
+01df6fe6 mov      rcx, qword ptr [rcx]
+01df6fe9 test     rcx, rcx
+01df6fec je       0x141df6ff9
+01df6fee mov      rax, qword ptr [rcx]
+01df6ff1 mov      rdx, qword ptr [rdx + 8]
+01df6ff5 jmp      qword ptr [rax + 0x48]
+01df6ff9 ret      
+01df6ffa nop      
+01df6ffb mov      rcx, qword ptr [rax]
+01df6ffe mov      qword ptr [rbx + rcx*4 - 0x3e], rcx
+01df7003 mov      rdx, rcx
+01df7006 mov      rcx, qword ptr [rcx]
+01df7009 test     rcx, rcx
+01df700c jne      0x141df7011
+01df700e xor      al, al
+01df7010 ret      
+01df7011 mov      rax, qword ptr [rcx]
+01df7014 mov      rdx, qword ptr [rdx + 8]
+01df7018 jmp      qword ptr [rax + 0x108]
+01df701f nop      
+01df7020 jmp      0x14573f635
+01df7025 nop      
+01df7026 cmp      al, 0x2a
+FUNCTION 0x1e26ef0..0x1e26fcc unwind=0x39b7258
+01e26ef0 mov      qword ptr [rsp + 8], rcx
+01e26ef5 push     rdi
+01e26ef6 sub      rsp, 0x30
+01e26efa mov      qword ptr [rsp + 0x20], 0xfffffffffffffffe
+01e26f03 mov      qword ptr [rsp + 0x50], rbx
+01e26f08 mov      qword ptr [rsp + 0x58], rsi
+01e26f0d mov      rbx, rcx
+01e26f10 call     0x141e7efa0
+01e26f15 nop      
+01e26f16 lea      rax, [rip + 0x126736b]
+01e26f1d mov      qword ptr [rbx], rax
+01e26f20 xor      esi, esi
+01e26f22 mov      qword ptr [rbx + 0x10], rsi
+01e26f26 lea      rcx, [rbx + 0x18]
+01e26f2a call     0x140a24d00
+01e26f2f nop      
+01e26f30 lea      rcx, [rbx + 0x1a8]
+01e26f37 call     0x141e165b0
+01e26f3c nop      
+01e26f3d mov      qword ptr [rbx + 0x238], rsi
+01e26f44 mov      dword ptr [rbx + 0x240], esi
+01e26f4a mov      qword ptr [rbx + 0x248], rsi
+01e26f51 mov      qword ptr [rbx + 0x250], rsi
+01e26f58 mov      qword ptr [rbx + 0x258], rsi
+01e26f5f lea      rdi, [rbx + 0x260]
+01e26f66 mov      qword ptr [rsp + 0x48], rdi
+01e26f6b mov      qword ptr [rdi], rsi
+01e26f6e mov      qword ptr [rdi + 8], rsi
+01e26f72 mov      qword ptr [rdi + 0x10], rsi
+01e26f76 mov      qword ptr [rdi + 0x18], rsi
+01e26f7a mov      qword ptr [rdi + 0x20], rsi
+01e26f7e lea      ecx, [rsi + 0x10]
+01e26f81 call     0x1424ff4f8
+01e26f86 test     rax, rax
+01e26f89 jne      0x141e26f91
+01e26f8b call     0x142524648
+01e26f90 int3     
+01e26f91 mov      qword ptr [rdi], rax
+01e26f94 xorps    xmm0, xmm0
+01e26f97 movups   xmmword ptr [rax], xmm0
+01e26f9a mov      rax, qword ptr [rdi]
+01e26f9d mov      qword ptr [rax], rdi
+01e26fa0 mov      qword ptr [rbx + 0x288], rsi
+01e26fa7 lea      rcx, [rbx + 0x290]
+01e26fae call     0x141e15490
+01e26fb3 inc      dword ptr [rip + 0x29e0963]
+01e26fb9 mov      rax, rbx
+01e26fbc mov      rbx, qword ptr [rsp + 0x50]
+01e26fc1 mov      rsi, qword ptr [rsp + 0x58]
+01e26fc6 add      rsp, 0x30
+01e26fca pop      rdi
+01e26fcb ret      

@@ -1,0 +1,114 @@
+001c0c20 mov      qword ptr [rsp + 8], rbx
+001c0c25 push     rbp
+001c0c26 mov      rbp, rsp
+001c0c29 sub      rsp, 0x30
+001c0c2d mov      rcx, rdx
+001c0c30 mov      rbx, rdx
+001c0c33 call     0x1401d3120
+001c0c38 test     al, al
+001c0c3a je       0x1401c0def
+001c0c40 lea      rcx, [rbx + 0x190]
+001c0c47 call     0x1401d3290
+001c0c4c test     al, al
+001c0c4e je       0x1401c0def
+001c0c54 cmp      dword ptr [rbx + 0x1b4], 0
+001c0c5b je       0x1401c0def
+001c0c61 mov      eax, dword ptr [rbx + 0x1bc]
+001c0c67 or       eax, dword ptr [rbx + 0x1b8]
+001c0c6d je       0x1401c0def
+001c0c73 cmp      dword ptr [rbx + 0x1c0], -1
+001c0c7a je       0x1401c0def
+001c0c80 movsd    xmm0, qword ptr [rbx + 0x1c8]
+001c0c88 mov      eax, dword ptr [rbx + 0x1d0]
+001c0c8e mov      dword ptr [rbp - 8], eax
+001c0c91 movsd    qword ptr [rbp - 0x10], xmm0
+001c0c96 movss    xmm0, dword ptr [rbp - 8]
+001c0c9b movss    dword ptr [rbp + 0x18], xmm0
+001c0ca0 mov      eax, dword ptr [rbp + 0x18]
+001c0ca3 test     eax, 0x7fffff
+001c0ca8 movss    xmm0, dword ptr [rbp - 0xc]
+001c0cad setne    cl
+001c0cb0 movss    dword ptr [rbp + 0x18], xmm0
+001c0cb5 movss    xmm0, dword ptr [rbp - 0x10]
+001c0cba and      eax, 0x7f800000
+001c0cbf cmp      eax, 0x7f800000
+001c0cc4 sete     al
+001c0cc7 test     al, cl
+001c0cc9 mov      eax, dword ptr [rbp + 0x18]
+001c0ccc movss    dword ptr [rbp + 0x18], xmm0
+001c0cd1 setne    r9b
+001c0cd5 test     eax, 0x7fffff
+001c0cda setne    cl
+001c0cdd and      eax, 0x7f800000
+001c0ce2 cmp      eax, 0x7f800000
+001c0ce7 sete     al
+001c0cea test     al, cl
+001c0cec mov      eax, dword ptr [rbp + 0x18]
+001c0cef mov      byte ptr [rbp + 0x1a], r9b
+001c0cf3 setne    dl
+001c0cf6 mov      byte ptr [rbp + 0x1b], 0
+001c0cfa test     eax, 0x7fffff
+001c0cff mov      byte ptr [rbp + 0x19], dl
+001c0d02 setne    cl
+001c0d05 and      eax, 0x7f800000
+001c0d0a cmp      eax, 0x7f800000
+001c0d0f sete     al
+001c0d12 test     al, cl
+001c0d14 setne    r8b
+001c0d18 mov      byte ptr [rbp + 0x18], r8b
+001c0d1c cmp      dword ptr [rbp + 0x18], 0
+001c0d20 jne      0x1401c0def
+001c0d26 movsd    xmm0, qword ptr [rbx + 0x1c8]
+001c0d2e mov      eax, dword ptr [rbx + 0x1d0]
+001c0d34 mov      dword ptr [rbp - 8], eax
+001c0d37 movsd    qword ptr [rbp - 0x10], xmm0
+001c0d3c movss    xmm0, dword ptr [rbp - 8]
+001c0d41 movss    xmm1, dword ptr [rbp - 0xc]
+001c0d46 movss    dword ptr [rbp + 0x28], xmm0
+001c0d4b movss    xmm0, dword ptr [rbp - 0x10]
+001c0d50 movss    dword ptr [rbp + 0x18], xmm0
+001c0d55 mov      eax, dword ptr [rbp + 0x18]
+001c0d58 btr      eax, 0x1f
+001c0d5c movss    dword ptr [rbp + 0x20], xmm1
+001c0d61 cmp      eax, 0x7f800000
+001c0d66 mov      byte ptr [rbp + 0x1b], 0
+001c0d6a mov      eax, dword ptr [rbp + 0x20]
+001c0d6d sete     byte ptr [rbp + 0x18]
+001c0d71 btr      eax, 0x1f
+001c0d75 cmp      eax, 0x7f800000
+001c0d7a mov      eax, dword ptr [rbp + 0x28]
+001c0d7d sete     byte ptr [rbp + 0x19]
+001c0d81 btr      eax, 0x1f
+001c0d85 cmp      eax, 0x7f800000
+001c0d8a sete     byte ptr [rbp + 0x1a]
+001c0d8e cmp      dword ptr [rbp + 0x18], 0
+001c0d92 jne      0x1401c0def
+001c0d94 movss    xmm0, dword ptr [rbx + 0x1d4]
+001c0d9c movss    dword ptr [rbp + 0x18], xmm0
+001c0da1 mov      eax, dword ptr [rbp + 0x18]
+001c0da4 test     eax, 0x7fffff
+001c0da9 setne    cl
+001c0dac and      eax, 0x7f800000
+001c0db1 cmp      eax, 0x7f800000
+001c0db6 sete     al
+001c0db9 test     al, cl
+001c0dbb jne      0x1401c0def
+001c0dbd movss    dword ptr [rbp + 0x18], xmm0
+001c0dc2 mov      eax, dword ptr [rbp + 0x18]
+001c0dc5 btr      eax, 0x1f
+001c0dc9 cmp      eax, 0x7f800000
+001c0dce je       0x1401c0def
+001c0dd0 cmp      qword ptr [rbx + 0x1f0], 0
+001c0dd8 je       0x1401c0def
+001c0dda cmp      dword ptr [rbx + 0x1f8], 0
+001c0de1 setne    al
+001c0de4 mov      rbx, qword ptr [rsp + 0x40]
+001c0de9 add      rsp, 0x30
+001c0ded pop      rbp
+001c0dee ret      
+001c0def xor      al, al
+001c0df1 mov      rbx, qword ptr [rsp + 0x40]
+001c0df6 add      rsp, 0x30
+001c0dfa pop      rbp
+001c0dfb ret      
+001c0dfc nop      

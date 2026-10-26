@@ -1,0 +1,26 @@
+001c3c60 ret      0
+001c3c63 int3     
+001c3c64 jae      0x7ff70a143cae
+001c3c66 cmp      dword ptr [rdi], 0
+001c3c69 mov      qword ptr [rsp - 8], rax
+001c3c6e lea      rcx, [rbx + 0x22491]
+001c3c75 add      byte ptr [rdx], dh
+001c3c77 ror      byte ptr [rdi], 0x28
+001c3c7a sal      esi, 0xc2
+001c3c7d sbb      dword ptr [rbp + 0x36], esi
+001c3c80 mov      r8d, 1
+001c3c86 test     dl, 2
+001c3c89 jne      0x7ff70a143cac
+001c3c8b movss    xmm1, dword ptr [rcx + 0x220]
+001c3c93 subss    xmm1, xmm0
+001c3c97 movzx    eax, al
+001c3c9a xorps    xmm0, xmm0
+001c3c9d comiss   xmm1, xmm0
+001c3ca0 movss    dword ptr [rcx + 0x220], xmm1
+001c3ca8 cmovbe   eax, r8d
+001c3cac test     dl, 4
+001c3caf movzx    eax, al
+001c3cb2 cmovne   eax, r8d
+001c3cb6 ret      
+001c3cb7 or       r8, 0xffffffffffffffff
+001c3cbb jmp      0x7ff70aa470b1

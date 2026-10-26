@@ -1,0 +1,67 @@
+NO RUNTIME FUNCTION; using explicit disassembly range
+01dc1b50 ret      0
+01dc1b53 int3     
+01dc1b54 jmp      0x141dc1bd2
+01dc1b56 out      0x12, al
+01dc1b58 stosb    byte ptr [rdi], al
+01dc1b59 and      al, 0xee
+01dc1b5b jl       0x141dc1bc9
+01dc1b5d add      al, 0xe7
+01dc1b5f movsb    byte ptr [rdi], byte ptr [rsi]
+01dc1b60 mov      rax, rsp
+01dc1b63 push     rdi
+01dc1b64 sub      rsp, 0xa0
+01dc1b6b mov      qword ptr [rax - 0x80], 0xfffffffffffffffe
+01dc1b73 mov      qword ptr [rax + 8], rbx
+01dc1b77 mov      qword ptr [rax + 0x10], rbp
+01dc1b7b mov      qword ptr [rax + 0x18], rsi
+01dc1b7f mov      rbp, r8
+01dc1b82 mov      rsi, rcx
+01dc1b85 lea      rcx, [rip + 0x1d8dee4]
+01dc1b8c call     qword ptr [rip + 0x2e53512]
+01dc1b92 cmp      qword ptr [rax], 0
+01dc1b96 jne      0x141dc1bed
+01dc1b98 mov      dword ptr [rsp + 0xc8], 1
+01dc1ba3 lea      rdx, [rsp + 0xc8]
+01dc1bab lea      rcx, [rsp + 0x30]
+01dc1bb0 call     0x141dc16c0
+01dc1bb5 mov      rdx, rax
+01dc1bb8 mov      rcx, qword ptr [rbp + 0x38]
+01dc1bbc test     rcx, rcx
+01dc1bbf jne      0x141dc1bc7
+01dc1bc1 call     0x1424d67a0
+01dc1bc6 int3     
+01dc1bc7 mov      rax, qword ptr [rcx]
+01dc1bca call     qword ptr [rax + 0x10]
+01dc1bcd nop      
+01dc1bce lea      r8, [rsp + 0xc8]
+01dc1bd6 lea      rdx, [rsp + 0x38]
+01dc1bdb mov      ecx, dword ptr [rsp + 0x98]
+01dc1be2 call     0x141dc08f0
+01dc1be7 nop      
+01dc1be8 jmp      0x141dc1c8e
+01dc1bed xor      eax, eax
+01dc1bef mov      qword ptr [rsp + 0xc8], rax
+01dc1bf7 lea      rcx, [rsp + 0xc8]
+01dc1bff call     0x141dc0af0
+01dc1c04 nop      
+01dc1c05 mov      rbx, qword ptr [rsp + 0xc8]
+01dc1c0d lea      rdi, [rbx + 0x10]
+01dc1c11 cmp      rdi, rbp
+01dc1c14 je       0x141dc1c3e
+01dc1c16 mov      rcx, qword ptr [rdi + 0x38]
+01dc1c1a test     rcx, rcx
+01dc1c1d je       0x141dc1c33
+01dc1c1f mov      rax, qword ptr [rcx]
+01dc1c22 cmp      rcx, rdi
+01dc1c25 setne    dl
+01dc1c28 call     qword ptr [rax + 0x20]
+01dc1c2b mov      qword ptr [rdi + 0x38], 0
+01dc1c33 mov      rdx, rbp
+01dc1c36 mov      rcx, rdi
+01dc1c39 call     0x141dc22f0
+01dc1c3e cmp      qword ptr [rsi + 0x38], 0
+01dc1c43 jne      0x141dc1c66
+01dc1c45 mov      qword ptr [rsp + 0x20], rbx
+01dc1c4a test     rbx, rbx
+01dc1c4d je       0x141dc1c57

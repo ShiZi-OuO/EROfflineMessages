@@ -1,0 +1,10 @@
+/build/
+/dist/
+/evidence/*.log
+/evidence/*.png
+/tools/__pycache__/
+*.user
+*.suo
+tools/local/
+tools/research-params/bin/
+tools/research-params/obj/

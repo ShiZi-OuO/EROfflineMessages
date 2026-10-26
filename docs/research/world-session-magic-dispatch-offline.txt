@@ -1,0 +1,55 @@
+05c1f85c mov      qword ptr [rsp + 8], rbx
+05c1f861 mov      rdx, rsp
+05c1f864 add      rdx, -8
+05c1f86b mov      rsp, rdx
+05c1f86e mov      qword ptr [rsp], rdi
+05c1f872 sub      rsp, 0x20
+05c1f876 push     rcx
+05c1f877 mov      edi, dword ptr [rsp]
+05c1f87a pop      rcx
+05c1f87b mov      ecx, 0x7b5dd7fd
+05c1f880 jmp      0x7ff663cabbd1
+05c1f885 lea      r8d, [rcx + 0xe]
+05c1f889 lea      rdx, [rip - 0x2992f48]
+05c1f890 lea      rcx, [rbp - 0x29]
+05c1f894 jmp      0x7ff664562f0e
+05c1f899 or       rsi, 0xffffffffffffffff
+05c1f89d cmp      word ptr [r14], 0
+05c1f8a2 lea      rsp, [rsp - 8]
+05c1f8a7 mov      qword ptr [rsp], r9
+05c1f8ab movabs   r9, 0x7ff66292ab0c
+05c1f8b5 xchg     qword ptr [rsp], r9
+05c1f8b9 lea      rsp, [rsp - 8]
+05c1f8be mov      qword ptr [rsp], rdx
+05c1f8c2 lea      rsp, [rsp - 8]
+05c1f8c7 mov      qword ptr [rsp], rbx
+05c1f8cb mov      rdx, qword ptr [rsp + 0x10]
+05c1f8d0 movabs   rbx, 0x7ff663f0498b
+05c1f8da cmovne   rdx, rbx
+05c1f8de mov      qword ptr [rsp + 0x10], rdx
+05c1f8e3 lea      rsp, [rsp + 8]
+05c1f8e8 mov      rbx, qword ptr [rsp - 8]
+05c1f8ed mov      rdx, qword ptr [rsp]
+05c1f8f1 lea      rsp, [rsp + 8]
+05c1f8f6 lea      rsp, [rsp + 8]
+05c1f8fb jmp      qword ptr [rsp - 8]
+05c1f8ff jmp      0x7ff66292ab0c
+05c1f904 lea      r8, [rip - 0x2b6d57b]
+05c1f90b mov      edx, 0x3e
+05c1f910 xor      ecx, ecx
+05c1f912 jmp      0x7ff6623c18c5
+05c1f917 mov      byte ptr [rsp + 0x58], 1
+05c1f91c mov      r8b, 1
+05c1f91f lea      rdx, [rsp + 0x30]
+05c1f924 mov      rcx, qword ptr [rip - 0x168fdc3]
+05c1f92b jmp      0x7ff662ce59e2
+05c1f930 mov      rax, qword ptr [rbp + 0x38]
+05c1f934 mov      eax, dword ptr [rax + 4]
+05c1f937 add      eax, dword ptr [rbp + 0xc]
+05c1f93a mov      rdx, qword ptr [rbp + 0x38]
+05c1f93e add      eax, dword ptr [rdx]
+05c1f940 lea      rsp, [rsp - 8]
+05c1f945 mov      qword ptr [rsp], r14
+05c1f949 lea      r14, [rip - 0x39eb8]
+05c1f950 push     qword ptr [rsp]
+05c1f953 mov      qword ptr [rsp + 8], r14

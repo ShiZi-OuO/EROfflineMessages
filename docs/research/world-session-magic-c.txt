@@ -1,0 +1,37 @@
+FUNCTION 0x1e1c250..0x1e1c2fa unwind=0x39b2ef8
+01e1c250 jmp      0x1454cfb67
+01e1c255 add      rsp, 0x100
+01e1c25c lea      rsp, [rsp + 8]
+01e1c261 mov      rbx, qword ptr [rsp - 8]
+01e1c266 lea      rsp, [rsp + 8]
+01e1c26b jmp      qword ptr [rsp - 8]
+01e1c26f call     0x141e1ac20
+01e1c274 nop      
+01e1c275 jmp      0x144f71f19
+01e1c27a test     eax, eax
+01e1c27c mov      qword ptr [rsp - 8], r12
+01e1c281 lea      rsp, [rsp - 8]
+01e1c286 movabs   r12, 0x1420a7acc
+01e1c290 push     qword ptr [rsp]
+01e1c293 mov      qword ptr [rsp + 8], r12
+01e1c298 lea      rsp, [rsp + 8]
+01e1c29d mov      r12, qword ptr [rsp - 8]
+01e1c2a2 mov      qword ptr [rsp - 8], rax
+01e1c2a7 lea      rsp, [rsp - 8]
+01e1c2ac mov      qword ptr [rsp - 8], rcx
+01e1c2b1 lea      rsp, [rsp - 8]
+01e1c2b6 mov      rax, qword ptr [rsp + 0x10]
+01e1c2bb movabs   rcx, 0x1420612af
+01e1c2c5 cmovg    rax, rcx
+01e1c2c9 mov      qword ptr [rsp + 0x10], rax
+01e1c2ce mov      rcx, qword ptr [rsp]
+01e1c2d2 lea      rsp, [rsp + 8]
+01e1c2d7 mov      rax, qword ptr [rsp]
+01e1c2db lea      rsp, [rsp + 8]
+01e1c2e0 lea      rsp, [rsp + 8]
+01e1c2e5 jmp      qword ptr [rsp - 8]
+01e1c2e9 jmp      0x1420a7acc
+01e1c2ee int3     
+01e1c2ef mov      r8d, ebx
+01e1c2f2 shl      r8, 5
+01e1c2f6 add      r8, qword ptr [rsi + 0x68]

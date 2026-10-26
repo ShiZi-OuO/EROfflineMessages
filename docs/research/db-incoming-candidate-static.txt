@@ -1,0 +1,33 @@
+001bd730 mov      qword ptr [rsp + 0x10], rdx
+001bd735 push     rbx
+001bd736 sub      rsp, 0x30
+001bd73a mov      qword ptr [rsp + 0x28], 0xfffffffffffffffe
+001bd743 mov      rbx, rdx
+001bd746 mov      dword ptr [rsp + 0x20], 0
+001bd74e call     0x1401c0b00
+001bd753 nop      
+001bd754 mov      dword ptr [rsp + 0x20], 1
+001bd75c mov      rax, rbx
+001bd75f add      rsp, 0x30
+001bd763 pop      rbx
+001bd764 ret      
+001bd765 int3     
+001bd766 mov      ecx, 0xffdf
+001bd76b jmp      0x140b5bde6
+001bd770 sub      rsp, 0x28
+001bd774 mov      rcx, qword ptr [rip + 0x3ba4765]
+001bd77b test     rcx, rcx
+001bd77e jne      0x1401bd7ae
+001bd780 lea      rcx, [rip + 0x3ba46e6]
+001bd787 call     0x141ec4940
+001bd78c mov      r9, rax
+001bd78f lea      r8, [rip + 0x30da922]
+001bd796 mov      edx, 0xb4
+001bd79b lea      rcx, [rip + 0x280f2fe]
+001bd7a2 call     0x141ebcd00
+001bd7a7 mov      rcx, qword ptr [rip + 0x3ba4732]
+001bd7ae mov      rcx, qword ptr [rcx + 0x78]
+001bd7b2 add      rsp, 0x28
+001bd7b6 jmp      0x1401c19f0
+001bd7bb nop      
+001bd7bc jmp      0x1401bd7a4

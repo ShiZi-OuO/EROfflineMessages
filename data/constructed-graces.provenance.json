@@ -1,0 +1,770 @@
+{
+  "schema_version": 1,
+  "official_player_samples": 0,
+  "constructed_records": 40,
+  "maps": 22,
+  "maximum_records_per_map": 6,
+  "original_game_sha256": "F9118FEA2CFD8FA3901E8060BFADB1552CB2471771DED8A5B662C4E298FFB328",
+  "phrase": {
+    "template": 10000,
+    "word": 32032,
+    "native_combined_text_id": 10032032,
+    "source": "local original localization, not hardcoded sentences"
+  },
+  "ratings": "All zero; constructed test values, no real player appraisals",
+  "excluded_candidates": {
+    "no_unique_direct_collision_region": 398,
+    "no_matching_warp_entity": 14,
+    "warp_map_and_asset_map_differ": 1
+  },
+  "records": [
+    {
+      "local_key": "7ee0478fdec5e1b5",
+      "origin": "offline_game_verified_placement",
+      "position_verified": true,
+      "new_phrase_reading_verified": true,
+      "note": "Native grace phrase and synthetic zero appraisals read in the installed 40-record snapshot. Other records are not inferred to pass.",
+      "tested_binary_version": "0.1.2",
+      "evidence": "snapshot40 three-place user confirmation; Groveside screenshot also captured"
+    },
+    {
+      "local_key": "7e54d7c7af5f0623",
+      "origin": "offline_game_verified_placement",
+      "position_verified": true,
+      "new_phrase_reading_verified": true,
+      "note": "Native grace phrase and synthetic zero appraisals read in the installed 40-record snapshot. Other records are not inferred to pass.",
+      "tested_binary_version": "0.1.2",
+      "evidence": "snapshot40 three-place user confirmation; Groveside screenshot also captured"
+    },
+    {
+      "local_key": "7ebc6b8f04fcdc4c",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 12051950,
+      "warp_row": 120500,
+      "source_map": "map/mapstudio/m12_05_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "4e7c6d1d886d08b70e8bea8b0e5d73ce2effd20d586de6d9ffc77ad54ab0f3fe",
+      "asset_position": [
+        1532.218017578125,
+        -500.9949951171875,
+        1243.7979736328125
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7efd5b06c621f3f8",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 12051951,
+      "warp_row": 120501,
+      "source_map": "map/mapstudio/m12_05_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "4e7c6d1d886d08b70e8bea8b0e5d73ce2effd20d586de6d9ffc77ad54ab0f3fe",
+      "asset_position": [
+        1899.10205078125,
+        -600.3319702148438,
+        1115.6600341796875
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e186e48354141d8",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 12051952,
+      "warp_row": 120502,
+      "source_map": "map/mapstudio/m12_05_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "4e7c6d1d886d08b70e8bea8b0e5d73ce2effd20d586de6d9ffc77ad54ab0f3fe",
+      "asset_position": [
+        1698.2139892578125,
+        -611.8380126953125,
+        1290.1729736328125
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7efa93b8102a5222",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 12051953,
+      "warp_row": 120503,
+      "source_map": "map/mapstudio/m12_05_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "4e7c6d1d886d08b70e8bea8b0e5d73ce2effd20d586de6d9ffc77ad54ab0f3fe",
+      "asset_position": [
+        1637.156982421875,
+        -562.676025390625,
+        1248.8050537109375
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e2813402bf9706f",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 12041950,
+      "warp_row": 120400,
+      "source_map": "map/mapstudio/m12_04_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "41e37a367ab0e9c11900d57b07bdd382ab1ae5954db210d98e56a85363d8e944",
+      "asset_position": [
+        -64.49199676513672,
+        -106.12799835205078,
+        -77.81600189208984
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7efdadb3fd4317b1",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 31031950,
+      "warp_row": 310300,
+      "source_map": "map/mapstudio/m31_03_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "dc83b2796c8ab49d781edd09a2c471e60af1b754a65608b99ab3e4f2e5007861",
+      "asset_position": [
+        -64.25399780273438,
+        110.2030029296875,
+        -2.638000011444092
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": true,
+      "new_phrase_reading_verified": true,
+      "note": "Native grace phrase and synthetic zero appraisals read in the installed 40-record snapshot. Other records are not inferred to pass.",
+      "tested_binary_version": "0.1.2",
+      "evidence": "snapshot40 three-place user confirmation; Groveside screenshot also captured"
+    },
+    {
+      "local_key": "7e4b00a3b7654113",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 30081950,
+      "warp_row": 300800,
+      "source_map": "map/mapstudio/m30_08_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "5a65dd2303995d2e4e9f0388d3d96f01182a6549ca23d5904f2c32a169de0697",
+      "asset_position": [
+        26.04400062561035,
+        801.7999877929688,
+        -12.508000373840332
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7ecada7cda031840",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 31171950,
+      "warp_row": 311700,
+      "source_map": "map/mapstudio/m31_17_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "f721b9a6cc73e08e4d84287d41a66e04caba866a9c87549690c934b1c5bf6b15",
+      "asset_position": [
+        32.36600112915039,
+        91.28500366210938,
+        100.41999816894531
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e14b3a31f5849a5",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 12021950,
+      "warp_row": 120200,
+      "source_map": "map/mapstudio/m12_02_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "8939f882b2e90e2a90b4cae7cf6c4b8dd91929ce9ce1c8f1319ee457e5e6d819",
+      "asset_position": [
+        1184.5400390625,
+        -619.218994140625,
+        1909.8590087890625
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7ea8b1ca82e3147d",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 12021953,
+      "warp_row": 120203,
+      "source_map": "map/mapstudio/m12_02_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "8939f882b2e90e2a90b4cae7cf6c4b8dd91929ce9ce1c8f1319ee457e5e6d819",
+      "asset_position": [
+        1098.260009765625,
+        -823.4569702148438,
+        1266.802001953125
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e158d706f5e285d",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 12021954,
+      "warp_row": 120204,
+      "source_map": "map/mapstudio/m12_02_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "8939f882b2e90e2a90b4cae7cf6c4b8dd91929ce9ce1c8f1319ee457e5e6d819",
+      "asset_position": [
+        1437.5389404296875,
+        -816.4829711914062,
+        1519.2230224609375
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e1678aa0f506964",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 10001953,
+      "warp_row": 100003,
+      "source_map": "map/mapstudio/m10_00_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "0f3c077617c30877987c3faa8058acc47dcd54533dc1f6118ca6aa579bbae02a",
+      "asset_position": [
+        -122.50900268554688,
+        30.05299949645996,
+        11.883999824523926
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7ef682dd21c6cb1a",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 10001954,
+      "warp_row": 100004,
+      "source_map": "map/mapstudio/m10_00_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "0f3c077617c30877987c3faa8058acc47dcd54533dc1f6118ca6aa579bbae02a",
+      "asset_position": [
+        -200.6739959716797,
+        30.43600082397461,
+        -16.524999618530273
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e07a2c006b5bc12",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 10001955,
+      "warp_row": 100005,
+      "source_map": "map/mapstudio/m10_00_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "0f3c077617c30877987c3faa8058acc47dcd54533dc1f6118ca6aa579bbae02a",
+      "asset_position": [
+        -262.25701904296875,
+        98.44741821289062,
+        112.95631408691406
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e32649fbd369b6d",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 10001956,
+      "warp_row": 100006,
+      "source_map": "map/mapstudio/m10_00_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "0f3c077617c30877987c3faa8058acc47dcd54533dc1f6118ca6aa579bbae02a",
+      "asset_position": [
+        -273.11572265625,
+        71.5593032836914,
+        241.40872192382812
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7ef2d1ac4f1c53e2",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 14001950,
+      "warp_row": 140000,
+      "source_map": "map/mapstudio/m14_00_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "116b7a8225d70a1f8db4c7292dc0a9ad99533a48e8a1e33de02a9c600a75b066",
+      "asset_position": [
+        32.862998962402344,
+        154.11599731445312,
+        -20.3439998626709
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7ea2b81952ecd7a5",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 14001951,
+      "warp_row": 140001,
+      "source_map": "map/mapstudio/m14_00_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "116b7a8225d70a1f8db4c7292dc0a9ad99533a48e8a1e33de02a9c600a75b066",
+      "asset_position": [
+        154.79299926757812,
+        110.1760025024414,
+        -222.3780059814453
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7efa4da1d8f3f5d3",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 14001952,
+      "warp_row": 140002,
+      "source_map": "map/mapstudio/m14_00_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "116b7a8225d70a1f8db4c7292dc0a9ad99533a48e8a1e33de02a9c600a75b066",
+      "asset_position": [
+        -13.921955108642578,
+        62.0,
+        -95.64199829101562
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e17d896a113ea61",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 16001952,
+      "warp_row": 160002,
+      "source_map": "map/mapstudio/m16_00_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "542eb999b6de11a597307867f29234db24c0f53aa78cef6e2cfa21ec8da11d62",
+      "asset_position": [
+        40.87900161743164,
+        4.949999809265137,
+        -60.27299880981445
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7efc04aec0581096",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 16001960,
+      "warp_row": 160005,
+      "source_map": "map/mapstudio/m16_00_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "542eb999b6de11a597307867f29234db24c0f53aa78cef6e2cfa21ec8da11d62",
+      "asset_position": [
+        98.197998046875,
+        -432.87200927734375,
+        -11.753000259399414
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e513c94c8744b07",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 18001950,
+      "warp_row": 180000,
+      "source_map": "map/mapstudio/m18_00_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "64074623544a6167d695df6c66e111cee637b635c3a2dd6f1f6e43fc7caefaaa",
+      "asset_position": [
+        -88.60700225830078,
+        -10.1850004196167,
+        43.78300094604492
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e98f363f24e7415",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 12031950,
+      "warp_row": 120300,
+      "source_map": "map/mapstudio/m12_03_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "2f8b09a0692d733cbc788a044dfd430995289e6bfdc3f25b3bb4fd6d8b06f8c8",
+      "asset_position": [
+        -379.07000732421875,
+        149.57200622558594,
+        -201.84800720214844
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e5efa363f7073ca",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 12031951,
+      "warp_row": 120301,
+      "source_map": "map/mapstudio/m12_03_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "2f8b09a0692d733cbc788a044dfd430995289e6bfdc3f25b3bb4fd6d8b06f8c8",
+      "asset_position": [
+        -184.9459991455078,
+        272.90301513671875,
+        -517.5819702148438
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7ec65770858d67d6",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 12031952,
+      "warp_row": 120302,
+      "source_map": "map/mapstudio/m12_03_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "2f8b09a0692d733cbc788a044dfd430995289e6bfdc3f25b3bb4fd6d8b06f8c8",
+      "asset_position": [
+        -163.86099243164062,
+        91.91999816894531,
+        -624.7930297851562
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e0c71a989e9881c",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 12031953,
+      "warp_row": 120303,
+      "source_map": "map/mapstudio/m12_03_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "2f8b09a0692d733cbc788a044dfd430995289e6bfdc3f25b3bb4fd6d8b06f8c8",
+      "asset_position": [
+        -598.3699951171875,
+        98.15399932861328,
+        -609.9219970703125
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e1aa8ed1c18e77f",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 12031954,
+      "warp_row": 120304,
+      "source_map": "map/mapstudio/m12_03_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "2f8b09a0692d733cbc788a044dfd430995289e6bfdc3f25b3bb4fd6d8b06f8c8",
+      "asset_position": [
+        -689.6649780273438,
+        92.28399658203125,
+        -409.8190002441406
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e88cc9eb0957797",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 12031955,
+      "warp_row": 120305,
+      "source_map": "map/mapstudio/m12_03_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "2f8b09a0692d733cbc788a044dfd430995289e6bfdc3f25b3bb4fd6d8b06f8c8",
+      "asset_position": [
+        -469.2300109863281,
+        149.61900329589844,
+        -351.10101318359375
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e6da998ce833c94",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 30111950,
+      "warp_row": 301100,
+      "source_map": "map/mapstudio/m30_11_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "ef74c12dbc6fbfb88cd73105c4a13d3f7e86804bd157bdb1cb621bc84baed3c2",
+      "asset_position": [
+        -104.23999786376953,
+        187.7899932861328,
+        28.739999771118164
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e1d85fcb61c75d0",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 12011950,
+      "warp_row": 120100,
+      "source_map": "map/mapstudio/m12_01_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "2971e7a67216f4842ecb8e5f1d019cf9aad5268a3fb8b769f73e730a3236d858",
+      "asset_position": [
+        -113.84500122070312,
+        -223.4969940185547,
+        118.06999969482422
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e2cad815f17b09b",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 12011954,
+      "warp_row": 120104,
+      "source_map": "map/mapstudio/m12_01_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "2971e7a67216f4842ecb8e5f1d019cf9aad5268a3fb8b769f73e730a3236d858",
+      "asset_position": [
+        333.50201416015625,
+        -79.1050033569336,
+        269.24200439453125
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e44632787fa1121",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 31061950,
+      "warp_row": 310600,
+      "source_map": "map/mapstudio/m31_06_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "e8a37a8edbcb56d669877c6ccc8bd53fed3b8ecbebdfc4ee48f6536d8e1d7667",
+      "asset_position": [
+        85.20600128173828,
+        230.6219940185547,
+        95.30400085449219
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e7da1469dfe001e",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 39201950,
+      "warp_row": 390000,
+      "source_map": "map/mapstudio/m39_20_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "494696e4a7c547fdd73fd8296c08a119b5b3e321cd9fe10129f3a3f854d4a709",
+      "asset_position": [
+        -124.21800231933594,
+        353.5140075683594,
+        -1298.06494140625
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e2fc28352bf8cc0",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 13001950,
+      "warp_row": 130000,
+      "source_map": "map/mapstudio/m13_00_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "4c4c0f22bfdfa6468a5b111a16dbfefc0d3d3327acf3714c74e9c832a06a0948",
+      "asset_position": [
+        224.89500427246094,
+        -32.70000076293945,
+        365.6679992675781
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e7020d348df9e64",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 13001951,
+      "warp_row": 130001,
+      "source_map": "map/mapstudio/m13_00_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "4c4c0f22bfdfa6468a5b111a16dbfefc0d3d3327acf3714c74e9c832a06a0948",
+      "asset_position": [
+        14.937999725341797,
+        1009.6110229492188,
+        330.489013671875
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e6b830fb0e1e10b",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 35001953,
+      "warp_row": 350003,
+      "source_map": "map/mapstudio/m35_00_00_00.msb.dcx",
+      "source_archive": "Data2",
+      "msb_sha256": "ee3ecb43692ea2e1f59361e60e7ba88f1fcb671347d6f9f87b54919b89149280",
+      "asset_position": [
+        -138.8350067138672,
+        -143.74000549316406,
+        -242.30799865722656
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7ec959583bdc4f25",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 22001952,
+      "warp_row": 220002,
+      "source_map": "map/mapstudio/m22_00_00_00.msb.dcx",
+      "source_archive": "DLC",
+      "msb_sha256": "e78ee798adb4a5623d32504bf64ffa04ec63acf22daefcb978c229c0b204c931",
+      "asset_position": [
+        -248.36900329589844,
+        216.3280029296875,
+        -28.81100082397461
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7ef1444a38b4944d",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 42021950,
+      "warp_row": 420200,
+      "source_map": "map/mapstudio/m42_02_00_00.msb.dcx",
+      "source_archive": "DLC",
+      "msb_sha256": "ba46a5dbdbeed2c378ee5088505807537e23a648ce5c8da4ac04c57f1d62d2d1",
+      "asset_position": [
+        85.4739990234375,
+        338.99798583984375,
+        -89.63300323486328
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    },
+    {
+      "local_key": "7e221d1552acac3b",
+      "origin": "constructed_near_original_grace_asset",
+      "grace_entity": 20011956,
+      "warp_row": 200106,
+      "source_map": "map/mapstudio/m20_01_00_00.msb.dcx",
+      "source_archive": "DLC",
+      "msb_sha256": "e5b15b08e6b7f015d3bb15eb584a3867cda489764519cdf3778748c3fefc8e3f",
+      "asset_position": [
+        -179.9010009765625,
+        287.4630126953125,
+        -197.92100524902344
+      ],
+      "placement_offset_metres": 1.25,
+      "area_basis": "unique directly linked collision PlayRegionID with enableBloodMessage=1",
+      "position_verified": false,
+      "new_phrase_reading_verified": false,
+      "note": "Static map evidence only; floor and reading at this offset are not individually game-tested"
+    }
+  ],
+  "validation_summary": {
+    "read_placements": 3,
+    "unread_placements": 37,
+    "official_player_samples": 0,
+    "runtime_pack_unchanged": true
+  }
+}

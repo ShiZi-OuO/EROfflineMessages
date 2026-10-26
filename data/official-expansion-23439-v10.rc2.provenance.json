@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "source_type": "official_sample",
+  "runtime_pack_sha256": "661a694ded9cac3b3bfa0bdcea520171a625020f6a3fbe9a741db294b0624f76",
+  "unique_records": 23439,
+  "map_ids": 476,
+  "cohorts": [
+    {
+      "file": "data/official-snapshot-103.json",
+      "source_type": "official_client_sample",
+      "records": 103,
+      "sha256": "c6290f3cd4f6763fa0ee013767e11d18c4de46545f51baae08ea17766936d869"
+    },
+    {
+      "file": "data/official-tour-224.json",
+      "source_type": "official_client_sample",
+      "records": 224,
+      "sha256": "0dbb9db971fec530857e911c4172d17f143bf79402798d055494b82da55430b7"
+    },
+    {
+      "file": "data/official-protocol-71.json",
+      "source_type": "official_protocol_sample",
+      "records": 71,
+      "sha256": "836908c877c673376bf800613a02f5f23c62bff3809c782e7f24060588c32fc9"
+    },
+    {
+      "file": "data/official-protocol-batch-v4-1542.json",
+      "source_type": "official_protocol_sample",
+      "records": 1542,
+      "sha256": "710b2a5ab70726d6d9f4a9929d100a63564c31f73cedc4309de0799190e79f72"
+    },
+    {
+      "file": "data/official-protocol-batch-v5-8226.json",
+      "source_type": "official_protocol_sample",
+      "records": 8226,
+      "sha256": "d9848c76ee57dc05696c287c4245404d56366a1a96ce4cb7559a491a83eb0c1d"
+    },
+    {
+      "file": "data/official-protocol-grouped-v7-2973.json",
+      "source_type": "official_protocol_sample",
+      "records": 2973,
+      "sha256": "76af5c2ce0055bd95b0133904a5e2b92abedce33c409c806edb829d6c8d55811"
+    },
+    {
+      "file": "data\\official-protocol-canonical-v8-10046.json",
+      "source_type": "official_protocol_sample",
+      "records": 10046,
+      "sha256": "c2d062fd8475bf760df4c19b7f78f4979a4c10dd45b131063d1a23ea7c8b8fea"
+    },
+    {
+      "file": "data\\official-protocol-parent-v9-368.json",
+      "source_type": "official_protocol_sample",
+      "records": 368,
+      "sha256": "b2b226d6f322ea0c8861d2cfa6fa35b2b9c05fb5162f1d43ce01155afee6af52"
+    },
+    {
+      "file": "data\\official-protocol-gap-v10-74.json",
+      "source_type": "official_protocol_sample",
+      "records": 74,
+      "sha256": "b321edfc0e223e04dbc24d275f596bb16234e5497ab6f97d4581e15a0c00e43a"
+    }
+  ],
+  "duplicate_semantics_removed": 188,
+  "later_cohort_wins_appraisal_snapshot": true,
+  "full_world_coverage": false,
+  "whole_merged_pack_gameplay_verified": false,
+  "constructed_records": 0,
+  "account_identifiers_exported": false,
+  "latest_campaign_quarantined_records": 0,
+  "latest_campaign_stopped_early": false,
+  "merged_pack_loaded_in_game": true,
+  "sampled_reading_and_lifecycle_verified": false,
+  "all_individual_records_and_maps_gameplay_verified": false,
+  "meaning_of_whole_merged_pack_gameplay_verified": "Every individual record/map separately witnessed; remains false.",
+  "base_pack_historical_gameplay_evidence": {
+    "gameplay_evidence": "verification/validation.json",
+    "current_install_individual_ui_witnesses": [
+      "Forge: 前有情人 / 0",
+      "Church: 别放弃！ / 100; identical English reading",
+      "DLC Gravesite Plain: 前面需要排泄物 / 0"
+    ],
+    "new_bulk_individual_ui_witnesses": 3,
+    "independent_protocol_new_region_individual_offline_ui_witnesses": 1
+  },
+  "release": "0.1.5-rc2",
+  "dll_build": "0.1.5-dev1",
+  "sampled_reading_verified": true,
+  "current_build_individually_read_records": 3,
+  "new_v10_records_individually_read": 1,
+  "new_v10_target_reads_user_result": "wolf confirmed 19; soldier admission control pending",
+  "gameplay_evidence": "verification/validation.json",
+  "acceptance_status": "Current title/death/teleport and natural expiry passed; English/restarts/admission control pending",
+  "completed_current_build_checks": [
+    "Chinese wolf reading",
+    "title recovery 3/3",
+    "death recovery 3/3",
+    "teleport recovery 3/3",
+    "natural expiry and restored reading"
+  ]
+}

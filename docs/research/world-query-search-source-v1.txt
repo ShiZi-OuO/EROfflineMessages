@@ -1,0 +1,94 @@
+NO RUNTIME FUNCTION; using explicit disassembly range
+00a54410 movzx    r9d, byte ptr [rdx + 2]
+00a54415 mov      r10, rdx
+00a54418 movzx    r8d, byte ptr [rdx + 3]
+00a5441d mov      eax, 0xcccccccd
+00a54422 mul      r9d
+00a54425 shr      edx, 3
+00a54428 sub      r8d, edx
+00a5442b lea      eax, [r8 + r8*4]
+00a5442f lea      r8d, [r9 + rax*2]
+00a54433 movzx    eax, byte ptr [r10 + 1]
+00a54438 imul     r9d, r8d, 0x3e8
+00a5443f add      r9d, eax
+00a54442 mov      rax, rcx
+00a54445 mov      dword ptr [rcx], r9d
+00a54448 ret      
+00a54449 int3     
+00a5444a in       eax, dx
+00a5444b sbb      esp, dword ptr [rsi + 0x4888b002]
+00a54451 sub      esp, 8
+00a54454 mov      edx, dword ptr [rcx]
+00a54456 xor      r8d, r8d
+00a54459 cmp      edx, -1
+00a5445c je       0x140a54502
+00a54462 movzx    r10d, byte ptr [rcx + 3]
+00a54467 lea      eax, [r10 - 0x32]
+00a5446b cmp      eax, 0x26
+00a5446e mov      eax, edx
+00a54470 ja       0x140a544d1
+00a54472 movzx    r11d, byte ptr [rcx + 2]
+00a54477 shr      eax, 0x18
+00a5447a sub      eax, 0x32
+00a5447d mov      qword ptr [rsp], rbx
+00a54481 movzx    ebx, byte ptr [rcx + 1]
+00a54485 cmp      eax, 0x26
+00a54488 ja       0x140a54497
+00a5448a mov      r9d, edx
+00a5448d shr      r9d, 4
+00a54491 and      r9d, 0xf
+00a54495 jmp      0x140a5449a
+00a54497 mov      r9d, r8d
+00a5449a mov      eax, edx
+00a5449c shr      eax, 0x18
+00a5449f sub      eax, 0x32
+00a544a2 cmp      eax, 0x26
+00a544a5 ja       0x140a544ac
+00a544a7 and      edx, 0xf
+00a544aa jmp      0x140a544af
+00a544ac mov      edx, r8d
+00a544af imul     eax, r10d, 0x64
+00a544b3 add      eax, r11d
+00a544b6 imul     ecx, eax, 0x64
+00a544b9 add      ecx, ebx
+00a544bb mov      rbx, qword ptr [rsp]
+00a544bf lea      eax, [rcx + rcx*4]
+00a544c2 lea      ecx, [r9 + rax*2]
+00a544c6 lea      eax, [rcx + rcx*4]
+00a544c9 lea      eax, [rdx + rax*2]
+00a544cc add      rsp, 8
+00a544d0 ret      
+00a544d1 movzx    r9d, byte ptr [rcx + 2]
+00a544d6 movzx    r11d, byte ptr [rcx + 1]
+00a544db shr      eax, 0x18
+00a544de sub      eax, 0x32
+00a544e1 cmp      eax, 0x26
+00a544e4 jbe      0x140a544ea
+00a544e6 movzx    r8d, dl
+00a544ea imul     eax, r10d, 0x64
+00a544ee add      eax, r9d
+00a544f1 imul     ecx, eax, 0x64
+00a544f4 add      ecx, r11d
+00a544f7 imul     eax, ecx, 0x64
+00a544fa add      eax, r8d
+00a544fd add      rsp, 8
+00a54501 ret      
+00a54502 mov      eax, r8d
+00a54505 add      rsp, 8
+00a54509 ret      
+00a5450a nop      
+00a5450b pop      rsi
+FUNCTION 0xa54450..0xa5447d unwind=0x36dd00c
+00a54450 sub      rsp, 8
+00a54454 mov      edx, dword ptr [rcx]
+00a54456 xor      r8d, r8d
+00a54459 cmp      edx, -1
+00a5445c je       0x140a54502
+00a54462 movzx    r10d, byte ptr [rcx + 3]
+00a54467 lea      eax, [r10 - 0x32]
+00a5446b cmp      eax, 0x26
+00a5446e mov      eax, edx
+00a54470 ja       0x140a544d1
+00a54472 movzx    r11d, byte ptr [rcx + 2]
+00a54477 shr      eax, 0x18
+00a5447a sub      eax, 0x32

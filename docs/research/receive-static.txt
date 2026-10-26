@@ -1,0 +1,131 @@
+001c2050 test     rdx, rdx
+001c2053 je       0x1401c21b9
+001c2059 push     rbp
+001c205a push     rsi
+001c205b push     rdi
+001c205c sub      rsp, 0x30
+001c2060 mov      qword ptr [rsp + 0x28], 0xfffffffffffffffe
+001c2069 mov      qword ptr [rsp + 0x50], rbx
+001c206e mov      rbp, r8
+001c2071 mov      rsi, rdx
+001c2074 mov      rdi, rcx
+001c2077 xor      ebx, ebx
+001c2079 mov      dword ptr [rsp + 0x20], ebx
+001c207d call     0x1401c0c20
+001c2082 test     al, al
+001c2084 je       0x1401c21ad
+001c208a mov      r8, qword ptr [rip + 0x3bcc367]
+001c2091 mov      qword ptr [rsp + 0x58], r8
+001c2096 lea      edx, [rbx + 8]
+001c2099 mov      ecx, 0x260
+001c209e call     0x141ebd430
+001c20a3 mov      qword ptr [rsp + 0x68], rax
+001c20a8 test     rax, rax
+001c20ab je       0x1401c20bd
+001c20ad mov      r8, rbp
+001c20b0 mov      rdx, rsi
+001c20b3 mov      rcx, rax
+001c20b6 call     0x1401c3360
+001c20bb jmp      0x1401c20c0
+001c20bd mov      rax, rbx
+001c20c0 test     rax, rax
+001c20c3 je       0x1401c21ad
+001c20c9 mov      r8b, 1
+001c20cc mov      rdx, rax
+001c20cf mov      rcx, rdi
+001c20d2 call     0x1401bffc0
+001c20d7 mov      rsi, rax
+001c20da test     rax, rax
+001c20dd je       0x1401c213c
+001c20df mov      ebx, 1
+001c20e4 mov      dword ptr [rsp + 0x20], ebx
+001c20e8 or       ebx, 2
+001c20eb mov      dword ptr [rsp + 0x20], ebx
+001c20ef mov      rcx, qword ptr [rip + 0x3b9fdea]
+001c20f6 test     rcx, rcx
+001c20f9 jne      0x1401c2129
+001c20fb lea      rcx, [rip + 0x3b9fd6b]
+001c2102 call     0x141ec4940
+001c2107 mov      r9, rax
+001c210a lea      r8, [rip + 0x30d5fa7]
+001c2111 mov      edx, 0xb4
+001c2116 lea      rcx, [rip + 0x280a983]
+001c211d call     0x141ebcd00
+001c2122 mov      rcx, qword ptr [rip + 0x3b9fdb7]
+001c2129 lea      rdx, [rsp + 0x58]
+001c212e call     0x1401bd720
+001c2133 cmp      dword ptr [rax], -1
+001c2136 je       0x1401c213c
+001c2138 mov      al, 1
+001c213a jmp      0x1401c213e
+001c213c xor      al, al
+001c213e test     bl, 2
+001c2141 je       0x1401c214a
+001c2143 and      ebx, 0xfffffffd
+001c2146 mov      dword ptr [rsp + 0x20], ebx
+001c214a test     bl, 1
+001c214d je       0x1401c2156
+001c214f and      ebx, 0xfffffffe
+001c2152 mov      dword ptr [rsp + 0x20], ebx
+001c2156 test     al, al
+001c2158 je       0x1401c21ad
+001c215a mov      rbx, qword ptr [rip + 0x3bae107]
+001c2161 test     rbx, rbx
+001c2164 je       0x1401c21ad
+001c2166 mov      rbx, qword ptr [rbx + 0x18]
+001c216a lea      rdx, [rsp + 0x58]
+001c216f mov      rcx, rsi
+001c2172 call     0x1401b9380
+001c2177 mov      rcx, rax
+001c217a lea      rdx, [rsp + 0x68]
+001c217f call     0x1401b76e0
+001c2184 mov      rdx, rax
+001c2187 mov      rcx, rbx
+001c218a call     0x14066b0f0
+001c218f test     rax, rax
+001c2192 je       0x1401c21ad
+001c2194 cmp      byte ptr [rax + 0xb8], 0
+001c219b je       0x1401c21ad
+001c219d mov      r8, qword ptr [rdi + 0x68]
+001c21a1 mov      rdx, qword ptr [rdi + 0x60]
+001c21a5 mov      rcx, rsi
+001c21a8 call     0x1401b9ee0
+001c21ad mov      rbx, qword ptr [rsp + 0x50]
+001c21b2 add      rsp, 0x30
+001c21b6 pop      rdi
+001c21b7 pop      rsi
+001c21b8 pop      rbp
+001c21b9 ret      
+001c21ba iretd    
+001c21bb cmp      dl, dh
+001c21bd lodsd    eax, dword ptr [rsi]
+001c21be nop      
+001c21bf push     rbx
+001c21c2 sub      rsp, 0x20
+001c21c6 mov      r11d, dword ptr [rdx]
+001c21c9 mov      rbx, rcx
+001c21cc mov      r10d, dword ptr [rdx + 4]
+001c21d0 mov      eax, r11d
+001c21d3 or       eax, r10d
+001c21d6 je       0x1401c222c
+001c21d8 mov      rax, qword ptr [rcx + 0x30]
+001c21dc mov      r8, qword ptr [rax]
+001c21df cmp      r8, rax
+001c21e2 je       0x1401c22e5
+001c21e8 nop      dword ptr [rax + rax]
+001c21f0 mov      r9, qword ptr [r8 + 0x10]
+001c21f4 test     r9, r9
+001c21f7 je       0x1401c220b
+001c21f9 mov      edx, dword ptr [r9 + 8]
+001c21fd mov      ecx, r11d
+001c2200 xor      ecx, dword ptr [r9 + 4]
+001c2204 xor      edx, r10d
+001c2207 or       edx, ecx
+001c2209 je       0x1401c2219
+001c220b mov      r8, qword ptr [r8]
+001c220e cmp      r8, rax
+001c2211 jne      0x1401c21f0
+001c2213 add      rsp, 0x20
+001c2217 pop      rbx
+001c2218 ret      
+001c2219 lea      rdx, [rsp + 0x38]

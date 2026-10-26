@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "game": "eldenring",
+  "source_type": "constructed",
+  "description": "Synthetic offline world-index variant 0x10 test at the previously verified Church position. Total 99. Not an official player message.",
+  "messages": [
+    {
+      "map": 1009394704,
+      "area": 6100000,
+      "secondary_area": 0,
+      "position": [
+        -45.67143154144287,
+        92.37166023254395,
+        80.9923580288887
+      ],
+      "yaw": -2.0002994537353516,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 99,
+      "poor": 0,
+      "id": "7e89f3b3b003180c"
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+001be247 mov      r14, rdx
+001be24a mov      qword ptr [rsp + 0x30], rdx
+001be24f mov      r13, rcx
+001be252 mov      qword ptr [rsp + 0x40], rcx
+001be257 mov      rcx, r14
+001be25a xor      edx, edx
+001be25c mov      rbx, r8
+001be25f call     0x1401cb250
+001be264 test     al, al
+001be266 je       0x1401be87e
+001be26c mov      qword ptr [rsp + 0x360], rsi
+001be274 mov      qword ptr [rsp + 0x330], rdi
+001be27c mov      rdi, qword ptr [r13 + 0x30]
+001be280 mov      qword ptr [rsp + 0x328], r12
+001be288 xor      r12d, r12d
+001be28b mov      qword ptr [rsp + 0x320], r15
+001be293 lea      r15, [rbx + 8]
+001be297 mov      qword ptr [rsp + 0x38], r15
+001be29c mov      rbx, qword ptr [rdi]
+001be29f cmp      rbx, rdi
+001be2a2 je       0x1401be4be
+001be2a8 nop      dword ptr [rax + rax]
+001be2b0 mov      rsi, qword ptr [rbx + 0x10]
+001be2b4 test     rsi, rsi
+001be2b7 je       0x1401be4b2
+001be2bd mov      r8, r15
+001be2c0 mov      edx, 0x258
+001be2c5 mov      rcx, r14
+001be2c8 call     0x1401cb250
+001be2cd test     al, al
+001be2cf je       0x1401be4b2
+001be2d5 mov      rax, qword ptr [rip + 0x2811db4]
+001be2dc lea      rcx, [rbp - 0x68]
+001be2e0 movsd    xmm0, qword ptr [rip + 0x464b018]
+001be2e8 mov      qword ptr [rsp + 0x54], rax
+001be2ed mov      eax, dword ptr [rip + 0x464b015]
+001be2f3 mov      dword ptr [rsp + 0x7c], eax
+001be2f7 mov      dword ptr [rsp + 0x5c], 0xffffffff
+001be2ff mov      dword ptr [rsp + 0x70], r12d
+001be304 movsd    qword ptr [rsp + 0x74], xmm0
+001be30a mov      word ptr [rbp - 0x7c], r12w
+001be30f mov      byte ptr [rbp - 0x7a], 0xff
+001be313 mov      qword ptr [rbp - 0x78], r12
+001be317 call     0x1401cfce0
+001be31c lea      rcx, [rbp + 0x128]
+001be323 call     0x1401cfd70
+001be328 mov      eax, dword ptr [rsi]
+001be32a mov      dword ptr [rsp + 0x50], eax
+001be32e mov      rax, qword ptr [rsi + 4]
+001be332 mov      qword ptr [rsp + 0x54], rax
+001be337 mov      eax, dword ptr [rsi + 0x18]
+001be33a mov      dword ptr [rsp + 0x5c], eax
+001be33e mov      eax, dword ptr [rsi + 0x1c]
+001be341 mov      dword ptr [rsp + 0x60], eax
+001be345 mov      rax, qword ptr [rsi + 0x260]
+001be34c test     rax, rax
+001be34f je       0x1401be357
+001be351 mov      rcx, qword ptr [rax + 0x40]
+001be355 jmp      0x1401be35a
+001be357 mov      rcx, r12
+001be35a mov      eax, dword ptr [rsi + 0x3c]
+001be35d lea      rdx, [rsi + 0x40]
+001be361 movsd    xmm0, qword ptr [rsi + 0x20]
+001be366 mov      dword ptr [rsp + 0x70], eax
+001be36a mov      eax, dword ptr [rsi + 0x28]
+001be36d mov      dword ptr [rsp + 0x7c], eax
+001be371 mov      eax, dword ptr [rsi + 0x38]
+001be374 mov      dword ptr [rbp - 0x74], eax
+001be377 movzx    eax, word ptr [rsi + 0x1f8]
+001be37e mov      word ptr [rbp - 0x70], ax
+001be382 movzx    eax, word ptr [rsi + 0x1fa]
+001be389 mov      word ptr [rbp - 0x6e], ax
+001be38d movzx    eax, word ptr [rsi + 0x1fc]
+001be394 movsd    qword ptr [rsp + 0x74], xmm0
+001be39a movss    xmm0, dword ptr [rsi + 0x2c]
+001be39f mov      word ptr [rbp - 0x6c], ax
+001be3a3 movzx    eax, byte ptr [rsi + 0x1fe]
+001be3aa movss    dword ptr [rbp - 0x80], xmm0
+001be3af movsd    xmm0, qword ptr [rsi + 0x30]
+001be3b4 mov      qword ptr [rsp + 0x68], rcx
+001be3b9 lea      rcx, [rbp - 0x68]
+001be3bd mov      byte ptr [rbp - 0x6a], al
+001be3c0 movsd    qword ptr [rbp - 0x7c], xmm0
+001be3c5 call     0x1401bcd90
+001be3ca movups   xmm0, xmmword ptr [rsi + 0x1d0]
+001be3d1 movzx    eax, word ptr [rsi + 0x1f0]
+001be3d8 xor      r8d, r8d
+001be3db movups   xmm1, xmmword ptr [rsi + 0x1e0]
+001be3e2 mov      word ptr [rbp + 0x148], ax
+001be3e9 xor      edx, edx
+001be3eb movzx    eax, word ptr [rsi + 0x258]
+001be3f2 mov      rcx, r14
+001be3f5 movups   xmmword ptr [rbp + 0x128], xmm0
+001be3fc mov      word ptr [rbp + 0x1a2], ax
+001be403 movups   xmm0, xmmword ptr [rsi + 0x200]
+001be40a movups   xmmword ptr [rbp + 0x138], xmm1
+001be411 movups   xmm1, xmmword ptr [rsi + 0x210]
+001be418 movups   xmmword ptr [rbp + 0x14a], xmm0
+001be41f movups   xmm0, xmmword ptr [rsi + 0x220]
+001be426 movups   xmmword ptr [rbp + 0x15a], xmm1
+001be42d movups   xmm1, xmmword ptr [rsi + 0x230]
+001be434 movups   xmmword ptr [rbp + 0x16a], xmm0
+001be43b movups   xmm0, xmmword ptr [rsi + 0x240]
+001be442 movups   xmmword ptr [rbp + 0x17a], xmm1
+001be449 movsd    xmm1, qword ptr [rsi + 0x250]
+001be451 movups   xmmword ptr [rbp + 0x18a], xmm0
+001be458 movsd    qword ptr [rbp + 0x19a], xmm1
+001be460 call     0x1401cb310
+001be465 mov      r8, qword ptr [r14 + 0x10]
+001be469 mov      r9, qword ptr [r14 + 0x20]
+001be46d add      r8, 7
+001be471 mov      rax, qword ptr [r14 + 0x18]
+001be475 and      r8, 0xfffffffffffffff8
+001be479 add      r9, rax
+001be47c lea      rdx, [r8 + 0x258]
+001be483 cmp      rdx, r9
+001be486 ja       0x1401be48c
+001be488 mov      qword ptr [r14 + 0x10], rdx
+001be48c cmp      rdx, r9
+001be48f mov      rcx, r12
+001be492 cmovbe   rcx, r8
+001be496 test     rcx, rcx
+001be499 je       0x1401be4a5
+001be49b lea      rdx, [rsp + 0x50]
+001be4a0 call     0x1401bd420
+001be4a5 xor      r8d, r8d
+001be4a8 xor      edx, edx
+001be4aa mov      rcx, r14
+001be4ad call     0x1401cb2f0
+001be4b2 mov      rbx, qword ptr [rbx]
+001be4b5 cmp      rbx, rdi
+001be4b8 jne      0x1401be2b0
+001be4be mov      rdi, qword ptr [r13 + 0x10]
+001be4c2 mov      qword ptr [rsp + 0x28], rdi
+001be4c7 mov      rbx, qword ptr [rdi]
+001be4ca cmp      rbx, rdi
+001be4cd je       0x1401be7a7
+001be4d3 movabs   r13, 0x2aaaaaaaaaaaaaab
+001be4dd nop      dword ptr [rax]
+001be4e0 mov      rsi, qword ptr [rbx + 0x10]
+001be4e4 mov      qword ptr [rsp + 0x20], rsi
+001be4e9 test     rsi, rsi
+001be4ec je       0x1401be796
+001be4f2 mov      ecx, dword ptr [rsi + 0x224]
+001be4f8 mov      eax, ecx
+001be4fa shr      eax, 4
+001be4fd test     al, 1
+001be4ff jne      0x1401be50e
+001be501 mov      eax, ecx
+001be503 shr      eax, 2
+001be506 test     al, 1
+001be508 jne      0x1401be796
+001be50e shr      ecx, 1
+001be510 test     cl, 1
+001be513 jne      0x1401be796
+001be519 mov      r8, r15
+001be51c mov      edx, 0x200
+001be521 mov      rcx, r14
+001be524 call     0x1401cb250
+001be529 test     al, al
+001be52b je       0x1401be796
+001be531 lea      rcx, [rsp + 0x50]
+001be536 call     0x1401cfce0
+001be53b lea      rcx, [rbp + 0xe0]
+001be542 call     0x1401cfd70
+001be547 mov      rax, qword ptr [rip + 0x2811b42]
+001be54e lea      rdx, [rsp + 0x50]
+001be553 movsd    xmm0, qword ptr [rip + 0x464ada5]
+001be55b mov      rcx, rsi
+001be55e mov      qword ptr [rbp + 0x108], rax
+001be565 mov      eax, dword ptr [rip + 0x464ad9d]
+001be56b mov      dword ptr [rbp + 0x120], eax
+001be571 movsd    qword ptr [rbp + 0x118], xmm0
+001be579 mov      word ptr [rbp + 0x128], r12w
+001be581 mov      byte ptr [rbp + 0x12a], 0xff
+001be588 mov      qword ptr [rbp + 0x12c], 0
+001be593 mov      qword ptr [rbp + 0x140], r12
+001be59a mov      dword ptr [rbp + 0x148], r12d
+001be5a1 call     0x1401bd630
+001be5a6 xor      edx, edx
+001be5a8 lea      rcx, [rbp + 0x1b0]
+001be5af lea      r8d, [rdx + 0x5a]
+001be5b3 call     0x142520290
+001be5b8 mov      rcx, qword ptr [rsi + 0x210]
+001be5bf mov      rax, r13
+001be5c2 sub      rcx, qword ptr [rsi + 0x208]
+001be5c9 imul     rcx
+001be5cc sar      rdx, 3
+001be5d0 mov      rax, rdx
+001be5d3 shr      rax, 0x3f
+001be5d7 add      rdx, rax
+001be5da cmp      edx, 5
+001be5dd jae      0x1401be5e9
+001be5df test     edx, edx
+001be5e1 je       0x1401be668
+001be5e7 jmp      0x1401be5ee
+001be5e9 mov      edx, 5
+001be5ee mov      rdi, qword ptr [rsp + 0x20]
+001be5f3 lea      r15, [rbp + 0x1c0]
+001be5fa mov      rsi, r12
+001be5fd mov      r13d, edx
+001be600 lea      r12, [rbp + 0x1b0]
+001be607 xor      r14d, r14d
+001be60a nop      word ptr [rax + rax]
+001be610 mov      rdx, qword ptr [rdi + 0x208]
+001be617 add      rdx, 8
+001be61b add      rdx, rsi
+001be61e cmp      qword ptr [rdx + 0x18], 8
+001be623 jb       0x1401be628
+001be625 mov      rdx, qword ptr [rdx]
+001be628 mov      r8d, 8
+001be62e mov      rcx, r12
+001be631 call     0x1425234a0
+001be636 mov      word ptr [r15], r14w
+001be63a add      r12, 0x12
+001be63e add      r15, 0x12
+001be642 add      rsi, 0x30
+001be646 sub      r13, 1
+001be64a jne      0x1401be610
+001be64c mov      rdi, qword ptr [rsp + 0x28]
+001be651 xor      r12d, r12d
+001be654 mov      r14, qword ptr [rsp + 0x30]
+001be659 movabs   r13, 0x2aaaaaaaaaaaaaab
+001be663 mov      r15, qword ptr [rsp + 0x38]
+001be668 xor      r8d, r8d
+001be66b mov      rcx, r14
+001be66e lea      edx, [r8 + 1]
+001be672 call     0x1401cb310
+001be677 mov      rdx, qword ptr [r14 + 0x10]
+001be67b mov      r9, qword ptr [r14 + 0x18]
+001be67f add      rdx, 7
+001be683 add      r9, qword ptr [r14 + 0x20]
+001be687 and      rdx, 0xfffffffffffffff8
+001be68b lea      r8, [rdx + 0x200]
+001be692 cmp      r8, r9
+001be695 ja       0x1401be69b
+001be697 mov      qword ptr [r14 + 0x10], r8
+001be69b cmp      r8, r9
+001be69e mov      rax, r12
+001be6a1 cmovbe   rax, rdx
+001be6a5 test     rax, rax
+001be6a8 je       0x1401be707
+001be6aa lea      rcx, [rsp + 0x50]
+001be6af mov      edx, 4
+001be6b4 lea      rax, [rax + 0x80]
+001be6bb movups   xmm0, xmmword ptr [rcx]
+001be6be lea      rcx, [rcx + 0x80]
+001be6c5 movups   xmmword ptr [rax - 0x80], xmm0
+001be6c9 movups   xmm1, xmmword ptr [rcx - 0x70]
+001be6cd movups   xmmword ptr [rax - 0x70], xmm1
+001be6d1 movups   xmm0, xmmword ptr [rcx - 0x60]
+001be6d5 movups   xmmword ptr [rax - 0x60], xmm0
+001be6d9 movups   xmm1, xmmword ptr [rcx - 0x50]
+001be6dd movups   xmmword ptr [rax - 0x50], xmm1
+001be6e1 movups   xmm0, xmmword ptr [rcx - 0x40]
+001be6e5 movups   xmmword ptr [rax - 0x40], xmm0
+001be6e9 movups   xmm1, xmmword ptr [rcx - 0x30]
+001be6ed movups   xmmword ptr [rax - 0x30], xmm1
+001be6f1 movups   xmm0, xmmword ptr [rcx - 0x20]
+001be6f5 movups   xmmword ptr [rax - 0x20], xmm0
+001be6f9 movups   xmm1, xmmword ptr [rcx - 0x10]
+001be6fd movups   xmmword ptr [rax - 0x10], xmm1
+001be701 sub      rdx, 1
+001be705 jne      0x1401be6b4
+001be707 mov      rdx, qword ptr [r14 + 0x10]
+001be70b mov      r9, qword ptr [r14 + 0x18]
+001be70f inc      rdx
+001be712 mov      rax, qword ptr [r14 + 0x20]
+001be716 and      rdx, 0xfffffffffffffffe
+001be71a add      r9, rax
+001be71d lea      r8, [rdx + 0x5a]
+001be721 cmp      r8, r9
+001be724 ja       0x1401be72a
+001be726 mov      qword ptr [r14 + 0x10], r8
+001be72a cmp      r8, r9
+001be72d mov      rcx, r12
+001be730 cmovbe   rcx, rdx
+001be734 test     rcx, rcx
+001be737 je       0x1401be787
+001be739 movups   xmm0, xmmword ptr [rbp + 0x1b0]
+001be740 movups   xmmword ptr [rcx], xmm0
+001be743 movups   xmm1, xmmword ptr [rbp + 0x1c0]
+001be74a movups   xmmword ptr [rcx + 0x10], xmm1
+001be74e movups   xmm0, xmmword ptr [rbp + 0x1d0]
+001be755 movups   xmmword ptr [rcx + 0x20], xmm0
+001be759 movups   xmm1, xmmword ptr [rbp + 0x1e0]
+001be760 movups   xmmword ptr [rcx + 0x30], xmm1
+001be764 movups   xmm0, xmmword ptr [rbp + 0x1f0]
+001be76b movups   xmmword ptr [rcx + 0x40], xmm0
+001be76f movsd    xmm1, qword ptr [rbp + 0x200]
+001be777 movsd    qword ptr [rcx + 0x50], xmm1
+001be77c movzx    eax, word ptr [rbp + 0x208]
+001be783 mov      word ptr [rcx + 0x58], ax
+001be787 xor      r8d, r8d
+001be78a mov      rcx, r14
+001be78d lea      edx, [r8 + 1]
+001be791 call     0x1401cb2f0
+001be796 mov      rbx, qword ptr [rbx]
+001be799 cmp      rbx, rdi
+001be79c jne      0x1401be4e0
+001be7a2 mov      r13, qword ptr [rsp + 0x40]
+001be7a7 mov      rsi, qword ptr [r13 + 0x78]
+001be7ab mov      rbx, qword ptr [rsi]
+001be7ae cmp      rbx, rsi
+001be7b1 je       0x1401be83e
+001be7b7 mov      rdi, qword ptr [rbx + 0x10]
+001be7bb test     rdi, rdi
+001be7be je       0x1401be832
+001be7c0 cmp      qword ptr [rdi], 0
+001be7c4 je       0x1401be832
+001be7c6 mov      r8, r15
+001be7c9 mov      edx, 8
+001be7ce mov      rcx, r14
+001be7d1 call     0x1401cb250
+001be7d6 test     al, al
+001be7d8 je       0x1401be832
+001be7da mov      rdi, qword ptr [rdi]
+001be7dd xor      r8d, r8d
+001be7e0 mov      rcx, r14
+001be7e3 mov      rdi, qword ptr [rdi + 0x40]
+001be7e7 lea      edx, [r8 + 2]
+001be7eb call     0x1401cb310
+001be7f0 mov      rdx, qword ptr [r14 + 0x10]
+001be7f4 mov      r9, qword ptr [r14 + 0x20]
+001be7f8 add      rdx, 7
+001be7fc add      r9, qword ptr [r14 + 0x18]
+001be800 and      rdx, 0xfffffffffffffff8
+001be804 lea      r8, [rdx + 8]
+001be808 cmp      r8, r9
+001be80b ja       0x1401be811
+001be80d mov      qword ptr [r14 + 0x10], r8
+001be811 cmp      r8, r9
+001be814 mov      rax, r12
+001be817 cmovbe   rax, rdx
+001be81b test     rax, rax
+001be81e je       0x1401be823
+001be820 mov      qword ptr [rax], rdi
+001be823 xor      r8d, r8d
+001be826 mov      rcx, r14
+001be829 lea      edx, [r8 + 2]
+001be82d call     0x1401cb2f0
+001be832 mov      rbx, qword ptr [rbx]
+001be835 cmp      rbx, rsi
+001be838 jne      0x1401be7b7
+001be83e xor      r8d, r8d
+001be841 mov      edx, 0xffff
+001be846 mov      rcx, r14
+001be849 call     0x1401cb310
+001be84e xor      r8d, r8d
+001be851 mov      edx, 0xffff
+001be856 mov      rcx, r14
+001be859 call     0x1401cb2f0
+001be85e mov      r15, qword ptr [rsp + 0x320]
+001be866 mov      r12, qword ptr [rsp + 0x328]
+001be86e mov      rdi, qword ptr [rsp + 0x330]
+001be876 mov      rsi, qword ptr [rsp + 0x360]
+001be87e mov      al, 1
+001be880 mov      rcx, qword ptr [rbp + 0x210]
+001be887 xor      rcx, rsp
+001be88a call     0x1424feae0
+001be88f add      rsp, 0x338
+001be896 pop      r14
+001be898 pop      r13
+001be89a pop      rbx
+001be89b pop      rbp
+001be89c ret      
+001be89d nop      
+001be89e movsxd   ebp, dword ptr [rsi + 0x48]
+001be8a1 sub      esp, 0x28
+001be8a4 mov      r9, qword ptr [rcx + 0x10]
+001be8a8 mov      rcx, qword ptr [r9]
+001be8ab cmp      rcx, r9
+001be8ae je       0x1401be8ed
+001be8b0 mov      r10d, dword ptr [rdx + 4]
+001be8b4 mov      r11d, dword ptr [rdx]
+001be8b7 nop      word ptr [rax + rax]
+001be8c0 mov      rax, qword ptr [rcx + 0x10]
+001be8c4 mov      edx, dword ptr [rax + 0x10]
+001be8c7 mov      eax, dword ptr [rax + 0xc]
+001be8ca xor      edx, r10d
+001be8cd xor      eax, r11d
+001be8d0 or       edx, eax
+001be8d2 je       0x1401be8e1
+001be8d4 mov      rcx, qword ptr [rcx]

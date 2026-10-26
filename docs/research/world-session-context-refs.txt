@@ -1,0 +1,10 @@
+01e26e3e lea      rax, [rip + 0x1267463]
+01e26e45 mov      qword ptr [rbx], rax
+01e26e48 lea      rcx, [rbx + 0x90]
+01e26e4f xor      eax, eax
+01e26e51 mov      qword ptr [rbx + 0x10], rax
+01e2721f lea      rax, [rip + 0x1267082]
+01e27226 mov      rbx, rcx
+01e27229 mov      qword ptr [rcx], rax
+01e2722c mov      esi, edx
+01e2722e dec      dword ptr [rip + 0x29e06ec]

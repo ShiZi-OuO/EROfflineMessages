@@ -1,0 +1,9 @@
+type name 0x308c748
+01e10ea3 lea      rdx, [rip + 0x127b89e]
+01e10eaa jmp      0x141e7dd20
+01e10eaf int3     
+01e10eb0 jmp      0x14583abdb
+01e10eb5 nop      
+01e10eb6 call     0x1021454b2
+0146d13f jmp      0x14308c748
+0146d144 je       0x14146d150

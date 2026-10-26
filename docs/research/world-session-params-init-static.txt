@@ -1,0 +1,37 @@
+FUNCTION 0x1df16c0..0x1df1759 unwind=0x399f2a0
+01df16c0 push     rdi
+01df16c2 sub      rsp, 0x30
+01df16c6 mov      qword ptr [rsp + 0x20], 0xfffffffffffffffe
+01df16cf mov      qword ptr [rsp + 0x40], rbx
+01df16d4 mov      qword ptr [rsp + 0x48], rsi
+01df16d9 mov      rbx, rcx
+01df16dc xor      esi, esi
+01df16de mov      qword ptr [rcx], rsi
+01df16e1 mov      dword ptr [rcx + 8], esi
+01df16e4 mov      qword ptr [rcx + 0x10], rsi
+01df16e8 lea      rdi, [rcx + 0x18]
+01df16ec test     rdi, rdi
+01df16ef je       0x141df16fa
+01df16f1 mov      rcx, rdi
+01df16f4 call     0x141dc0ee0
+01df16f9 nop      
+01df16fa mov      dword ptr [rdi + 0x60], esi
+01df16fd mov      dword ptr [rbx + 0x80], esi
+01df1703 mov      byte ptr [rbx + 0x84], sil
+01df170a mov      qword ptr [rbx + 0x88], rsi
+01df1711 mov      byte ptr [rbx + 0x90], sil
+01df1718 lea      rax, [rbx + 0x98]
+01df171f mov      qword ptr [rax + 0x18], 0xf
+01df1727 mov      qword ptr [rax + 0x10], rsi
+01df172b cmp      qword ptr [rax + 0x18], 0x10
+01df1730 jb       0x141df1735
+01df1732 mov      rax, qword ptr [rax]
+01df1735 mov      byte ptr [rax], 0
+01df1738 mov      qword ptr [rbx + 0xb8], rsi
+01df173f mov      qword ptr [rbx + 0xc0], rsi
+01df1746 mov      rax, rbx
+01df1749 mov      rbx, qword ptr [rsp + 0x40]
+01df174e mov      rsi, qword ptr [rsp + 0x48]
+01df1753 add      rsp, 0x30
+01df1757 pop      rdi
+01df1758 ret      

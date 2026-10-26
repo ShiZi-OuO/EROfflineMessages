@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "game": "eldenring",
+  "source_type": "official_client_sample",
+  "description": "One finite official-client received sample, witnessed in the unmodified online game and recovered only after normal exit and offline restart. Not constructed, not a full server dataset. Replay validation pending.",
+  "messages": [
+    {
+      "map": 520290304,
+      "area": 3103001,
+      "secondary_area": 31030,
+      "position": [
+        -64.26921081542969,
+        110.24053955078125,
+        -3.592440605163574
+      ],
+      "yaw": -2.0914084911346436,
+      "template1": 10000,
+      "word1": 30008,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 4,
+      "poor": 3,
+      "id": "7dffdfb01e2cf54f"
+    }
+  ]
+}

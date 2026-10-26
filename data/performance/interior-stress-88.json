@@ -1,0 +1,1680 @@
+{
+  "schema_version": 1,
+  "game": "eldenring",
+  "source_type": "constructed",
+  "description": "Synthetic interior-stress-88 performance fixture only. Positions form a planar test grid near the verified Church fixture; terrain at every point is not validated. Not official messages, not a general gameplay data pack.",
+  "messages": [
+    {
+      "id": "7eadaa925769bf00",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.81039210319519,
+        110.01879930496216,
+        3.422926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 1,
+      "poor": 0
+    },
+    {
+      "id": "7e28b3f4b44d8d1f",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.93039210319519,
+        110.01879930496216,
+        3.422926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 2,
+      "poor": 1
+    },
+    {
+      "id": "7e01fb4a5d33b7b7",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.05039210319519,
+        110.01879930496216,
+        3.422926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 3,
+      "poor": 2
+    },
+    {
+      "id": "7ebd2bef93db7ef7",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.17039210319519,
+        110.01879930496216,
+        3.422926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 4,
+      "poor": 0
+    },
+    {
+      "id": "7e0c702ac332c75e",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.29039210319519,
+        110.01879930496216,
+        3.422926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 5,
+      "poor": 1
+    },
+    {
+      "id": "7e94580587356f89",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.41039210319519,
+        110.01879930496216,
+        3.422926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 6,
+      "poor": 2
+    },
+    {
+      "id": "7efb836ba5c04028",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.53039210319519,
+        110.01879930496216,
+        3.422926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 7,
+      "poor": 0
+    },
+    {
+      "id": "7e41ef3d04ba765e",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.65039210319519,
+        110.01879930496216,
+        3.422926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 8,
+      "poor": 1
+    },
+    {
+      "id": "7ecf088de6e6e9bf",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.77039210319519,
+        110.01879930496216,
+        3.422926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 9,
+      "poor": 2
+    },
+    {
+      "id": "7e7c7e2f02ad6d96",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.89039210319519,
+        110.01879930496216,
+        3.422926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 10,
+      "poor": 0
+    },
+    {
+      "id": "7e22b2ea44264aba",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.81039210319519,
+        110.01879930496216,
+        3.542926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 11,
+      "poor": 1
+    },
+    {
+      "id": "7e5d9c30ed6685da",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.93039210319519,
+        110.01879930496216,
+        3.542926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 12,
+      "poor": 2
+    },
+    {
+      "id": "7e8d5e1047771487",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.05039210319519,
+        110.01879930496216,
+        3.542926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 13,
+      "poor": 0
+    },
+    {
+      "id": "7ef735dcd7e18f9c",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.17039210319519,
+        110.01879930496216,
+        3.542926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 14,
+      "poor": 1
+    },
+    {
+      "id": "7e239994c27ef526",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.29039210319519,
+        110.01879930496216,
+        3.542926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 15,
+      "poor": 2
+    },
+    {
+      "id": "7e8b6b0a4b61aa19",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.41039210319519,
+        110.01879930496216,
+        3.542926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 16,
+      "poor": 0
+    },
+    {
+      "id": "7ed2813745596b4b",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.53039210319519,
+        110.01879930496216,
+        3.542926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 17,
+      "poor": 1
+    },
+    {
+      "id": "7e0633a481fd487e",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.65039210319519,
+        110.01879930496216,
+        3.542926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 1,
+      "poor": 2
+    },
+    {
+      "id": "7e596532337f6c9c",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.77039210319519,
+        110.01879930496216,
+        3.542926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 2,
+      "poor": 0
+    },
+    {
+      "id": "7eceec499e0dd38e",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.89039210319519,
+        110.01879930496216,
+        3.542926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 3,
+      "poor": 1
+    },
+    {
+      "id": "7e9e4226b7db96ff",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.81039210319519,
+        110.01879930496216,
+        3.6629261493682863
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 4,
+      "poor": 2
+    },
+    {
+      "id": "7ecc8b4595a0c7a5",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.93039210319519,
+        110.01879930496216,
+        3.6629261493682863
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 5,
+      "poor": 0
+    },
+    {
+      "id": "7e07095e121d47af",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.05039210319519,
+        110.01879930496216,
+        3.6629261493682863
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 6,
+      "poor": 1
+    },
+    {
+      "id": "7ef777ce4d48c71e",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.17039210319519,
+        110.01879930496216,
+        3.6629261493682863
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 7,
+      "poor": 2
+    },
+    {
+      "id": "7e354476ef7ab6c5",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.29039210319519,
+        110.01879930496216,
+        3.6629261493682863
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 8,
+      "poor": 0
+    },
+    {
+      "id": "7ee2336a4c993a3f",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.41039210319519,
+        110.01879930496216,
+        3.6629261493682863
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 9,
+      "poor": 1
+    },
+    {
+      "id": "7e18688623011fc6",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.53039210319519,
+        110.01879930496216,
+        3.6629261493682863
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 10,
+      "poor": 2
+    },
+    {
+      "id": "7e53f4d20fb30c27",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.65039210319519,
+        110.01879930496216,
+        3.6629261493682863
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 11,
+      "poor": 0
+    },
+    {
+      "id": "7e8bd23a0a446d2e",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.77039210319519,
+        110.01879930496216,
+        3.6629261493682863
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 12,
+      "poor": 1
+    },
+    {
+      "id": "7e5193c1b133a56c",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.89039210319519,
+        110.01879930496216,
+        3.6629261493682863
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 13,
+      "poor": 2
+    },
+    {
+      "id": "7e491108c369f5b1",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.81039210319519,
+        110.01879930496216,
+        3.782926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 14,
+      "poor": 0
+    },
+    {
+      "id": "7ee59996ad4f74b7",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.93039210319519,
+        110.01879930496216,
+        3.782926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 15,
+      "poor": 1
+    },
+    {
+      "id": "7e82912a2cfbfb2a",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.05039210319519,
+        110.01879930496216,
+        3.782926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 16,
+      "poor": 2
+    },
+    {
+      "id": "7e60680520fdbb69",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.17039210319519,
+        110.01879930496216,
+        3.782926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 17,
+      "poor": 0
+    },
+    {
+      "id": "7ed325ff9d204488",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.29039210319519,
+        110.01879930496216,
+        3.782926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 1,
+      "poor": 1
+    },
+    {
+      "id": "7ee0de747d79688a",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.41039210319519,
+        110.01879930496216,
+        3.782926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 2,
+      "poor": 2
+    },
+    {
+      "id": "7e09acf5cab2aa77",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.53039210319519,
+        110.01879930496216,
+        3.782926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 3,
+      "poor": 0
+    },
+    {
+      "id": "7ecec507dca2a2d4",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.65039210319519,
+        110.01879930496216,
+        3.782926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 4,
+      "poor": 1
+    },
+    {
+      "id": "7ef50ba63ca38c87",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.77039210319519,
+        110.01879930496216,
+        3.782926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 5,
+      "poor": 2
+    },
+    {
+      "id": "7ef7210937bafc20",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.89039210319519,
+        110.01879930496216,
+        3.782926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 6,
+      "poor": 0
+    },
+    {
+      "id": "7ef8a5416fc372e7",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.81039210319519,
+        110.01879930496216,
+        3.902926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 7,
+      "poor": 1
+    },
+    {
+      "id": "7e1981bd02477f66",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.93039210319519,
+        110.01879930496216,
+        3.902926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 8,
+      "poor": 2
+    },
+    {
+      "id": "7e1480a75f9bc159",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.05039210319519,
+        110.01879930496216,
+        3.902926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 9,
+      "poor": 0
+    },
+    {
+      "id": "7ec396bc1424804a",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.17039210319519,
+        110.01879930496216,
+        3.902926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 10,
+      "poor": 1
+    },
+    {
+      "id": "7e49a9b2fb27317e",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.29039210319519,
+        110.01879930496216,
+        3.902926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 11,
+      "poor": 2
+    },
+    {
+      "id": "7e39ecefae2a31fb",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.41039210319519,
+        110.01879930496216,
+        3.902926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 12,
+      "poor": 0
+    },
+    {
+      "id": "7ecd0b5997508d12",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.53039210319519,
+        110.01879930496216,
+        3.902926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 13,
+      "poor": 1
+    },
+    {
+      "id": "7e7f322b9602b3f0",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.65039210319519,
+        110.01879930496216,
+        3.902926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 14,
+      "poor": 2
+    },
+    {
+      "id": "7e63735e3c4f8e60",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.77039210319519,
+        110.01879930496216,
+        3.902926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 15,
+      "poor": 0
+    },
+    {
+      "id": "7e65ed12214780ec",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.89039210319519,
+        110.01879930496216,
+        3.902926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 16,
+      "poor": 1
+    },
+    {
+      "id": "7e93178a016aa93b",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.81039210319519,
+        110.01879930496216,
+        4.022926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 17,
+      "poor": 2
+    },
+    {
+      "id": "7e2d1251a84dfb81",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.93039210319519,
+        110.01879930496216,
+        4.022926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 1,
+      "poor": 0
+    },
+    {
+      "id": "7e6275ced1ba6b89",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.05039210319519,
+        110.01879930496216,
+        4.022926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 2,
+      "poor": 1
+    },
+    {
+      "id": "7e4158d6386fee30",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.17039210319519,
+        110.01879930496216,
+        4.022926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 3,
+      "poor": 2
+    },
+    {
+      "id": "7ef440649d64efeb",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.29039210319519,
+        110.01879930496216,
+        4.022926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 4,
+      "poor": 0
+    },
+    {
+      "id": "7e783fbe6fcf6f0e",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.41039210319519,
+        110.01879930496216,
+        4.022926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 5,
+      "poor": 1
+    },
+    {
+      "id": "7eb5c74c004953c9",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.53039210319519,
+        110.01879930496216,
+        4.022926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 6,
+      "poor": 2
+    },
+    {
+      "id": "7eca838f2b156fe4",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.65039210319519,
+        110.01879930496216,
+        4.022926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 7,
+      "poor": 0
+    },
+    {
+      "id": "7eda63338b1e5198",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.77039210319519,
+        110.01879930496216,
+        4.022926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 8,
+      "poor": 1
+    },
+    {
+      "id": "7e94193c2e5e9579",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.89039210319519,
+        110.01879930496216,
+        4.022926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 9,
+      "poor": 2
+    },
+    {
+      "id": "7e27ce796d2faac8",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.81039210319519,
+        110.01879930496216,
+        4.142926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 10,
+      "poor": 0
+    },
+    {
+      "id": "7e4a6fd9f7708204",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.93039210319519,
+        110.01879930496216,
+        4.142926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 11,
+      "poor": 1
+    },
+    {
+      "id": "7efb9f23caffe1e9",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.05039210319519,
+        110.01879930496216,
+        4.142926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 12,
+      "poor": 2
+    },
+    {
+      "id": "7e483e0122b3e438",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.17039210319519,
+        110.01879930496216,
+        4.142926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 13,
+      "poor": 0
+    },
+    {
+      "id": "7ef30d483efcad3a",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.29039210319519,
+        110.01879930496216,
+        4.142926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 14,
+      "poor": 1
+    },
+    {
+      "id": "7ec7164becd54c4e",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.41039210319519,
+        110.01879930496216,
+        4.142926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 15,
+      "poor": 2
+    },
+    {
+      "id": "7e52bf2619f342a3",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.53039210319519,
+        110.01879930496216,
+        4.142926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 16,
+      "poor": 0
+    },
+    {
+      "id": "7ee61fdaad7b0938",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.65039210319519,
+        110.01879930496216,
+        4.142926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 17,
+      "poor": 1
+    },
+    {
+      "id": "7eb24627ccc9980a",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.77039210319519,
+        110.01879930496216,
+        4.142926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 1,
+      "poor": 2
+    },
+    {
+      "id": "7e7fd1d09b15a736",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.89039210319519,
+        110.01879930496216,
+        4.142926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 2,
+      "poor": 0
+    },
+    {
+      "id": "7ed0ce841cf333d2",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.81039210319519,
+        110.01879930496216,
+        4.262926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 3,
+      "poor": 1
+    },
+    {
+      "id": "7e88b7628606d212",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.93039210319519,
+        110.01879930496216,
+        4.262926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 4,
+      "poor": 2
+    },
+    {
+      "id": "7ee349c20f42ebf8",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.05039210319519,
+        110.01879930496216,
+        4.262926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 5,
+      "poor": 0
+    },
+    {
+      "id": "7ed5624fa74d39c8",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.17039210319519,
+        110.01879930496216,
+        4.262926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 6,
+      "poor": 1
+    },
+    {
+      "id": "7eda159fba117cc3",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.29039210319519,
+        110.01879930496216,
+        4.262926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 7,
+      "poor": 2
+    },
+    {
+      "id": "7e82b465344996a9",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.41039210319519,
+        110.01879930496216,
+        4.262926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 8,
+      "poor": 0
+    },
+    {
+      "id": "7e78c3d8c970a0a8",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.53039210319519,
+        110.01879930496216,
+        4.262926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 9,
+      "poor": 1
+    },
+    {
+      "id": "7e8d52fb7ba9a1b6",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.65039210319519,
+        110.01879930496216,
+        4.262926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 10,
+      "poor": 2
+    },
+    {
+      "id": "7edda4edfdf70567",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.77039210319519,
+        110.01879930496216,
+        4.262926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 11,
+      "poor": 0
+    },
+    {
+      "id": "7eef1186246587f7",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.89039210319519,
+        110.01879930496216,
+        4.262926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 12,
+      "poor": 1
+    },
+    {
+      "id": "7e3e9af7c2263523",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.81039210319519,
+        110.01879930496216,
+        4.382926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 13,
+      "poor": 2
+    },
+    {
+      "id": "7e8c6c9aab57f3f7",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        33.93039210319519,
+        110.01879930496216,
+        4.382926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 14,
+      "poor": 0
+    },
+    {
+      "id": "7eabe1a150aa79bc",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.05039210319519,
+        110.01879930496216,
+        4.382926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 15,
+      "poor": 1
+    },
+    {
+      "id": "7ed8971dbd152844",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.17039210319519,
+        110.01879930496216,
+        4.382926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 16,
+      "poor": 2
+    },
+    {
+      "id": "7e16156deb1eef3c",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.29039210319519,
+        110.01879930496216,
+        4.382926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 17,
+      "poor": 0
+    },
+    {
+      "id": "7efa0e176903d707",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.41039210319519,
+        110.01879930496216,
+        4.382926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 1,
+      "poor": 1
+    },
+    {
+      "id": "7ea12019648d5f49",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.53039210319519,
+        110.01879930496216,
+        4.382926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 2,
+      "poor": 2
+    },
+    {
+      "id": "7e62b8b66886dac9",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.65039210319519,
+        110.01879930496216,
+        4.382926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 3,
+      "poor": 0
+    }
+  ]
+}

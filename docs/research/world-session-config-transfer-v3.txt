@@ -1,0 +1,18 @@
+Root FN interface slot 0x40
+FUNCTION 0x1de8d30..0x1de8d44 unwind=0x399eea0
+01de8d30 sub      rsp, 0x28
+01de8d34 add      rcx, 8
+01de8d38 call     0x141df6fc0
+01de8d3d mov      al, 1
+01de8d3f add      rsp, 0x28
+01de8d43 ret      
+Servant vft refs
+01e26f16 lea      rax, [rip + 0x126736b]
+01e26f1d mov      qword ptr [rbx], rax
+01e26f20 xor      esi, esi
+01e26f22 mov      qword ptr [rbx + 0x10], rsi
+01e26f26 lea      rcx, [rbx + 0x18]
+01e27121 lea      rax, [rip + 0x1267160]
+01e27128 mov      qword ptr [rcx], rax
+01e2712b dec      dword ptr [rip + 0x29e07eb]
+01e27131 add      rcx, 0x290

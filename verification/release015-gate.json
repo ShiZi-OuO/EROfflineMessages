@@ -1,0 +1,25 @@
+{
+  "stable_finite_snapshot_acceptance": true,
+  "checks": {
+    "frozen_runtime": true,
+    "frozen_data": true,
+    "host_tests": true,
+    "archived_source_tests": true,
+    "two_new_native_readings": true,
+    "nearest_selection_explained": true,
+    "english_reading": true,
+    "natural_cache_recovery": true,
+    "title_three_rounds": true,
+    "death_three_rounds": true,
+    "teleport_three_rounds": true,
+    "normal_restart_three_rounds": true
+  },
+  "remaining": [],
+  "full_world_coverage": false,
+  "external_publication_authorized": false,
+  "excluded_by_user": {
+    "fps_p99": "cancelled_by_user",
+    "one_hour": "cancelled_by_user"
+  },
+  "warning": "This checks recorded acceptance states only. It does not create evidence, prove all-map coverage or authorize uploading."
+}

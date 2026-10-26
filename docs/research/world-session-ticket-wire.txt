@@ -1,0 +1,47 @@
+FUNCTION 0x1e3a130..0x1e3a226 unwind=0x39c17d4
+01e3a130 mov      qword ptr [rsp + 8], rbx
+01e3a135 mov      qword ptr [rsp + 0x10], rsi
+01e3a13a push     rdi
+01e3a13b sub      rsp, 0x20
+01e3a13f mov      rax, qword ptr gs:[0x58]
+01e3a148 mov      rbx, r8
+01e3a14b mov      r9d, dword ptr [rip + 0x2a23eee]
+01e3a152 mov      rdi, rdx
+01e3a155 movsxd   rsi, ecx
+01e3a158 mov      ecx, 0x20
+01e3a15d mov      r9, qword ptr [rax + r9*8]
+01e3a161 mov      eax, dword ptr [rcx + r9]
+01e3a165 cmp      dword ptr [rip + 0x29cdc65], eax
+01e3a16b jg       0x141e3a190
+01e3a16d lea      r8, [rip + 0x29cdc1c]
+01e3a174 mov      rdx, rbx
+01e3a177 mov      rcx, rdi
+01e3a17a mov      rax, qword ptr [r8 + rsi*8]
+01e3a17e mov      rbx, qword ptr [rsp + 0x30]
+01e3a183 mov      rsi, qword ptr [rsp + 0x38]
+01e3a188 add      rsp, 0x20
+01e3a18c pop      rdi
+01e3a18d jmp      rax
+01e3a190 lea      rcx, [rip + 0x29cdc39]
+01e3a197 call     0x1424fed08
+01e3a19c cmp      dword ptr [rip + 0x29cdc2d], -1
+01e3a1a3 jne      0x141e3a16d
+01e3a1a5 lea      rax, [rip - 0xafc]
+01e3a1ac mov      qword ptr [rip + 0x29cdbdd], rax
+01e3a1b3 lea      rcx, [rip + 0x29cdc16]
+01e3a1ba lea      rax, [rip - 0x931]
+01e3a1c1 mov      qword ptr [rip + 0x29cdbd0], rax
+01e3a1c8 lea      rax, [rip - 0xb9f]
+01e3a1cf mov      qword ptr [rip + 0x29cdbca], rax
+01e3a1d6 lea      rax, [rip - 0x97d]
+01e3a1dd mov      qword ptr [rip + 0x29cdbc4], rax
+01e3a1e4 lea      rax, [rip - 0x15ab]
+01e3a1eb mov      qword ptr [rip + 0x29cdbbe], rax
+01e3a1f2 lea      rax, [rip - 0xe79]
+01e3a1f9 mov      qword ptr [rip + 0x29cdbb8], rax
+01e3a200 lea      rax, [rip - 0x347]
+01e3a207 mov      qword ptr [rip + 0x29cdbb2], rax
+01e3a20e lea      rax, [rip - 0x875]
+01e3a215 mov      qword ptr [rip + 0x29cdbac], rax
+01e3a21c call     0x1424feca8
+01e3a221 jmp      0x141e3a16d

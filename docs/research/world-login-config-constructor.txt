@@ -1,0 +1,68 @@
+NO RUNTIME FUNCTION; using explicit disassembly range
+00a24ed0 jmp      0x145309b04
+00a24ed5 int3     
+00a24ed6 movaps   xmm2, xmmword ptr [rip + 0x11bd8f9]
+00a24edd lea      r9, [rax + rcx*2 - 0x77]
+00a24ee2 and      al, 8
+00a24ee5 push     rdi
+00a24ee6 sub      rsp, 0x30
+00a24eea mov      qword ptr [rsp + 0x20], 0xfffffffffffffffe
+00a24ef3 mov      qword ptr [rsp + 0x48], rbx
+00a24ef8 mov      qword ptr [rsp + 0x50], rbp
+00a24efd mov      qword ptr [rsp + 0x58], rsi
+00a24f02 mov      rdi, rcx
+00a24f05 lea      rsi, [rcx + 0x160]
+00a24f0c cmp      qword ptr [rsi + 0x18], 0x10
+00a24f11 jb       0x140a24f2a
+00a24f13 mov      rbx, qword ptr [rsi]
+00a24f16 call     0x141dc0470
+00a24f1b nop      
+00a24f1c mov      r8, qword ptr [rax]
+00a24f1f mov      rdx, rbx
+00a24f22 mov      rcx, rax
+00a24f25 call     qword ptr [r8 + 0x28]
+00a24f29 nop      
+00a24f2a mov      qword ptr [rsi + 0x18], 0xf
+00a24f32 xor      ebp, ebp
+00a24f34 mov      qword ptr [rsi + 0x10], rbp
+00a24f38 cmp      qword ptr [rsi + 0x18], 0x10
+00a24f3d jb       0x140a24f42
+00a24f3f mov      rsi, qword ptr [rsi]
+00a24f42 mov      byte ptr [rsi], bpl
+00a24f45 lea      rsi, [rdi + 0x140]
+00a24f4c cmp      qword ptr [rsi + 0x18], 0x10
+00a24f51 jb       0x140a24f6a
+00a24f53 mov      rbx, qword ptr [rsi]
+00a24f56 call     0x141dc0470
+00a24f5b nop      
+00a24f5c mov      r8, qword ptr [rax]
+00a24f5f mov      rdx, rbx
+00a24f62 mov      rcx, rax
+00a24f65 call     qword ptr [r8 + 0x28]
+00a24f69 nop      
+00a24f6a mov      qword ptr [rsi + 0x18], 0xf
+00a24f72 mov      qword ptr [rsi + 0x10], rbp
+00a24f76 cmp      qword ptr [rsi + 0x18], 0x10
+00a24f7b jb       0x140a24f80
+00a24f7d mov      rsi, qword ptr [rsi]
+00a24f80 mov      byte ptr [rsi], 0
+00a24f83 lea      rsi, [rdi + 0x120]
+00a24f8a cmp      qword ptr [rsi + 0x18], 0x10
+00a24f8f jb       0x140a24fa8
+00a24f91 mov      rbx, qword ptr [rsi]
+00a24f94 call     0x141dc0470
+00a24f99 nop      
+00a24f9a mov      r8, qword ptr [rax]
+00a24f9d mov      rdx, rbx
+00a24fa0 mov      rcx, rax
+00a24fa3 call     qword ptr [r8 + 0x28]
+00a24fa7 nop      
+00a24fa8 mov      qword ptr [rsi + 0x18], 0xf
+00a24fb0 mov      qword ptr [rsi + 0x10], rbp
+00a24fb4 cmp      qword ptr [rsi + 0x18], 0x10
+00a24fb9 jb       0x140a24fbe
+00a24fbb mov      rsi, qword ptr [rsi]
+00a24fbe mov      byte ptr [rsi], 0
+00a24fc1 lea      rsi, [rdi + 0x100]
+00a24fc8 cmp      qword ptr [rsi + 0x18], 0x10
+00a24fcd jb       0x140a24fe6

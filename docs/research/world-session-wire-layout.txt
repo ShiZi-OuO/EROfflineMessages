@@ -1,0 +1,67 @@
+FUNCTION 0x1e3e360..0x1e3e485 unwind=0x39c0b28
+01e3e360 mov      qword ptr [rsp + 0x10], rbx
+01e3e365 mov      qword ptr [rsp + 0x18], rsi
+01e3e36a push     rdi
+01e3e36b sub      rsp, 0x20
+01e3e36f mov      rdi, rdx
+01e3e372 mov      rsi, rcx
+01e3e375 call     0x141e38200
+01e3e37a lea      rdx, [rdi + 4]
+01e3e37e mov      rcx, rsi
+01e3e381 call     0x141e38200
+01e3e386 lea      rdx, [rdi + 8]
+01e3e38a mov      rcx, rsi
+01e3e38d call     0x141e38200
+01e3e392 lea      rdx, [rdi + 0x10]
+01e3e396 mov      rcx, rsi
+01e3e399 call     0x141e38350
+01e3e39e mov      eax, dword ptr [rdi + 0x78]
+01e3e3a1 lea      rdx, [rsp + 0x30]
+01e3e3a6 mov      rcx, rsi
+01e3e3a9 mov      dword ptr [rsp + 0x30], eax
+01e3e3ad call     0x141e38200
+01e3e3b2 mov      ecx, dword ptr [rdi + 0x78]
+01e3e3b5 lea      r8, [rsp + 0x30]
+01e3e3ba lea      rdx, [rdi + 0x18]
+01e3e3be mov      qword ptr [rsp + 0x30], rsi
+01e3e3c3 call     0x141e3a130
+01e3e3c8 mov      eax, dword ptr [rdi + 0x80]
+01e3e3ce lea      rdx, [rsp + 0x30]
+01e3e3d3 mov      rcx, rsi
+01e3e3d6 mov      dword ptr [rsp + 0x30], eax
+01e3e3da call     0x141e38200
+01e3e3df lea      rdx, [rdi + 0x84]
+01e3e3e6 mov      rcx, rsi
+01e3e3e9 call     0x141e38360
+01e3e3ee mov      eax, dword ptr [rdi + 0x88]
+01e3e3f4 lea      rdx, [rsp + 0x30]
+01e3e3f9 mov      rcx, rsi
+01e3e3fc mov      dword ptr [rsp + 0x30], eax
+01e3e400 call     0x141e38200
+01e3e405 mov      eax, dword ptr [rdi + 0x8c]
+01e3e40b lea      rdx, [rsp + 0x30]
+01e3e410 mov      rcx, rsi
+01e3e413 mov      dword ptr [rsp + 0x30], eax
+01e3e417 call     0x141e38200
+01e3e41c lea      rdx, [rdi + 0x90]
+01e3e423 mov      rcx, rsi
+01e3e426 call     0x141e38130
+01e3e42b lea      rdx, [rdi + 0x98]
+01e3e432 mov      rcx, rsi
+01e3e435 call     0x141e38270
+01e3e43a lea      rdx, [rdi + 0xb8]
+01e3e441 mov      rcx, rsi
+01e3e444 call     0x141e38200
+01e3e449 lea      rdx, [rdi + 0xbc]
+01e3e450 mov      rcx, rsi
+01e3e453 call     0x141e38200
+01e3e458 lea      rdx, [rdi + 0xc0]
+01e3e45f mov      rcx, rsi
+01e3e462 call     0x141e38200
+01e3e467 lea      rdx, [rdi + 0xc4]
+01e3e46e mov      rcx, rsi
+01e3e471 mov      rbx, qword ptr [rsp + 0x38]
+01e3e476 mov      rsi, qword ptr [rsp + 0x40]
+01e3e47b add      rsp, 0x20
+01e3e47f pop      rdi
+01e3e480 jmp      0x141e38200

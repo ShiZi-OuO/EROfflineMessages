@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "game": "eldenring",
+  "source_type": "constructed",
+  "description": "Synthetic offline A/B test; native phrase IDs from observed cached records, newly chosen position and ratings. Not an official player message.",
+  "messages": [
+    {
+      "id": "7e3dd980c1ae005f",
+      "map": 1009394688,
+      "area": 6100000,
+      "secondary_area": 0,
+      "position": [
+        -45.67143154144287,
+        92.37166023254395,
+        80.9923580288887
+      ],
+      "yaw": -2.0002994537353516,
+      "template1": 10004,
+      "word1": 30015,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 11,
+      "poor": 2
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "game": "eldenring",
+  "source_type": "constructed",
+  "description": "Two constructed native-localized fixtures at game-verified locations: Church of Elleh (total 13) and interior m30_02_00_00 (total 23). Positions and reading verified on 0.1.1; 0.1.2 revalidation pending. Zero official player samples.",
+  "messages": [
+    {
+      "id": "7e3dd980c1ae005f",
+      "map": 1009394688,
+      "area": 6100000,
+      "secondary_area": 0,
+      "position": [
+        -45.67143154144287,
+        92.37166023254395,
+        80.9923580288887
+      ],
+      "yaw": -2.0002994537353516,
+      "template1": 10004,
+      "word1": 30015,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 11,
+      "poor": 2
+    },
+    {
+      "id": "7e626e8151e003ae",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.35039210319519,
+        110.01879930496216,
+        3.962926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 19,
+      "poor": 4
+    }
+  ]
+}

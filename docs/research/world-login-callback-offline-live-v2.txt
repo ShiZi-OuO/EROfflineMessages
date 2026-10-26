@@ -1,0 +1,74 @@
+00a259d0 jmp      0x7ff62c4e8b25
+00a259d5 int3     
+00a259d6 call     0x7ff607f9d86b
+00a259db add      ecx, eax
+00a259dd loopne   0x7ff6277659e1
+00a259df mov      ecx, dword ptr [rax - 0x77]
+00a259e2 and      al, 8
+00a259e5 push     rdi
+00a259e6 sub      rsp, 0x30
+00a259ea mov      qword ptr [rsp + 0x20], 0xfffffffffffffffe
+00a259f3 mov      qword ptr [rsp + 0x48], rbx
+00a259f8 mov      rdi, rcx
+00a259fb lea      rdx, [rcx + 0x80]
+00a25a02 call     0x7ff6277637e0
+00a25a07 nop      
+00a25a08 lea      rax, [rip + 0x211b769]
+00a25a0f mov      qword ptr [rdi], rax
+00a25a12 lea      rcx, [rdi + 0x80]
+00a25a19 call     0x7ff628b21c20
+00a25a1e nop      
+00a25a1f mov      rax, rdi
+00a25a22 mov      rbx, qword ptr [rsp + 0x48]
+00a25a27 add      rsp, 0x30
+00a25a2b pop      rdi
+00a25a2c ret      
+00a25a2d nop      
+00a25a2e mov      rcx, qword ptr [rax - 0x77]
+00a25a32 and      al, 8
+00a25a35 push     rdi
+00a25a36 sub      rsp, 0x30
+00a25a3a mov      qword ptr [rsp + 0x20], 0xfffffffffffffffe
+00a25a43 mov      qword ptr [rsp + 0x48], rbx
+00a25a48 mov      ebx, edx
+00a25a4a mov      rdi, rcx
+00a25a4d sub      rcx, -0x80
+00a25a51 call     0x7ff628b224f0
+00a25a56 nop      
+00a25a57 mov      rcx, rdi
+00a25a5a call     0x7ff627763900
+00a25a5f nop      
+00a25a60 test     bl, 1
+00a25a63 je       0x7ff627765a73
+00a25a65 mov      edx, 0x88
+00a25a6a mov      rcx, rdi
+00a25a6d call     0x7ff62923e9c4
+00a25a72 nop      
+00a25a73 mov      rax, rdi
+00a25a76 mov      rbx, qword ptr [rsp + 0x48]
+00a25a7b add      rsp, 0x30
+00a25a7f pop      rdi
+00a25a80 ret      
+00a25a81 nop      
+00a25a82 push     rbp
+00a25a84 sub      rsp, 0x20
+00a25a88 mov      rbp, rdx
+00a25a8b mov      r8, qword ptr [rbp - 0x7cb7ff40]
+00a25a92 in       al, dx
+00a25a93 sub      byte ptr [rax - 0x75], cl
+00a25a96 add      cl, byte ptr [rbx + rcx*4 - 0x3e]
+00a25a9a lea      rdx, [rcx + 0x80]
+00a25aa1 mov      rcx, r8
+00a25aa4 call     qword ptr [rax + 0x48]
+00a25aa7 xor      ecx, ecx
+00a25aa9 test     al, al
+00a25aab sete     cl
+00a25aae mov      eax, ecx
+00a25ab0 add      rsp, 0x28
+00a25ab4 ret      
+00a25ab5 nop      
+00a25ab6 pop      rax
+00a25ab7 jbe      0x7ff627765a7b
+00a25ab9 mov      esp, esi
+00a25abb loop     0x7ff627765b39
+00a25abd movsb    byte ptr [rdi], byte ptr [rsi]

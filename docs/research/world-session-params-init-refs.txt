@@ -1,0 +1,12 @@
+01df586d call     0x141df16c0
+01df5872 nop      
+01df5873 jmp      0x14505686a
+01e189e3 call     0x141df16c0
+01e189e8 mov      dword ptr [rbp + 0x4c0], esi
+01e1e85b call     0x141df16c0
+01e1e860 nop      
+01e1e861 mov      ecx, 0xa4ca8e5b
+01e1ec2e call     0x141df16c0
+01e1ec33 xor      esi, esi
+01e26e74 call     0x141df16c0
+01e26e79 inc      dword ptr [rip + 0x29e0aa1]

@@ -1,0 +1,103 @@
+FUNCTION 0x1dc34f0..0x1dc3684 unwind=0x399a120
+01dc34f0 push     rdi
+01dc34f2 sub      rsp, 0x50
+01dc34f6 mov      qword ptr [rsp + 0x20], 0xfffffffffffffffe
+01dc34ff mov      qword ptr [rsp + 0x70], rbx
+01dc3504 mov      qword ptr [rsp + 0x78], rsi
+01dc3509 mov      rax, qword ptr [rip + 0x1e9e910]
+01dc3510 xor      rax, rsp
+01dc3513 mov      qword ptr [rsp + 0x48], rax
+01dc3518 mov      rdi, rdx
+01dc351b mov      rbx, rcx
+01dc351e mov      qword ptr [rsp + 0x28], rcx
+01dc3523 call     0x1424d6dcc
+01dc3528 test     eax, eax
+01dc352a je       0x141dc3534
+01dc352c mov      ecx, eax
+01dc352e call     0x1424d6ff8
+01dc3533 nop      
+01dc3534 mov      eax, dword ptr [rbx + 0x50]
+01dc3537 cmp      eax, 1
+01dc353a jne      0x141dc3642
+01dc3540 lea      rcx, [rsp + 0x40]
+01dc3545 call     0x141e7ee80
+01dc354a mov      edx, 0x3c
+01dc354f lea      rcx, [rsp + 0x30]
+01dc3554 call     0x141e7e970
+01dc3559 mov      rcx, qword ptr [rbx + 0x58]
+01dc355d add      rcx, qword ptr [rax]
+01dc3560 cmp      rcx, qword ptr [rsp + 0x40]
+01dc3565 jg       0x141dc361a
+01dc356b lea      rcx, [rbx + 0x78]
+01dc356f mov      rdx, rdi
+01dc3572 call     0x141dc3b60
+01dc3577 lea      rcx, [rip + 0x1d8c4f2]
+01dc357e call     qword ptr [rip + 0x2e51b20]
+01dc3584 mov      rcx, qword ptr [rax]
+01dc3587 mov      rax, qword ptr [rcx]
+01dc358a xor      r8d, r8d
+01dc358d xor      edx, edx
+01dc358f call     qword ptr [rax + 0xa0]
+01dc3595 mov      rsi, rax
+01dc3598 cmp      qword ptr [rbx + 0xc8], 0
+01dc35a0 je       0x141dc35d4
+01dc35a2 mov      dword ptr [rsp + 0x38], 0
+01dc35aa mov      dword ptr [rsp + 0x30], 0
+01dc35b2 mov      rcx, qword ptr [rbx + 0xc8]
+01dc35b9 test     rcx, rcx
+01dc35bc jne      0x141dc35c4
+01dc35be call     0x1424d67a0
+01dc35c3 int3     
+01dc35c4 mov      rax, qword ptr [rcx]
+01dc35c7 lea      r8, [rsp + 0x38]
+01dc35cc lea      rdx, [rsp + 0x30]
+01dc35d1 call     qword ptr [rax + 0x10]
+01dc35d4 lea      rdi, [rbx + 0xd0]
+01dc35db mov      rdx, qword ptr [rdi + 0x10]
+01dc35df test     rdx, rdx
+01dc35e2 je       0x141dc35ed
+01dc35e4 mov      rcx, rdi
+01dc35e7 call     qword ptr [rip + 0x2e51af7]
+01dc35ed mov      qword ptr [rdi + 0x10], rsi
+01dc35f1 mov      qword ptr [rdi + 0x18], rbx
+01dc35f5 lea      rax, [rip - 0x2ac]
+01dc35fc mov      qword ptr [rdi + 0x20], rax
+01dc3600 test     rsi, rsi
+01dc3603 je       0x141dc3611
+01dc3605 mov      rdx, rsi
+01dc3608 mov      rcx, rdi
+01dc360b call     qword ptr [rip + 0x2e51acb]
+01dc3611 mov      dword ptr [rbx + 0x50], 0
+01dc3618 jmp      0x141dc3653
+01dc361a mov      dword ptr [rsp + 0x30], 1
+01dc3622 mov      rcx, qword ptr [rdi + 0x38]
+01dc3626 test     rcx, rcx
+01dc3629 jne      0x141dc3631
+01dc362b call     0x1424d67a0
+01dc3630 int3     
+01dc3631 lea      r8, [rbx + 0x60]
+01dc3635 mov      rax, qword ptr [rcx]
+01dc3638 lea      rdx, [rsp + 0x30]
+01dc363d call     qword ptr [rax + 0x10]
+01dc3640 jmp      0x141dc3653
+01dc3642 test     eax, eax
+01dc3644 jne      0x141dc3653
+01dc3646 lea      rcx, [rbx + 0x78]
+01dc364a mov      rdx, rdi
+01dc364d call     0x141dc3b60
+01dc3652 nop      
+01dc3653 mov      rcx, rbx
+01dc3656 call     0x1424d6df0
+01dc365b test     eax, eax
+01dc365d je       0x141dc3667
+01dc365f mov      ecx, eax
+01dc3661 call     0x1424d6ff8
+01dc3666 nop      
+01dc3667 mov      rcx, qword ptr [rsp + 0x48]
+01dc366c xor      rcx, rsp
+01dc366f call     0x1424feae0
+01dc3674 mov      rbx, qword ptr [rsp + 0x70]
+01dc3679 mov      rsi, qword ptr [rsp + 0x78]
+01dc367e add      rsp, 0x50
+01dc3682 pop      rdi
+01dc3683 ret      

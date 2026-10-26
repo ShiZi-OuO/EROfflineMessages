@@ -1,0 +1,177 @@
+FUNCTION 0x1de81d0..0x1de84c4 unwind=0x399eb00
+01de81d0 mov      qword ptr [rsp + 8], rcx
+01de81d5 push     rdi
+01de81d6 sub      rsp, 0x30
+01de81da mov      qword ptr [rsp + 0x20], 0xfffffffffffffffe
+01de81e3 mov      qword ptr [rsp + 0x48], rbx
+01de81e8 mov      rdi, rcx
+01de81eb lea      rax, [rip + 0x129aad6]
+01de81f2 mov      qword ptr [rcx], rax
+01de81f5 add      rcx, 8
+01de81f9 call     0x141df6db0
+01de81fe nop      
+01de81ff lea      rcx, [rdi + 0x18]
+01de8203 lea      rdx, [rdi + 8]
+01de8207 call     0x141dff8f0
+01de820c nop      
+01de820d lea      rcx, [rdi + 0x28]
+01de8211 lea      rdx, [rdi + 8]
+01de8215 call     0x141df7b00
+01de821a nop      
+01de821b lea      rcx, [rdi + 0x38]
+01de821f lea      rdx, [rdi + 8]
+01de8223 call     0x141df7540
+01de8228 nop      
+01de8229 lea      rcx, [rdi + 0x48]
+01de822d lea      rdx, [rdi + 8]
+01de8231 call     0x141df93e0
+01de8236 nop      
+01de8237 lea      rcx, [rdi + 0x58]
+01de823b lea      rdx, [rdi + 8]
+01de823f call     0x141dfcb60
+01de8244 nop      
+01de8245 lea      rcx, [rdi + 0x68]
+01de8249 xor      r8d, r8d
+01de824c lea      rdx, [rdi + 8]
+01de8250 call     0x141df8580
+01de8255 nop      
+01de8256 lea      rcx, [rdi + 0x80]
+01de825d mov      r8d, 1
+01de8263 lea      rdx, [rdi + 8]
+01de8267 call     0x141df8580
+01de826c nop      
+01de826d lea      rcx, [rdi + 0x98]
+01de8274 mov      r8d, 1
+01de827a lea      rdx, [rdi + 8]
+01de827e call     0x141e00840
+01de8283 nop      
+01de8284 lea      rcx, [rdi + 0xb0]
+01de828b xor      r8d, r8d
+01de828e lea      rdx, [rdi + 8]
+01de8292 call     0x141e00840
+01de8297 nop      
+01de8298 lea      rcx, [rdi + 0xc8]
+01de829f lea      rdx, [rdi + 8]
+01de82a3 call     0x141dfa900
+01de82a8 nop      
+01de82a9 lea      rcx, [rdi + 0xd8]
+01de82b0 lea      rdx, [rdi + 8]
+01de82b4 call     0x141df9530
+01de82b9 nop      
+01de82ba lea      rcx, [rdi + 0xe8]
+01de82c1 xor      r8d, r8d
+01de82c4 lea      rdx, [rdi + 8]
+01de82c8 call     0x141dfd6c0
+01de82cd nop      
+01de82ce lea      rcx, [rdi + 0x100]
+01de82d5 mov      r8d, 1
+01de82db lea      rdx, [rdi + 8]
+01de82df call     0x141dfd6c0
+01de82e4 nop      
+01de82e5 lea      rcx, [rdi + 0x118]
+01de82ec mov      r8d, 2
+01de82f2 lea      rdx, [rdi + 8]
+01de82f6 call     0x141dfd6c0
+01de82fb nop      
+01de82fc lea      rcx, [rdi + 0x130]
+01de8303 mov      r8d, 3
+01de8309 lea      rdx, [rdi + 8]
+01de830d call     0x141dfd6c0
+01de8312 nop      
+01de8313 lea      rcx, [rdi + 0x148]
+01de831a mov      r8d, 4
+01de8320 lea      rdx, [rdi + 8]
+01de8324 call     0x141dfd6c0
+01de8329 nop      
+01de832a lea      rcx, [rdi + 0x160]
+01de8331 mov      r8d, 5
+01de8337 lea      rdx, [rdi + 8]
+01de833b call     0x141dfd6c0
+01de8340 nop      
+01de8341 lea      rcx, [rdi + 0x178]
+01de8348 mov      r8d, 6
+01de834e lea      rdx, [rdi + 8]
+01de8352 call     0x141dfd6c0
+01de8357 nop      
+01de8358 lea      rcx, [rdi + 0x190]
+01de835f mov      r8d, 7
+01de8365 lea      rdx, [rdi + 8]
+01de8369 call     0x141dfd6c0
+01de836e nop      
+01de836f lea      rcx, [rdi + 0x1a8]
+01de8376 mov      r8d, 8
+01de837c lea      rdx, [rdi + 8]
+01de8380 call     0x141dfd6c0
+01de8385 nop      
+01de8386 lea      rcx, [rdi + 0x1c0]
+01de838d mov      r8d, 9
+01de8393 lea      rdx, [rdi + 8]
+01de8397 call     0x141dfd6c0
+01de839c nop      
+01de839d lea      rcx, [rdi + 0x1d8]
+01de83a4 mov      r8d, 0xa
+01de83aa lea      rdx, [rdi + 8]
+01de83ae call     0x141dfd6c0
+01de83b3 nop      
+01de83b4 lea      rcx, [rdi + 0x1f0]
+01de83bb mov      r8d, 0xb
+01de83c1 lea      rdx, [rdi + 8]
+01de83c5 call     0x141dfd6c0
+01de83ca nop      
+01de83cb lea      rcx, [rdi + 0x208]
+01de83d2 mov      r8d, 0xc
+01de83d8 lea      rdx, [rdi + 8]
+01de83dc call     0x141dfd6c0
+01de83e1 nop      
+01de83e2 lea      rcx, [rdi + 0x220]
+01de83e9 mov      r8d, 0xd
+01de83ef lea      rdx, [rdi + 8]
+01de83f3 call     0x141dfd6c0
+01de83f8 nop      
+01de83f9 lea      rcx, [rdi + 0x238]
+01de8400 mov      r8d, 0xe
+01de8406 lea      rdx, [rdi + 8]
+01de840a call     0x141dfd6c0
+01de840f nop      
+01de8410 lea      rcx, [rdi + 0x250]
+01de8417 mov      r8d, 0xf
+01de841d lea      rdx, [rdi + 8]
+01de8421 call     0x141dfd6c0
+01de8426 nop      
+01de8427 lea      rcx, [rdi + 0x268]
+01de842e mov      r8d, 0x10
+01de8434 lea      rdx, [rdi + 8]
+01de8438 call     0x141dfd6c0
+01de843d nop      
+01de843e lea      rcx, [rdi + 0x280]
+01de8445 mov      r8d, 0x11
+01de844b lea      rdx, [rdi + 8]
+01de844f call     0x141dfd6c0
+01de8454 nop      
+01de8455 lea      rcx, [rdi + 0x298]
+01de845c mov      r8d, 0x12
+01de8462 lea      rdx, [rdi + 8]
+01de8466 call     0x141dfd6c0
+01de846b nop      
+01de846c lea      rcx, [rdi + 0x2b0]
+01de8473 mov      r8d, 0x13
+01de8479 lea      rdx, [rdi + 8]
+01de847d call     0x141dfd6c0
+01de8482 nop      
+01de8483 lea      rcx, [rdi + 0x2c8]
+01de848a lea      rdx, [rdi + 8]
+01de848e call     0x141dfe960
+01de8493 nop      
+01de8494 lea      rcx, [rdi + 0x2d8]
+01de849b lea      rdx, [rdi + 8]
+01de849f call     0x141df91d0
+01de84a4 nop      
+01de84a5 lea      rcx, [rdi + 0x2e8]
+01de84ac lea      rdx, [rdi + 8]
+01de84b0 call     0x141dfbb30
+01de84b5 nop      
+01de84b6 mov      rax, rdi
+01de84b9 mov      rbx, qword ptr [rsp + 0x48]
+01de84be add      rsp, 0x30
+01de84c2 pop      rdi
+01de84c3 ret      

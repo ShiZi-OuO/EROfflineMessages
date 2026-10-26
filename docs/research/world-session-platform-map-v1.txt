@@ -1,0 +1,84 @@
+FUNCTION 0xe11f00..0xe11f32 unwind=0x37c11ac
+00e11f00 sub      rsp, 0x28
+00e11f04 mov      eax, dword ptr [rip + 0x2d35216]
+00e11f0a cmp      eax, 5
+00e11f0d jb       0x140e11f2d
+00e11f0f lea      r8, [rip + 0x246c87c]
+00e11f16 mov      edx, 0x1bf
+00e11f1b lea      rcx, [rip + 0x1dcdbfe]
+00e11f22 call     0x141ebcd00
+00e11f27 mov      eax, dword ptr [rip + 0x2d351f3]
+00e11f2d add      rsp, 0x28
+00e11f31 ret      
+NO RUNTIME FUNCTION; using explicit disassembly range
+00e11fa0 mov      eax, dword ptr [rip + 0x2d35186]
+00e11fa6 ret      
+00e11fa7 int3     
+00e11fa8 je       0x140e11f5b
+00e11faa movabs   dword ptr [0x58d483ae2e8430a], eax
+00e11fb3 leave    
+00e11fb4 ret      0x2f7
+00e11fb7 ret      
+00e11fb8 int3     
+00e11fb9 mov      rax, qword ptr [rbp + 0x20]
+00e11fbd mov      eax, dword ptr [rax + 0x64]
+00e11fc0 mov      qword ptr [rsp + 8], rbx
+00e11fc5 mov      qword ptr [rsp + 0x10], rbp
+00e11fca mov      qword ptr [rsp + 0x18], rsi
+00e11fcf push     rdi
+00e11fd0 sub      rsp, 0x20
+00e11fd4 call     0x140e126b0
+00e11fd9 mov      rcx, qword ptr [rip + 0x377dea8]
+00e11fe0 mov      ebx, eax
+00e11fe2 test     rcx, rcx
+00e11fe5 jne      0x140e12015
+00e11fe7 lea      rcx, [rip + 0x2f53247]
+00e11fee call     0x141ec4940
+00e11ff3 mov      r9, rax
+00e11ff6 lea      r8, [rip + 0x24860bb]
+00e11ffd mov      edx, 0xb4
+00e12002 lea      rcx, [rip + 0x1bbaa97]
+00e12009 call     0x141ebcd00
+00e1200e mov      rcx, qword ptr [rip + 0x377de73]
+00e12015 mov      edx, ebx
+00e12017 call     0x140e5ecd0
+00e1201c mov      edi, eax
+00e1201e mov      dword ptr [rip + 0x2d350fc], eax
+00e12024 call     0x140e125f0
+00e12029 mov      rcx, qword ptr [rip + 0x377de58]
+00e12030 mov      ebx, eax
+00e12032 test     rcx, rcx
+00e12035 jne      0x140e12065
+00e12037 lea      rcx, [rip + 0x2f531f7]
+00e1203e call     0x141ec4940
+00e12043 mov      r9, rax
+00e12046 lea      r8, [rip + 0x248606b]
+00e1204d mov      edx, 0xb4
+00e12052 lea      rcx, [rip + 0x1bbaa47]
+00e12059 call     0x141ebcd00
+00e1205e mov      rcx, qword ptr [rip + 0x377de23]
+00e12065 mov      edx, ebx
+00e12067 call     0x140e5ea90
+00e1206c mov      ecx, dword ptr [rip + 0x2d350ae]
+00e12072 mov      dword ptr [rip + 0x2f7c248], eax
+00e12078 call     0x140e12590
+00e1207d mov      rcx, qword ptr [rip + 0x377de04]
+00e12084 mov      ebx, eax
+00e12086 test     rcx, rcx
+00e12089 jne      0x140e120b9
+00e1208b lea      rcx, [rip + 0x2f531a3]
+00e12092 call     0x141ec4940
+00e12097 mov      r9, rax
+FUNCTION 0xe11ec0..0xe11ef2 unwind=0x37c11b4
+00e11ec0 sub      rsp, 0x28
+00e11ec4 mov      eax, dword ptr [rip + 0x2f7c3f6]
+00e11eca cmp      eax, 3
+00e11ecd jb       0x140e11eed
+00e11ecf lea      r8, [rip + 0x246c8bc]
+00e11ed6 mov      edx, 0x1ce
+00e11edb lea      rcx, [rip + 0x1dcdc3e]
+00e11ee2 call     0x141ebcd00
+00e11ee7 mov      eax, dword ptr [rip + 0x2f7c3d3]
+00e11eed add      rsp, 0x28
+00e11ef1 ret      
+table at A1D540 (1, 2, 3, 4)

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "source_type": "official_sample",
+  "runtime_pack_sha256": "02fd46faccad75941877a1bdd4fbff09576a6d30ba59f23c43149248546acb8b",
+  "unique_records": 1895,
+  "map_ids": 13,
+  "cohorts": [
+    {
+      "label": "normal-client-original",
+      "file": "data/official-snapshot-103.json",
+      "source_type": "official_client_sample",
+      "records": 103,
+      "sha256": "c6290f3cd4f6763fa0ee013767e11d18c4de46545f51baae08ea17766936d869"
+    },
+    {
+      "label": "normal-client-tour",
+      "file": "data/official-tour-224.json",
+      "source_type": "official_client_sample",
+      "records": 224,
+      "sha256": "0dbb9db971fec530857e911c4172d17f143bf79402798d055494b82da55430b7"
+    },
+    {
+      "label": "independent-protocol-pilot",
+      "file": "data/official-protocol-71.json",
+      "source_type": "official_protocol_sample",
+      "records": 71,
+      "sha256": "836908c877c673376bf800613a02f5f23c62bff3809c782e7f24060588c32fc9"
+    },
+    {
+      "label": "independent-protocol-partial-batch",
+      "file": "data/official-protocol-batch-v4-1542.json",
+      "source_type": "official_protocol_sample",
+      "records": 1542,
+      "sha256": "710b2a5ab70726d6d9f4a9929d100a63564c31f73cedc4309de0799190e79f72"
+    }
+  ],
+  "duplicate_semantics_removed": 45,
+  "later_cohort_wins_appraisal_snapshot": true,
+  "independent_protocol_new_region_individual_offline_ui_witnesses": 1,
+  "new_partial_batch_individual_ui_witnesses": 0,
+  "full_world_coverage": false,
+  "whole_merged_pack_gameplay_verified": false,
+  "constructed_records": 0,
+  "account_identifiers_exported": false
+}

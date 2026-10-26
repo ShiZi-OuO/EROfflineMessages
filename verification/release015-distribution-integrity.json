@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "archive": "EROfflineMessages-0.1.5-world-snapshot-23439.zip",
+  "archive_sha256": "8a69a67059cae9bb8ab0f3d3a6cb6de103d7201a7cc10b9b24864655f286778f",
+  "archive_bytes": 12674405,
+  "per_file_checksums_verified": 339,
+  "runtime_source_hashes_verified": 14,
+  "runtime_payload_equal_to_game_tested_extracted_rc2": true,
+  "compared_runtime_files": [
+    "natives/EROfflineMessages.dll",
+    "natives/EROfflineMessages.pack.json",
+    "EROfflineMessages.me3",
+    "Launch.cmd"
+  ],
+  "exact_final_zip_relaunched": false,
+  "zip_crc_pass": true,
+  "offline_profile_single_dll": true,
+  "forbidden_binary_save_asset_logs_or_authorization_files_found": false,
+  "full_world_coverage": false,
+  "finite_snapshot_release_ready": true
+}

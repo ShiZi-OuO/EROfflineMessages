@@ -1,0 +1,12 @@
+[package]
+name = "er-static-login-analysis"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+dearxan = { version = "=0.5.2", default-features = false, features = ["rayon"] }
+pelite = { version = "=0.10.0", default-features = false }
+
+[profile.release]
+opt-level = 2

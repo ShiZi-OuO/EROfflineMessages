@@ -1,0 +1,70 @@
+NO RUNTIME FUNCTION; using explicit disassembly range
+001c3c70 mov      edx, dword ptr [rcx + 0x224]
+001c3c76 xor      al, al
+001c3c78 movaps   xmm0, xmm1
+001c3c7b test     dl, 0x19
+001c3c7e jne      0x1401c3cb6
+001c3c80 mov      r8d, 1
+001c3c86 test     dl, 2
+001c3c89 jne      0x1401c3cac
+001c3c8b movss    xmm1, dword ptr [rcx + 0x220]
+001c3c93 subss    xmm1, xmm0
+001c3c97 movzx    eax, al
+001c3c9a xorps    xmm0, xmm0
+001c3c9d comiss   xmm1, xmm0
+001c3ca0 movss    dword ptr [rcx + 0x220], xmm1
+001c3ca8 cmovbe   eax, r8d
+001c3cac test     dl, 4
+001c3caf movzx    eax, al
+001c3cb2 cmovne   eax, r8d
+001c3cb6 ret      
+001c3cb7 or       r8, 0xffffffffffffffff
+001c3cbb jmp      0x140ac70b1
+001c3cc0 mov      qword ptr [rsp + 8], rcx
+001c3cc5 push     rbx
+001c3cc6 sub      rsp, 0x30
+001c3cca mov      qword ptr [rsp + 0x28], 0xfffffffffffffffe
+001c3cd3 mov      rbx, r9
+001c3cd6 call     0x1401c65f0
+001c3cdb mov      qword ptr [rsp + 0x20], rax
+001c3ce0 lea      rdx, [rax + 0x10]
+001c3ce4 test     rdx, rdx
+001c3ce7 je       0x1401c3cef
+001c3ce9 mov      rcx, qword ptr [rbx]
+001c3cec mov      qword ptr [rdx], rcx
+001c3cef add      rsp, 0x30
+001c3cf3 pop      rbx
+001c3cf4 ret      
+001c3cf5 xor      al, al
+001c3cf7 lea      rsp, [rsp + 8]
+001c3cfc jmp      qword ptr [rsp - 8]
+001c3d00 mov      qword ptr [rsp + 8], rcx
+001c3d05 push     rbx
+001c3d06 sub      rsp, 0x30
+001c3d0a mov      qword ptr [rsp + 0x28], 0xfffffffffffffffe
+001c3d13 mov      rbx, r9
+001c3d16 call     0x1401c6650
+001c3d1b mov      qword ptr [rsp + 0x20], rax
+001c3d20 lea      rdx, [rax + 0x10]
+001c3d24 test     rdx, rdx
+001c3d27 je       0x1401c3d2f
+001c3d29 mov      rcx, qword ptr [rbx]
+001c3d2c mov      qword ptr [rdx], rcx
+001c3d2f add      rsp, 0x30
+001c3d33 pop      rbx
+001c3d34 ret      
+001c3d35 mov      rax, qword ptr [rdi]
+001c3d38 mov      rcx, rdi
+001c3d3b jmp      0x14207b934
+001c3d40 mov      qword ptr [rsp + 8], rcx
+001c3d45 push     rbx
+001c3d46 sub      rsp, 0x30
+001c3d4a mov      qword ptr [rsp + 0x28], 0xfffffffffffffffe
+001c3d53 mov      rbx, r9
+001c3d56 call     0x1401c66b0
+001c3d5b mov      qword ptr [rsp + 0x20], rax
+001c3d60 lea      rdx, [rax + 0x10]
+001c3d64 test     rdx, rdx
+001c3d67 je       0x1401c3d6f
+001c3d69 mov      rcx, qword ptr [rbx]
+001c3d6c mov      qword ptr [rdx], rcx

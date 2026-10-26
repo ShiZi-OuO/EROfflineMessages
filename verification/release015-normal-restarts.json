@@ -1,0 +1,39 @@
+{
+  "status": "THREE_READABLE_RESTART_ROUNDS_USER_CONFIRMED",
+  "archive": "EROfflineMessages-0.1.5-rc2-world-snapshot-23439.zip",
+  "archive_sha256": "47a1f9a22afe940b6e608a52ec4dc7ab020cf9f85ed7422ef277567b8c557f25",
+  "dll_sha256": "b9e623b68ac2415df24bbcd5f7f67415c9cdbc1f5ff4e63ffc08feacf47b82e5",
+  "pack_sha256": "661a694ded9cac3b3bfa0bdcea520171a625020f6a3fbe9a741db294b0624f76",
+  "rounds": [
+    {
+      "round": 1,
+      "language": "English",
+      "read_confirmed": true,
+      "normal_exit_confirmed": true,
+      "witness": "release015-rc2-english-witness.json"
+    },
+    {
+      "round": 2,
+      "language": "Simplified Chinese",
+      "read_confirmed": true,
+      "normal_exit_confirmed": true,
+      "evidence_type": "user confirmation; loading and markers independently observed"
+    },
+    {
+      "round": 3,
+      "language": "Simplified Chinese",
+      "read_confirmed": true,
+      "normal_exit_confirmed": true,
+      "evidence_type": "user confirmation; loading and markers independently observed"
+    }
+  ],
+  "additional_incomplete_start": {
+    "before_round": 3,
+    "state": "Process disappeared before scene; no read/pass credited",
+    "cause": "unknown",
+    "application_crash_event_found_in_inspected_window": false,
+    "log": "launch-zh-round3.stderr.txt",
+    "retry_loaded_scene": true
+  },
+  "warning": "Three completed rounds do not establish zero startup failures; the extra incomplete start remains documented."
+}

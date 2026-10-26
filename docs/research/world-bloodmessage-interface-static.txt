@@ -1,0 +1,18 @@
+FUNCTION 0x1df7700..0x1df7757 unwind=0x39a3b80
+01df7700 sub      rsp, 0x418
+01df7707 mov      qword ptr [rsp + 0x20], 0xfffffffffffffffe
+01df7710 movups   xmm0, xmmword ptr [r8]
+01df7714 movaps   xmmword ptr [rsp + 0x30], xmm0
+01df7719 mov      dword ptr [rsp + 0x400], 0x14
+01df7724 lea      r8, [rsp + 0x30]
+01df7729 mov      rcx, qword ptr [rcx + 8]
+01df772d call     0x141df7020
+01df7732 nop      
+01df7733 lea      r8, [rsp + 0x420]
+01df773b lea      rdx, [rsp + 0x30]
+01df7740 mov      ecx, dword ptr [rsp + 0x400]
+01df7747 call     0x141df3500
+01df774c nop      
+01df774d xor      eax, eax
+01df774f add      rsp, 0x418
+01df7756 ret      

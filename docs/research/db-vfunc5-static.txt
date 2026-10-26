@@ -1,0 +1,20 @@
+FUNCTION 0x1be220..0x1be26c unwind=0x3420fa4
+001be220 push     rbp
+001be222 push     rbx
+001be223 push     r13
+001be225 push     r14
+001be227 lea      rbp, [rsp - 0x238]
+001be22f sub      rsp, 0x338
+001be236 mov      rax, qword ptr [rip + 0x3aa3be3]
+001be23d xor      rax, rsp
+001be240 mov      qword ptr [rbp + 0x210], rax
+001be247 mov      r14, rdx
+001be24a mov      qword ptr [rsp + 0x30], rdx
+001be24f mov      r13, rcx
+001be252 mov      qword ptr [rsp + 0x40], rcx
+001be257 mov      rcx, r14
+001be25a xor      edx, edx
+001be25c mov      rbx, r8
+001be25f call     0x1401cb250
+001be264 test     al, al
+001be266 je       0x1401be87e

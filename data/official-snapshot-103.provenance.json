@@ -1,0 +1,644 @@
+{
+  "schema_version": 1,
+  "source_type": "official_client_sample",
+  "received_sample_records": 103,
+  "maps": {
+    "m31_03_00_00": 41,
+    "m60_42_37_00": 62
+  },
+  "online_ui_individually_matched": 1,
+  "offline_reading_individually_verified": 2,
+  "all_records_from_same_normal_client_collection_session": true,
+  "unknown_original_baseline_records_excluded": 15,
+  "constructed_local_records_excluded": true,
+  "raw_original_message_keys_exported": false,
+  "player_identity_exported": false,
+  "network_injection": false,
+  "custom_server_requests": false,
+  "snapshot_is_not_full_server_dataset": true,
+  "native_localization_phrase_lookups_missing": [],
+  "two_phrase_records": 17,
+  "records": [
+    {
+      "local_key": "7d893447ec7378b1",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d60edea790be10d",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7db96a3175545166",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7da32d53d528f6f9",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dffdfb01e2cf54f",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": true,
+      "per_point_reading_verified": true
+    },
+    {
+      "local_key": "7dd5710b5c63d887",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d3a06908c3bcc0d",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7da647905c93445b",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d6a1ac976d32f45",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d72b630adeb5e29",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7da60270fd073ab0",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d79e3707bc0f87f",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d22f0923fd15408",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dd6c99bd67f28c3",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d918cf5f9f9f25c",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d083ae389606cb8",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d0e1a21aa57a352",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7db52f3cc7232b9d",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d58ddb9f44e56a0",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dc3b59efb510029",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d4090756d17354a",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dfb7e389c2d9709",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7db59d9c876a22ac",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7db74c491e889fc3",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d0558962b46b446",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dc52e1518a53bc6",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7db081cef823e949",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d0f07a747e7693c",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dcc4e5648cfbe59",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d45e1927810786f",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d5ab23c9690c51d",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d87385694664860",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7de1d158b59aeff1",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d840dccbbe7f14a",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d464c84fc9aa11b",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d9199095d0ef99d",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d58e7843c405dd2",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7defdc757de3b023",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d6b64840450ca5a",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7db8e38d1e6c7101",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d46dfc94a3eb2c3",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d92f3aedc8bee4a",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7df887f24f2a7f9b",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d0c3091363b2ba3",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d942597b3d89584",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d2130c217fb94d0",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dd8f050f4cdbf6d",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dec905bb56daf36",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d9f597c8417b0f8",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7defc948a03b4b03",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d9e7c6f0d16a7ce",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d2ff34d213d68ef",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7deaa41e79e2119f",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dc8c954acb2cf77",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d4b42ba09f52412",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": true,
+      "offline_replay_binary_version": "0.1.3",
+      "evidence": "official103-v013-outside-readable-zh.png"
+    },
+    {
+      "local_key": "7d7cbe7b396265a7",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d406be68e7b4bd3",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d8d0225e5f5b445",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d28c3d09b53088e",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d3b2e722e8db521",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7da1d75f31399937",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d5b719036dbc5f4",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d2c2fe2da3f7c39",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d4540260c7724d2",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dac414533ae9fb4",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7da2b9dd4beb647e",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7de5befdc4d13085",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dcb5f41845d2d37",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d5eaf62c5564694",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d68a5ac7e878b84",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d07664f5ee7f3ad",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dd7b75891092283",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d9c11be434d03c2",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d4409321a6032de",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d3bc108db18e12a",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d3c52caed783bd0",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d0d39cf553fc236",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dde13fd63a3ecc3",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d21990f513aa565",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dda1061454e07f2",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d464becb6bbdc76",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d2a20793bdab49c",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dda4a5c1d92c0fe",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dab57803be40045",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dfbc2d4dec6da3e",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7db804dcac7b6159",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d6562e824b8dd6c",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d5419dd30a9754b",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d0740908f2d4cf7",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dcbd362145cdece",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d1bce2f5e9a3f05",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d907740d5c42a92",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7def32cb22ac1933",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d4a77a78a99ea7c",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d1a8cac6aba0532",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7ddb23f903559ac7",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d044f116eb8dd81",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d76221a79b09736",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d7fa7794f37b269",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d0a3ccda69d53d1",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7df51e836257c5b2",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7d85c3f68bd1f643",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    },
+    {
+      "local_key": "7dbed6e37f6aba71",
+      "source": "normal official Steam/EAC client receipt recovered in offline cache difference",
+      "online_reading_correspondence": false,
+      "per_point_reading_verified": false
+    }
+  ],
+  "offline_reading_version_note": "group ahead / 7 on 0.1.2; outdoor two-phrase / 8 on 0.1.3; other record positions not individually witnessed"
+}

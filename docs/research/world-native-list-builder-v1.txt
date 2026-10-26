@@ -1,0 +1,65 @@
+RVA 0x1df72c0
+FUNCTION 0x1df72c0..0x1df7356 unwind=0x39a3d18
+01df72c0 mov      r11, rsp
+01df72c3 push     rdi
+01df72c4 sub      rsp, 0x410
+01df72cb mov      qword ptr [rsp + 0x20], 0xfffffffffffffffe
+01df72d4 mov      qword ptr [r11 + 8], rbx
+01df72d8 mov      qword ptr [r11 + 0x10], rsi
+01df72dc mov      rbx, r8
+01df72df mov      rdi, rdx
+01df72e2 mov      rsi, rcx
+01df72e5 lea      rax, [rsp + 0x30]
+01df72ea mov      qword ptr [r11 + 0x18], rax
+01df72ee mov      rdx, r8
+01df72f1 lea      rcx, [rsp + 0x30]
+01df72f6 call     0x141def810
+01df72fb nop      
+01df72fc lea      rdx, [rbx + 0x18]
+01df7300 lea      rcx, [rsp + 0x48]
+01df7305 call     0x140a298a0
+01df730a nop      
+01df730b mov      dword ptr [rsp + 0x400], 0x12
+01df7316 lea      r8, [rsp + 0x30]
+01df731b mov      rdx, rdi
+01df731e mov      rcx, rsi
+01df7321 call     0x141df7020
+01df7326 nop      
+01df7327 lea      r8, [rsp + 0x430]
+01df732f lea      rdx, [rsp + 0x30]
+01df7334 mov      ecx, dword ptr [rsp + 0x400]
+01df733b call     0x141df3500
+01df7340 nop      
+01df7341 lea      r11, [rsp + 0x410]
+01df7349 mov      rbx, qword ptr [r11 + 0x10]
+01df734d mov      rsi, qword ptr [r11 + 0x18]
+01df7351 mov      rsp, r11
+01df7354 pop      rdi
+01df7355 ret      
+RVA 0x1df7020
+NO RUNTIME FUNCTION; using explicit disassembly range
+01df7020 jmp      0x14573f635
+01df7025 nop      
+01df7026 cmp      al, 0x2a
+RVA 0xa54650
+FUNCTION 0xa54650..0xa546a0 unwind=0x36dd158
+00a54650 mov      qword ptr [rsp + 0x20], rbx
+00a54655 push     rdi
+00a54656 sub      rsp, 0x20
+00a5465a mov      rbx, rdx
+00a5465d mov      rdi, rcx
+00a54660 mov      rdx, qword ptr [rdx]
+00a54663 mov      rax, qword ptr [rbx + 0x10]
+00a54667 sub      rax, rdx
+00a5466a mov      qword ptr [rbx + 8], rdx
+00a5466e mov      r8, qword ptr [rcx + 0x1a0]
+00a54675 sar      rax, 3
+00a54679 cmp      rax, r8
+00a5467c jae      0x140a5469c
+00a5467e movabs   rax, 0x1fffffffffffffff
+00a54688 cmp      r8, rax
+00a5468b ja       0x140a54781
+00a54691 mov      rdx, r8
+00a54694 mov      rcx, rbx
+00a54697 call     0x140a54b60
+00a5469c lea      r8, [rdi + 0x18]

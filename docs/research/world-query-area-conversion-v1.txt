@@ -1,0 +1,71 @@
+NO RUNTIME FUNCTION; using explicit disassembly range
+00a62100 movzx    r8d, byte ptr [rdx + 3]
+00a62105 lea      eax, [r8 - 0x32]
+00a62109 cmp      eax, 0x26
+00a6210c ja       0x140a6212a
+00a6210e movzx    ecx, byte ptr [rdx + 2]
+00a62112 imul     eax, r8d, 0x64
+00a62116 add      ecx, eax
+00a62118 movzx    eax, byte ptr [rdx + 1]
+00a6211c imul     r8d, ecx, 0x64
+00a62120 add      r8d, eax
+00a62123 lea      eax, [r8 + r8*4]
+00a62127 add      eax, eax
+00a62129 ret      
+00a6212a mov      eax, ecx
+00a6212c ret      
+00a6212d int3     
+00a6212e sub      al, byte ptr [rcx + 0x48]
+00a62131 mov      dword ptr [rsp + 8], ecx
+00a62135 push     rbx
+00a62136 sub      rsp, 0x30
+00a6213a mov      qword ptr [rsp + 0x20], 0xfffffffffffffffe
+00a62143 mov      rbx, rcx
+00a62146 lea      rax, [rip + 0x20e78ab]
+00a6214d mov      qword ptr [rcx], rax
+00a62150 add      rcx, 8
+00a62154 xor      r8d, r8d
+00a62157 call     0x140d11160
+00a6215c nop      
+00a6215d mov      rax, rbx
+00a62160 add      rsp, 0x30
+00a62164 pop      rbx
+00a62165 ret      
+00a62166 mov      rbx, qword ptr [rsp + 0x30]
+00a6216b jmp      0x140b83707
+00a62170 mov      qword ptr [rsp + 8], rcx
+00a62175 push     rdi
+00a62176 sub      rsp, 0x30
+00a6217a mov      qword ptr [rsp + 0x20], 0xfffffffffffffffe
+00a62183 mov      qword ptr [rsp + 0x48], rbx
+00a62188 mov      ebx, edx
+00a6218a mov      rdi, rcx
+00a6218d lea      rax, [rip + 0x20e7864]
+00a62194 mov      qword ptr [rcx], rax
+00a62197 add      rcx, 8
+00a6219b call     0x140d111d0
+00a621a0 nop      
+00a621a1 test     bl, 1
+00a621a4 je       0x140a621b4
+00a621a6 mov      edx, 0x60
+00a621ab mov      rcx, rdi
+00a621ae call     0x1424fe9c4
+00a621b3 nop      
+00a621b4 mov      rax, rdi
+00a621b7 mov      rbx, qword ptr [rsp + 0x48]
+00a621bc add      rsp, 0x30
+00a621c0 pop      rdi
+00a621c1 ret      
+00a621c2 int3     
+00a621c3 mov      al, 0x8b
+00a621c5 wait     
+00a621c6 cld      
+00a621c7 add      byte ptr [rax], al
+00a621c9 add      cl, al
+00a621cb jmp      0x140a621d6
+00a621cd jmp      0x140a6219d
+00a621cf in       al, 0xe9
+00a621d1 push     rsi
+00a621d2 popfq    
+00a621d3 add      qword ptr [r8 - 0x1e14ef7b], rdx
+00a621da stosd    dword ptr [rdi], eax

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "received_records_in_this_pack": 1,
+  "online_ui_correspondence": true,
+  "offline_replay_reading": "passed_0.1.2_user_and_clean_original_UI_screenshot",
+  "source": "normal official Steam/EAC client; received cache recovered after normal exit and offline restart",
+  "sample_local_key": "7dffdfb01e2cf54f",
+  "original_account_ids_exported": false,
+  "original_message_ids_exported": false,
+  "online_memory_access": false,
+  "custom_server_requests": false,
+  "screenshots": [
+    "official-client-online-title.png",
+    "official-client-group7-online.png",
+    "official-pilot-offline-title.png"
+  ],
+  "expected_native_fields": {
+    "map": "m31_03_00_00",
+    "area": 3103001,
+    "template1": 10000,
+    "word1": 30008,
+    "good": 4,
+    "poor": 3,
+    "total": 7
+  },
+  "candidate_batch": "103 differences in two map IDs; only this one has exact online UI correspondence so far",
+  "empty_offline_control": "No Mod DLL; only two original scripted display instances, neither at this sample position."
+}

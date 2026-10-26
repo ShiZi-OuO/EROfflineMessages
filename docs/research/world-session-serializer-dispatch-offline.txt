@@ -1,0 +1,82 @@
+0583abdb mov      r8, qword ptr [rdx]
+0583abde test     r8, r8
+0583abe1 push     r10
+0583abe3 movabs   r10, 0x7ff66755f3c3
+0583abed xchg     qword ptr [rsp], r10
+0583abf1 push     rdx
+0583abf2 push     rbx
+0583abf3 mov      rdx, qword ptr [rsp + 0x10]
+0583abf8 movabs   rbx, 0x7ff663ca0ecc
+0583ac02 cmove    rdx, rbx
+0583ac06 mov      qword ptr [rsp + 0x10], rdx
+0583ac0b pop      rbx
+0583ac0c pop      rdx
+0583ac0d ret      
+0583ac0e jmp      0x7ff66755f3c3
+0583ac13 mov      eax, dword ptr [rbp + 0x50]
+0583ac16 cmp      eax, -1
+0583ac19 mov      qword ptr [rsp - 8], r10
+0583ac1e lea      rsp, [rsp - 8]
+0583ac23 movabs   r10, 0x7ff6677faabd
+0583ac2d lea      rsp, [rsp - 8]
+0583ac32 mov      qword ptr [rsp], rax
+0583ac36 mov      rax, qword ptr [rsp + 8]
+0583ac3b mov      qword ptr [rsp + 8], r10
+0583ac40 mov      r10, rax
+0583ac43 lea      rsp, [rsp + 8]
+0583ac48 mov      rax, qword ptr [rsp - 8]
+0583ac4d mov      qword ptr [rsp - 8], rcx
+0583ac52 lea      rsp, [rsp - 8]
+0583ac57 mov      qword ptr [rsp - 8], rdx
+0583ac5c lea      rsp, [rsp - 8]
+0583ac61 mov      rcx, qword ptr [rsp + 0x10]
+0583ac66 movabs   rdx, 0x7ff662963da7
+0583ac70 cmove    rcx, rdx
+0583ac74 mov      qword ptr [rsp + 0x10], rcx
+0583ac79 mov      rdx, qword ptr [rsp]
+0583ac7d lea      rsp, [rsp + 8]
+0583ac82 mov      rcx, qword ptr [rsp]
+0583ac86 lea      rsp, [rsp + 8]
+0583ac8b lea      rsp, [rsp + 8]
+0583ac90 jmp      qword ptr [rsp - 8]
+0583ac94 jmp      0x7ff6677faabd
+0583ac99 lea      r8, [rip - 0x2788910]
+0583aca0 mov      edx, 0x3e
+0583aca5 xor      ecx, ecx
+0583aca7 jmp      0x7ff662592ebb
+0583acac mov      rcx, qword ptr [rdx + 0x30]
+0583acb3 mov      qword ptr [rsp - 8], r10
+0583acb8 lea      rsp, [rsp - 8]
+0583acbd lea      r10, [rip - 0x571a6d4]
+0583acc4 lea      rsp, [rsp - 8]
+0583acc9 mov      qword ptr [rsp], rax
+0583accd mov      rax, qword ptr [rsp + 8]
+0583acd2 mov      qword ptr [rsp + 8], r10
+0583acd7 push     rax
+0583acd8 pop      r10
+0583acda mov      rax, qword ptr [rsp]
+0583acde lea      rsp, [rsp + 8]
+0583ace3 lea      rsp, [rsp + 8]
+0583ace8 jmp      qword ptr [rsp - 8]
+0583acec mov      rax, qword ptr [rip - 0x4f460bb]
+0583acf3 neg      rax
+0583acf6 add      rax, qword ptr [rip - 0x5714855]
+0583acfd mov      qword ptr [rbp + 0x20], rax
+0583ad01 mov      rax, qword ptr [rbp + 0x20]
+0583ad05 mov      eax, dword ptr [rax]
+0583ad07 mov      dword ptr [rip - 0x57ae8f3], eax
+0583ad0d mov      eax, dword ptr [rip - 0x5286cc5]
+0583ad13 mov      dword ptr [rip - 0x4fd46ef], eax
+0583ad19 jmp      0x7ff6679b8fa1
+0583ad1e mov      rcx, qword ptr [rdx + 0x88]
+0583ad25 mov      qword ptr [rsp - 8], r15
+0583ad2a lea      rsp, [rsp - 8]
+0583ad2f lea      r15, [rip - 0x5657df6]
+0583ad36 mov      qword ptr [rsp - 8], rax
+0583ad3b lea      rsp, [rsp - 8]
+0583ad40 mov      rax, qword ptr [rsp + 8]
+0583ad45 mov      qword ptr [rsp + 8], r15
+0583ad4a push     rax
+0583ad4b pop      r15
+0583ad4d lea      rsp, [rsp + 8]
+0583ad52 mov      rax, qword ptr [rsp - 8]

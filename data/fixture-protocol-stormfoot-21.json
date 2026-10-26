@@ -1,0 +1,407 @@
+{
+  "schema_version": 1,
+  "game": "eldenring",
+  "source_type": "official_protocol_sample",
+  "description": "PRIVATE DISPLAY FIXTURE: 21 anonymous authenticated official-service response records for m30_02_00_00. Independent experimental protocol, not normal client receipt. Native text/position/appraisal UI review pending; no full-world claim.",
+  "messages": [
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        70.39588165283203,
+        95.30833435058594,
+        55.19063949584961
+      ],
+      "yaw": -2.1059210300445557,
+      "template1": 10002,
+      "word1": 39005,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 4,
+      "poor": 0,
+      "id": "7d2de6e1d99f2718"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        53.08319854736328,
+        99.23443603515625,
+        72.4957046508789
+      ],
+      "yaw": 2.573060989379883,
+      "template1": 10015,
+      "word1": 37010,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 10,
+      "poor": 1,
+      "id": "7d446df5aa46358c"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        51.64182662963867,
+        95.05926513671875,
+        114.44322967529297
+      ],
+      "yaw": 2.092654228210449,
+      "template1": 10016,
+      "word1": 36002,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 7,
+      "poor": 0,
+      "id": "7d17f1ab53d1f445"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        14.264365196228027,
+        104.8241195678711,
+        39.317359924316406
+      ],
+      "yaw": 1.5513745546340942,
+      "template1": 10004,
+      "word1": 38009,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 104,
+      "poor": 24,
+      "id": "7d70f45cf937a493"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        22.126188278198242,
+        95.01499938964844,
+        88.0677261352539
+      ],
+      "yaw": 2.6671981811523438,
+      "template1": 10003,
+      "word1": 37008,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 743,
+      "poor": 32,
+      "id": "7da5fd174615e263"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        18.956302642822266,
+        105.02191925048828,
+        30.25113868713379
+      ],
+      "yaw": 2.592041015625,
+      "template1": 10003,
+      "word1": 37007,
+      "conjunction": 50004,
+      "template2": 10000,
+      "word2": 30002,
+      "good": 0,
+      "poor": 0,
+      "id": "7d38bfad860ed9f4"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        51.02374267578125,
+        94.81416320800781,
+        71.87891387939453
+      ],
+      "yaw": -0.7326400876045227,
+      "template1": 10005,
+      "word1": 33005,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 2,
+      "poor": 0,
+      "id": "7d953f49c7bc7166"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        22.691537857055664,
+        95.01499938964844,
+        87.10205078125
+      ],
+      "yaw": 2.679098129272461,
+      "template1": 10006,
+      "word1": 37008,
+      "conjunction": 50000,
+      "template2": 10003,
+      "word2": 37010,
+      "good": 31,
+      "poor": 0,
+      "id": "7da7897f708b816b"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        32.61322021484375,
+        99.81499481201172,
+        74.03211975097656
+      ],
+      "yaw": -2.182338237762451,
+      "template1": 10000,
+      "word1": 34001,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 8,
+      "poor": 0,
+      "id": "7d337a15ce56a48d"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        21.37884521484375,
+        95.01499938964844,
+        89.7917251586914
+      ],
+      "yaw": -0.6637053489685059,
+      "template1": 10011,
+      "word1": 32009,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 3,
+      "poor": 0,
+      "id": "7d30505cbdbb9e89"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        19.95066261291504,
+        95.01499938964844,
+        94.71890258789062
+      ],
+      "yaw": -2.1359071731567383,
+      "template1": 10004,
+      "word1": 33002,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 15,
+      "poor": 0,
+      "id": "7db1880eb2ac02ff"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        35.17829513549805,
+        95.0266342163086,
+        103.23567199707031
+      ],
+      "yaw": -0.5551323890686035,
+      "template1": 10004,
+      "word1": 33002,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 9,
+      "poor": 1,
+      "id": "7da1f3115cf56f4e"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        31.53632354736328,
+        105.01499938964844,
+        72.76917266845703
+      ],
+      "yaw": -0.23880529403686523,
+      "template1": 10019,
+      "word1": 34016,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 2,
+      "poor": 0,
+      "id": "7dc0144e07ad25ca"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        20.891374588012695,
+        105.02796936035156,
+        25.91512680053711
+      ],
+      "yaw": 2.7422664165496826,
+      "template1": 10001,
+      "word1": 40045,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 3,
+      "poor": 2,
+      "id": "7d53436aee36d26b"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        50.89908218383789,
+        94.81500244140625,
+        77.27981567382812
+      ],
+      "yaw": -0.5693554878234863,
+      "template1": 10003,
+      "word1": 37010,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 2,
+      "poor": 0,
+      "id": "7dd9200cd63e419b"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        48.745540618896484,
+        99.45916748046875,
+        111.62692260742188
+      ],
+      "yaw": 1.498901128768921,
+      "template1": 10023,
+      "word1": 39006,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 1,
+      "poor": 0,
+      "id": "7d205a32f3c44fa3"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        50.72738265991211,
+        94.81415557861328,
+        71.3615951538086
+      ],
+      "yaw": -1.9455763101577759,
+      "template1": 10004,
+      "word1": 34001,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 7,
+      "poor": 0,
+      "id": "7d67b7452c29b1a2"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        49.849002838134766,
+        101.2581787109375,
+        47.95383834838867
+      ],
+      "yaw": 0.49524998664855957,
+      "template1": 10015,
+      "word1": 31040,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 5,
+      "poor": 0,
+      "id": "7dbba1c4e2e8c365"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        73.90253448486328,
+        95.0383529663086,
+        57.28754425048828
+      ],
+      "yaw": -2.1939635276794434,
+      "template1": 10000,
+      "word1": 41001,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 8,
+      "poor": 1,
+      "id": "7d25805070fdac2d"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        18.339567184448242,
+        95.01499938964844,
+        94.09104919433594
+      ],
+      "yaw": -2.0788474082946777,
+      "template1": 10004,
+      "word1": 33002,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 5,
+      "poor": 1,
+      "id": "7da7de5a25e453c8"
+    },
+    {
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 30020,
+      "position": [
+        52.3104362487793,
+        95.01499938964844,
+        113.96062469482422
+      ],
+      "yaw": -1.558835506439209,
+      "template1": 10006,
+      "word1": 41030,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 15,
+      "poor": 2,
+      "id": "7d9c90a7da5e3b5c"
+    }
+  ]
+}

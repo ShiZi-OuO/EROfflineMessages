@@ -1,0 +1,3 @@
+01c49095 lea      rax, [rip + 0x1c7e04]
+01c4909c mov      qword ptr [rip + 0x2bbe24d], rax
+01c490a3 lea      rax, [rip + 0x1c7fe6]

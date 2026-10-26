@@ -1,0 +1,8 @@
+00a25250 xor      byte ptr [rsi], al
+00a25252 mov      edx, 0x644b31c4
+00a25257 add      ch, cl
+00a25259 sbb      edx, ebp
+00a2525b int      0xcf
+00a2525d hlt      
+00a2525e wait     
+00a2525f movabs   al, byte ptr [0x403eb13eccf0a8cd]

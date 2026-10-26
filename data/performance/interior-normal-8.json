@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "game": "eldenring",
+  "source_type": "constructed",
+  "description": "Synthetic interior-normal-8 performance fixture only. Positions form a planar test grid near the verified Church fixture; terrain at every point is not validated. Not official messages, not a general gameplay data pack.",
+  "messages": [
+    {
+      "id": "7ecfce319d81d12d",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.23039210319519,
+        110.01879930496216,
+        3.842926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 1,
+      "poor": 0
+    },
+    {
+      "id": "7e9fae5dddda0bf7",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.35039210319519,
+        110.01879930496216,
+        3.842926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 2,
+      "poor": 1
+    },
+    {
+      "id": "7ebbde1b51ccb292",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.47039210319519,
+        110.01879930496216,
+        3.842926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 3,
+      "poor": 2
+    },
+    {
+      "id": "7eaf2d0cf8b224fe",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.23039210319519,
+        110.01879930496216,
+        3.962926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 4,
+      "poor": 0
+    },
+    {
+      "id": "7e9c1556487c9e70",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.35039210319519,
+        110.01879930496216,
+        3.962926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 5,
+      "poor": 1
+    },
+    {
+      "id": "7e5c1d63fc211c71",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.47039210319519,
+        110.01879930496216,
+        3.962926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 6,
+      "poor": 2
+    },
+    {
+      "id": "7e7e571bf5a6b409",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.23039210319519,
+        110.01879930496216,
+        4.082926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 7,
+      "poor": 0
+    },
+    {
+      "id": "7ea6b80b31a0d252",
+      "map": 503447552,
+      "area": 3002001,
+      "secondary_area": 0,
+      "position": [
+        34.35039210319519,
+        110.01879930496216,
+        4.082926149368286
+      ],
+      "yaw": 0.24445250630378723,
+      "template1": 10000,
+      "word1": 32003,
+      "conjunction": 0,
+      "template2": 0,
+      "word2": 0,
+      "good": 8,
+      "poor": 1
+    }
+  ]
+}

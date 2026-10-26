@@ -1,0 +1,27 @@
+FUNCTION 0xa01a00..0xa01a6a unwind=0x36bf820
+00a01a00 mov      qword ptr [rsp + 8], rcx
+00a01a05 push     rdi
+00a01a06 sub      rsp, 0x30
+00a01a0a mov      qword ptr [rsp + 0x20], 0xfffffffffffffffe
+00a01a13 mov      qword ptr [rsp + 0x48], rbx
+00a01a18 mov      qword ptr [rsp + 0x50], rsi
+00a01a1d mov      rdi, rdx
+00a01a20 mov      rsi, rcx
+00a01a23 lea      rdx, [rcx + 0x80]
+00a01a2a call     0x140a237e0
+00a01a2f nop      
+00a01a30 lea      rax, [rip + 0x2137f09]
+00a01a37 mov      qword ptr [rsi], rax
+00a01a3a lea      rcx, [rsi + 0x80]
+00a01a41 call     0x141de1c90
+00a01a46 nop      
+00a01a47 lea      rcx, [rsi + 0x88]
+00a01a4e mov      rdx, rdi
+00a01a51 call     0x140a01360
+00a01a56 nop      
+00a01a57 mov      rax, rsi
+00a01a5a mov      rbx, qword ptr [rsp + 0x48]
+00a01a5f mov      rsi, qword ptr [rsp + 0x50]
+00a01a64 add      rsp, 0x30
+00a01a68 pop      rdi
+00a01a69 ret      

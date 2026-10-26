@@ -1,0 +1,80 @@
+FUNCTION 0x1bc9f0..0x1bcb28 unwind=0x3420ab0
+001bc9f0 mov      qword ptr [rsp + 8], rcx
+001bc9f5 push     rdi
+001bc9f6 sub      rsp, 0x30
+001bc9fa mov      qword ptr [rsp + 0x20], 0xfffffffffffffffe
+001bca03 mov      qword ptr [rsp + 0x50], rbx
+001bca08 mov      rdi, rcx
+001bca0b lea      rax, [rip + 0x2812256]
+001bca12 mov      qword ptr [rcx], rax
+001bca15 call     0x1401c1c50
+001bca1a nop      
+001bca1b mov      rcx, rdi
+001bca1e call     0x1401c02b0
+001bca23 nop      
+001bca24 lea      rcx, [rdi + 0x158]
+001bca2b call     0x1401bcbf0
+001bca30 nop      
+001bca31 lea      rbx, [rdi + 0x120]
+001bca38 mov      qword ptr [rsp + 0x48], rbx
+001bca3d mov      qword ptr [rsp + 0x48], rbx
+001bca42 mov      rcx, rbx
+001bca45 call     0x1401c1eb0
+001bca4a nop      
+001bca4b mov      rcx, qword ptr [rbx]
+001bca4e mov      rax, qword ptr [rcx]
+001bca51 mov      rdx, qword ptr [rbx + 8]
+001bca55 call     qword ptr [rax + 0x68]
+001bca58 nop      
+001bca59 mov      qword ptr [rbx + 8], 0
+001bca61 lea      rcx, [rdi + 0x118]
+001bca68 call     0x1401bcbf0
+001bca6d nop      
+001bca6e lea      rbx, [rdi + 0xe0]
+001bca75 mov      qword ptr [rsp + 0x48], rbx
+001bca7a mov      qword ptr [rsp + 0x48], rbx
+001bca7f mov      rcx, rbx
+001bca82 call     0x1401c1eb0
+001bca87 nop      
+001bca88 mov      rcx, qword ptr [rbx]
+001bca8b mov      rax, qword ptr [rcx]
+001bca8e mov      rdx, qword ptr [rbx + 8]
+001bca92 call     qword ptr [rax + 0x68]
+001bca95 nop      
+001bca96 mov      qword ptr [rbx + 8], 0
+001bca9e lea      rcx, [rdi + 0xd8]
+001bcaa5 call     0x1401bcbf0
+001bcaaa nop      
+001bcaab lea      rbx, [rdi + 0x90]
+001bcab2 mov      qword ptr [rsp + 0x48], rbx
+001bcab7 mov      qword ptr [rsp + 0x48], rbx
+001bcabc mov      rcx, qword ptr [rbx + 0x38]
+001bcac0 test     rcx, rcx
+001bcac3 je       0x1401bcada
+001bcac5 mov      rax, qword ptr [rcx]
+001bcac8 cmp      rcx, rbx
+001bcacb setne    dl
+001bcace call     qword ptr [rax + 0x20]
+001bcad1 nop      
+001bcad2 mov      qword ptr [rbx + 0x38], 0
+001bcada lea      rcx, [rdi + 0x70]
+001bcade mov      qword ptr [rsp + 0x48], rcx
+001bcae3 call     0x1401bc7c0
+001bcae8 nop      
+001bcae9 lea      rcx, [rdi + 0x40]
+001bcaed mov      qword ptr [rsp + 0x48], rcx
+001bcaf2 call     0x1401bc830
+001bcaf7 nop      
+001bcaf8 lea      rcx, [rdi + 0x28]
+001bcafc mov      qword ptr [rsp + 0x48], rcx
+001bcb01 call     0x1401bc830
+001bcb06 nop      
+001bcb07 lea      rcx, [rdi + 8]
+001bcb0b mov      qword ptr [rsp + 0x48], rcx
+001bcb10 call     0x1401bc8a0
+001bcb15 nop      
+001bcb16 mov      rcx, rdi
+001bcb19 mov      rbx, qword ptr [rsp + 0x50]
+001bcb1e add      rsp, 0x30
+001bcb22 pop      rdi
+001bcb23 jmp      0x1401cef00

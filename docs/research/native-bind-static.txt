@@ -1,0 +1,66 @@
+FUNCTION 0x1b9ee0..0x1b9ffc unwind=0x341fcf0
+001b9ee0 test     rdx, rdx
+001b9ee3 je       0x1401ba214
+001b9ee9 mov      qword ptr [rsp + 0x20], rbx
+001b9eee push     rbp
+001b9eef push     rsi
+001b9ef0 push     rdi
+001b9ef1 lea      rbp, [rsp - 0x20]
+001b9ef6 sub      rsp, 0x120
+001b9efd mov      rax, qword ptr [rip + 0x3aa7f1c]
+001b9f04 xor      rax, rsp
+001b9f07 mov      qword ptr [rbp - 0x50], rax
+001b9f0b mov      rdi, r8
+001b9f0e mov      rsi, rdx
+001b9f11 mov      rbx, rcx
+001b9f14 test     r8, r8
+001b9f17 je       0x1401ba1f6
+001b9f1d lea      rdx, [rbp - 0x60]
+001b9f21 call     0x1401c3830
+001b9f26 test     al, al
+001b9f28 je       0x1401ba1f6
+001b9f2e mov      eax, dword ptr [rbx + 0x224]
+001b9f34 shr      eax, 1
+001b9f36 test     al, 1
+001b9f38 je       0x1401b9ff5
+001b9f3e lea      rcx, [rsp + 0x50]
+001b9f43 call     0x1401b89e0
+001b9f48 lea      rdx, [rsp + 0x30]
+001b9f4d mov      qword ptr [rsp + 0x50], rbx
+001b9f52 mov      rcx, rbx
+001b9f55 call     0x1401b9380
+001b9f5a movsd    xmm0, qword ptr [rbp - 0x60]
+001b9f5f mov      ecx, dword ptr [rax]
+001b9f61 mov      eax, dword ptr [rbp - 0x58]
+001b9f64 movsd    qword ptr [rsp + 0x5c], xmm0
+001b9f6a movss    xmm0, dword ptr [rbx + 0x28]
+001b9f6f movss    dword ptr [rsp + 0x68], xmm0
+001b9f75 movsd    xmm0, qword ptr [rbx + 0x2c]
+001b9f7a mov      dword ptr [rsp + 0x58], ecx
+001b9f7e lea      rcx, [rsp + 0x30]
+001b9f83 mov      dword ptr [rsp + 0x64], eax
+001b9f87 mov      eax, dword ptr [rbx + 0x34]
+001b9f8a movsd    qword ptr [rsp + 0x6c], xmm0
+001b9f90 mov      dword ptr [rsp + 0x74], eax
+001b9f94 mov      dword ptr [rsp + 0x78], 0
+001b9f9c call     0x14071a5d0
+001b9fa1 mov      ecx, dword ptr [rax]
+001b9fa3 mov      dword ptr [rbp - 0x80], ecx
+001b9fa6 lea      rcx, [rsp + 0x30]
+001b9fab mov      dword ptr [rbp - 0x7c], 0xffffffff
+001b9fb2 call     0x1401b9540
+001b9fb7 lea      r9, [rbx + 8]
+001b9fbb xor      r8d, r8d
+001b9fbe mov      rcx, rsi
+001b9fc1 mov      edx, dword ptr [rax]
+001b9fc3 lea      rax, [rbx + 0xc]
+001b9fc7 mov      dword ptr [rbp - 0x78], edx
+001b9fca lea      rdx, [rsp + 0x50]
+001b9fcf mov      qword ptr [rsp + 0x20], rax
+001b9fd4 mov      dword ptr [rbp - 0x74], 0
+001b9fdb mov      qword ptr [rbp - 0x70], 0xffffffffffffffff
+001b9fe3 mov      qword ptr [rbp - 0x68], 0xffffffffffffffff
+001b9feb call     0x1401b96b0
+001b9ff0 jmp      0x1401ba1f6
+001b9ff5 mov      rcx, qword ptr [rdi + 0x10]
+001b9ff9 mov      esi, dword ptr [rbp - 0x58]

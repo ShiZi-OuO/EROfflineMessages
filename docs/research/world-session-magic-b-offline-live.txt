@@ -1,0 +1,68 @@
+01e1bbc0 jmp      0x7ff667aaf85c
+01e1bbc5 int3     
+01e1bbc6 mov      r11, rsp
+01e1bbc9 mov      qword ptr [r11 + 0x18], rsi
+01e1bbcd push     rdi
+01e1bbce sub      rsp, -0xf0518
+01e1bbd5 call     qword ptr [rax - 0x31b7ab17]
+01e1bbdb add      edx, dword ptr [rbx + 0x41]
+01e1bbde push     rcx
+01e1bbdf push     r8
+01e1bbe1 push     r10
+01e1bbe3 push     rdx
+01e1bbe4 push     rax
+01e1bbe5 push     rcx
+01e1bbe6 push     r11
+01e1bbe8 lea      rsp, [rsp - 0x60]
+01e1bbed movupd   xmmword ptr [rsp], xmm2
+01e1bbf2 movupd   xmmword ptr [rsp + 0x10], xmm5
+01e1bbf8 movupd   xmmword ptr [rsp + 0x20], xmm0
+01e1bbfe movupd   xmmword ptr [rsp + 0x30], xmm1
+01e1bc04 movupd   xmmword ptr [rsp + 0x40], xmm4
+01e1bc0a movupd   xmmword ptr [rsp + 0x50], xmm3
+01e1bc10 push     0x10
+01e1bc12 test     rsp, 0xf
+01e1bc19 jne      0x7ff661fa4a14
+01e1bc1f jmp      0x7ff662106759
+01e1bc24 nop      
+01e1bc25 lodsd    eax, dword ptr [rsi]
+01e1bc27 mov      byte ptr [rdi + 0x56], ah
+01e1bc2a scasd    eax, dword ptr [rdi]
+01e1bc2b ja       0x7ff663cabcab
+01e1bc2d call     0x7ff663caab70
+01e1bc32 nop      
+01e1bc33 jmp      0x7ff667b3d686
+01e1bc38 push     rcx
+01e1bc39 push     rax
+01e1bc3a push     r9
+01e1bc3c push     r8
+01e1bc3e push     r10
+01e1bc40 push     r11
+01e1bc42 push     rbx
+01e1bc43 push     rdx
+01e1bc44 lea      rsp, [rsp - 0x60]
+01e1bc49 movupd   xmmword ptr [rsp], xmm3
+01e1bc4e movupd   xmmword ptr [rsp + 0x10], xmm1
+01e1bc54 movupd   xmmword ptr [rsp + 0x20], xmm0
+01e1bc5a movupd   xmmword ptr [rsp + 0x30], xmm5
+01e1bc60 movupd   xmmword ptr [rsp + 0x40], xmm2
+01e1bc66 movupd   xmmword ptr [rsp + 0x50], xmm4
+01e1bc6c push     0x10
+01e1bc6e test     rsp, 0xf
+01e1bc75 jne      0x7ff662151454
+01e1bc7b jmp      0x7ff662183999
+01e1bc80 mov      qword ptr [rsp - 8], rbx
+01e1bc85 lea      rsp, [rsp - 8]
+01e1bc8a lea      rsp, [rsp + 8]
+01e1bc8f mov      rdi, qword ptr [rsp - 8]
+01e1bc94 cmp      rbx, rsi
+01e1bc97 jne      0x7ff6640a48c0
+01e1bc9d jmp      0x7ff6640a48ed
+01e1bca2 nop      
+01e1bca3 sub      r10, 0x20
+01e1bca8 sub      rcx, 0x20
+01e1bcac cmp      rsi, r10
+01e1bcaf jb       0x7ff663cabc3c
+01e1bcb1 rol      dword ptr [rbx + rcx*4 - 0x3f], 1
+01e1bcb5 shl      edx, 6
+01e1bcb8 add      edx, 0x43020814

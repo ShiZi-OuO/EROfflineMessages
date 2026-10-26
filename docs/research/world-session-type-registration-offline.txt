@@ -1,0 +1,27 @@
+01c49080 retf     
+01c49081 add      rsp, 0x20
+01c49085 pop      rbx
+01c49086 jmp      0x7ff6638a9a50
+01c4908b int3     
+01c4908c scasb    al, byte ptr [rdi]
+01c4908d jns      0x7ff663ad9100
+01c4908f jmp      0x7ff63ca6ab7d
+01c49094 add      ecx, dword ptr [rax - 0x73]
+01c49097 add      eax, 0x1c7e04
+01c4909c mov      qword ptr [rip + 0x2bbe24d], rax
+01c490a3 lea      rax, [rip + 0x1c7fe6]
+01c490aa mov      qword ptr [rip + 0x2bbe247], rax
+01c490b1 lea      rax, [rip + 0x1c8bf8]
+01c490b8 mov      qword ptr [rip + 0x2bbe241], rax
+01c490bf lea      rax, [rip + 0x1c8c8a]
+01c490c6 mov      qword ptr [rip + 0x2bbe23b], rax
+01c490cd lea      rax, [rip + 0x1c8bbc]
+01c490d4 lea      rsp, [rsp - 8]
+01c490d9 mov      qword ptr [rsp], rdx
+01c490dd lea      rdx, [rip + 0x33881ab]
+01c490e4 xchg     qword ptr [rsp], rdx
+01c490e8 lea      rsp, [rsp + 8]
+01c490ed jmp      qword ptr [rsp - 8]
+01c490f1 nop      
+01c490f2 loope    0x7ff663ad9141
+01c490f4 jnp      0x7ff663ad90de

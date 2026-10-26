@@ -1,0 +1,43 @@
+NO RUNTIME FUNCTION; using explicit disassembly range
+01e11cb0 mov      rcx, qword ptr [rdx]
+01e11cb3 lea      rdx, [rip + 0x127aab6]
+01e11cba jmp      0x141e7dd20
+01e11cbf int3     
+01e11cc0 mov      rax, qword ptr [rdx]
+01e11cc3 test     rax, rax
+01e11cc6 je       0x141e11cd1
+01e11cc8 movups   xmm0, xmmword ptr [rcx]
+01e11ccb movups   xmmword ptr [rax], xmm0
+01e11cce mov      rax, qword ptr [rdx]
+01e11cd1 mov      dword ptr [rax + 0x60], 7
+01e11cd8 ret      
+01e11cd9 int3     
+01e11cda int3     
+01e11cdb int3     
+01e11cdc int3     
+01e11cdd int3     
+01e11cde int3     
+01e11cdf int3     
+01e11ce0 jmp      0x145a7325f
+01e11ce5 nop      
+01e11ce6 and      ch, dl
+01e11ce8 int3     
+01e11ce9 cmpsd    dword ptr [rsi], dword ptr [rdi]
+01e11cea scasd    eax, dword ptr [rdi]
+01e11ceb jbe      0x141e11d16
+01e11cee int3     
+01e11cef int3     
+01e11cf0 jmp      0x144d8a5c8
+01e11cf5 int3     
+01e11cf6 in       al, dx
+01e11cf7 leave    
+01e11cf8 lea      rax, [rip + 0x33bd278]
+01e11cff mov      qword ptr [rbp + 0x48], rax
+01e11d03 mov      eax, 1
+01e11d08 test     eax, eax
+01e11d0a jne      0x14544f718
+01e11d10 jmp      0x14583d303
+01e11d15 jmp      0x145bb44c8
+01e11d1a int3     
+01e11d1b jg       0x141e11d40
+01e11d1d mov      dl, 0xe9
